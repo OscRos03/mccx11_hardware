@@ -130,6 +130,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -234,7 +359,7 @@
 	)
 	(text "https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA_V3.2.pdf"
 		(exclude_from_sim no)
-		(at 87.63 29.21 0)
+		(at 116.84 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -242,8 +367,49 @@
 		)
 		(uuid "4cc82701-d4c0-4bae-bc0c-2ec6a7815b1d")
 	)
+	(text "GPIO34"
+		(exclude_from_sim no)
+		(at 156.21 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1a8613c-0a88-4539-ae60-26792c5faebf")
+	)
+	(text "GPIO33"
+		(exclude_from_sim no)
+		(at 156.21 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1fc968a-8fce-4fe9-b519-a6bacd84fd92")
+	)
+	(text "RX, GPIO44"
+		(exclude_from_sim no)
+		(at 163.83 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e24ab027-8346-41fa-9d78-dfe568e4378a")
+	)
+	(text "TX, GPIO43"
+		(exclude_from_sim no)
+		(at 163.83 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5901701-0ff3-47b8-91c7-0bf9ff7b45a8")
+	)
 	(image
-		(at 76.2 58.42)
+		(at 132.08 63.5)
+		(scale 1.88846)
 		(uuid "b7cd60d7-8926-4254-ba06-3fe31280037d")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAwgAAAHBCAIAAABCHwsVAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOzdeXhU550v+N/7nq1O7SqpSqV9XwAhhAAhwOzGK96NjWPHWdrpSTKddvdtP/dJz53nds/TdyaZ"
@@ -3422,9 +3588,31 @@
 			"AICEYAQAAJAQjAAAABKCEQAAQEIwAgAASP4DPJRCjfrvb50AAAAASUVORK5CYII="
 		)
 	)
+	(hierarchical_label "UART_TX"
+		(shape output)
+		(at 146.05 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "009158c9-dada-402f-b067-05cc2b0484ad")
+	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 146.05 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27230b20-2d8f-46e5-bfe2-b791102a6953")
+	)
 	(hierarchical_label "3V3"
 		(shape output)
-		(at 30.48 25.4 270)
+		(at 76.2 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3433,20 +3621,53 @@
 		)
 		(uuid "4e58edff-1c41-4df3-8bbd-6bd3bf7b50b7")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "5V"
 		(shape input)
-		(at 24.13 25.4 90)
+		(at 146.05 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
+		(uuid "91ac2014-49f4-4239-9108-ace6c33879e2")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 146.05 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a326c598-7f65-4d8c-a512-9d33308c4238")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 146.05 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab47d4b2-489b-4698-ad2e-4629ab9c17aa")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 76.2 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
 		(uuid "dd12f4b7-7e54-4857-b90c-9fcd93561fc1")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 25.4 0)
+		(at 76.2 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3455,7 +3676,7 @@
 		(fields_autoplaced yes)
 		(uuid "487d9164-eb5b-4772-984c-4870939aed6e")
 		(property "Reference" "#PWR01"
-			(at 24.13 31.75 0)
+			(at 82.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 30.48 0)
+			(at 81.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 25.4 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 25.4 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 25.4 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,17 +3732,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 30.48 25.4 0)
+		(lib_id "power:+5V")
+		(at 146.05 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9c8614db-d0eb-4629-a8c9-eb2dc1560a72")
-		(property "Reference" "#PWR02"
-			(at 30.48 29.21 0)
+		(uuid "8fe4dd76-e0ae-47c0-8ace-d9684412c235")
+		(property "Reference" "#PWR04"
+			(at 149.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,16 +3750,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 30.48 20.32 0)
+		(property "Value" "+5V"
+			(at 142.24 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 25.4 0)
+			(at 146.05 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3769,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 25.4 0)
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "836a7de5-4ca3-4768-91cf-162c252a635c")
+		)
+		(instances
+			(project ""
+				(path "/586b9940-aa00-4ed6-8067-85ee77ecee7e/f439d00f-b960-4936-bac8-f9fdfbbabd6e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 76.2 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c8614db-d0eb-4629-a8c9-eb2dc1560a72")
+		(property "Reference" "#PWR02"
+			(at 72.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 30.48 25.4 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
