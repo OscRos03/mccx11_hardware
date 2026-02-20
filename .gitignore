@@ -42,3 +42,5 @@ fp-info-cache
 # Exported boards
 *.dxf
 
+# BOM
+**/bom
