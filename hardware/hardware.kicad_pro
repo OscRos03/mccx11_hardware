@@ -414,12 +414,12 @@
       "Root"
     ],
     [
-      "f439d00f-b960-4936-bac8-f9fdfbbabd6e",
-      "Heltecv3"
-    ],
-    [
       "fc20c7e1-88bc-4c2e-9fe8-716eecb20392",
       "GNSS"
+    ],
+    [
+      "b9d232e1-d167-4f50-b7d0-c2a8fd93e6ce",
+      "ESP32"
     ]
   ],
   "text_variables": {}
