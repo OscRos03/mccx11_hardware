@@ -447,6 +447,56 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 79.375) (xy 137.16 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e5a7d7-d233-4b00-85d5-8c5b015cbe42")
+	)
+	(wire
+		(pts
+			(xy 100.965 68.58) (xy 153.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ed093d-5162-452e-b700-3fa9cb3d6fe6")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.025) (xy 139.7 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec6aad6-ff12-4c03-ba03-248aeb873f79")
+	)
+	(wire
+		(pts
+			(xy 100.965 60.96) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491adc62-5a8f-4be4-8082-f281c0694b0e")
+	)
+	(wire
+		(pts
+			(xy 106.68 53.975) (xy 106.68 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a7e771-a88c-41cb-b99b-389c631ef15a")
+	)
+	(wire
+		(pts
 			(xy 196.85 61.595) (xy 193.04 61.595)
 		)
 		(stroke
@@ -454,6 +504,16 @@
 			(type default)
 		)
 		(uuid "50b1154a-1c25-4622-904a-e8aba8cb9c18")
+	)
+	(wire
+		(pts
+			(xy 137.16 75.565) (xy 100.965 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681d192a-3cae-4e55-8776-3f0314c0dd12")
 	)
 	(wire
 		(pts
@@ -467,6 +527,46 @@
 	)
 	(wire
 		(pts
+			(xy 100.965 63.5) (xy 153.67 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d97cf41-d1f8-481a-895f-012c9424a2a4")
+	)
+	(wire
+		(pts
+			(xy 100.965 53.975) (xy 106.68 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9678ac87-cc40-483c-9f70-947835d55442")
+	)
+	(wire
+		(pts
+			(xy 185.42 64.77) (xy 178.435 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33f462d-dee2-4407-86fb-2c39b1917995")
+	)
+	(wire
+		(pts
+			(xy 100.965 73.025) (xy 139.7 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7034fa6-717c-4e7f-bbd8-a886ad9369fe")
+	)
+	(wire
+		(pts
 			(xy 196.85 64.77) (xy 196.85 61.595)
 		)
 		(stroke
@@ -475,9 +575,69 @@
 		)
 		(uuid "d6efa73d-6490-4090-b6e4-f0cbb0204082")
 	)
+	(wire
+		(pts
+			(xy 100.965 66.04) (xy 153.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e314e064-399c-427a-a4e9-6e854baf3c1c")
+	)
+	(wire
+		(pts
+			(xy 137.16 79.375) (xy 137.16 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7171d3-9ef8-4dc9-96f4-4f7b31e35663")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.835) (xy 153.67 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d9990c-6e7c-485a-bdc3-e6dcc6bffb0b")
+	)
+	(wire
+		(pts
+			(xy 107.95 56.515) (xy 100.965 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5dfcbed-23c6-4cf8-a15b-54bb6219fbd1")
+	)
+	(label "BUSY"
+		(at 185.42 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45265c3a-0858-40f3-a82d-77b572d70b3d")
+	)
+	(label "BUSY"
+		(at 107.95 56.515 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c99db58-d62c-45d4-8524-d934e731a1c3")
+	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 52.07 52.07 0)
+		(at 106.68 45.085 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -488,7 +648,7 @@
 		(fields_autoplaced yes)
 		(uuid "344dd174-a163-4c4b-80fe-26ecc515dd06")
 		(property "Reference" "AE1"
-			(at 54.61 51.4349 0)
+			(at 109.22 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -499,7 +659,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 54.61 53.9749 0)
+			(at 109.22 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -510,7 +670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 52.07 0)
+			(at 106.68 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -521,7 +681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 52.07 0)
+			(at 106.68 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -532,7 +692,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 52.07 52.07 0)
+			(at 106.68 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -713,8 +873,8 @@
 		)
 	)
 	(sheet
-		(at 68.58 59.055)
-		(size 20.955 18.415)
+		(at 80.01 52.07)
+		(size 20.955 27.305)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -729,7 +889,7 @@
 		)
 		(uuid "205c0759-a502-4841-972e-72ca86eb4dbc")
 		(property "Sheetname" "ESP32"
-			(at 68.58 58.3434 0)
+			(at 80.01 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -740,7 +900,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 68.58 78.0546 0)
+			(at 80.01 79.9596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -748,6 +908,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Antenna" input
+			(at 100.965 53.975 0)
+			(uuid "742ccebe-2f3f-4a65-acf1-e763cce6808d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUSY" input
+			(at 100.965 56.515 0)
+			(uuid "c8279f88-e8d7-49ad-898c-324fb2d754a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" output
+			(at 100.965 66.04 0)
+			(uuid "311408e1-871e-4f82-99d1-63a0ad8259e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIO1" bidirectional
+			(at 100.965 75.565 0)
+			(uuid "35a866dc-4855-4b1f-97f2-1dd53ef7bf8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 100.965 60.96 0)
+			(uuid "9b77fd63-742e-44ff-8a00-05b2e6263958")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" output
+			(at 100.965 63.5 0)
+			(uuid "03ef7176-9269-4820-95fa-bc02b8eb368d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Reset" output
+			(at 100.965 73.025 0)
+			(uuid "f9b443be-efcb-4488-9d1d-8d0f5ec073bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" output
+			(at 100.965 68.58 0)
+			(uuid "59cbfcfa-7cbd-44cd-bde2-9ae7dcbaf6a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
