@@ -50,3 +50,6 @@ output
 
 # BOM
 **/bom
+
+# Mac specific files
+.DS_Store
