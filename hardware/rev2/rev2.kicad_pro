@@ -451,7 +451,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -496,6 +496,28 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "50 Ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 132, 132)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "90 Ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 194)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(194, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 10
       }
     ],
     "meta": {
@@ -506,14 +528,32 @@
       "+3V3": [
         "Power"
       ],
+      "/ESP32/Antenna": [
+        "50 Ohm"
+      ],
       "/SX1262/Antenna": [
-        "RF_50Z"
+        "50 Ohm"
+      ],
+      "GND": [
+        "Power"
+      ],
+      "Net-(AE1-A)": [
+        "50 Ohm"
       ],
       "Net-(C10-Pad2)": [
         "RF_50Z"
       ],
       "Net-(C16-Pad2)": [
         "RF_50Z"
+      ],
+      "Net-(C40-Pad2)": [
+        "50 Ohm"
+      ],
+      "Net-(C46-Pad2)": [
+        "50 Ohm"
+      ],
+      "Net-(J3-In)": [
+        "50 Ohm"
       ],
       "Net-(U1-RFI_N)": [
         "RF_50Z"
@@ -535,9 +575,43 @@
       ],
       "Net-(U2-RFC)": [
         "RF_50Z"
+      ],
+      "Net-(U2-RFI_N)": [
+        "50 Ohm"
+      ],
+      "Net-(U2-RFI_P)": [
+        "50 Ohm"
+      ],
+      "Net-(U2-RFO)": [
+        "50 Ohm"
+      ],
+      "Net-(U2-VR_PA)": [
+        "Power"
+      ],
+      "Net-(U3-RF1)": [
+        "50 Ohm"
+      ],
+      "Net-(U3-RF2)": [
+        "50 Ohm"
+      ],
+      "Net-(U3-RFC)": [
+        "50 Ohm"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "50 Ohm",
+        "pattern": "/RF_Feed"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF_Feed"
+      },
+      {
+        "netclass": "90 Ohm",
+        "pattern": "/RF_Feed"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -702,6 +776,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -721,7 +803,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "R10-11,J1-6,L9,L11-17,D1,AE1,C32-35,C39-46,#PWR21,#PWR34-35,#PWR37,#PWR44-51",
+    "used_designators": "U1-3,SW1,R1-9,L1-17,J1-6,D1,C1-48,AE1,Y1-2,FB1,#PWR1-61",
     "variants": []
   },
   "sheets": [
@@ -736,6 +818,10 @@
     [
       "982a2a6d-305d-4a8c-9ac0-954c9fd1755f",
       "SX1262"
+    ],
+    [
+      "46484475-7656-401a-9d45-159f5e421427",
+      "Power"
     ]
   ],
   "text_variables": {},
