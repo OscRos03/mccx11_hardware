@@ -621,12 +621,54 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PCB Design Guidelines",
+          "name": "PCB Design Guidelines",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Recommendations for Best Performande",
+          "name": "Recommendations for Best Performande",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reference Design",
+          "name": "Reference Design",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Part Number",
+          "name": "Digikey Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -679,7 +721,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "#PWR43,SW1,R9",
+    "used_designators": "R10-11,J1-6,L9,L11-17,D1,AE1,C32-35,C39-46,#PWR21,#PWR34-35,#PWR37,#PWR44-51",
     "variants": []
   },
   "sheets": [
