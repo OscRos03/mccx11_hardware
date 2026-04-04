@@ -4063,7 +4063,7 @@
 		)
 		(uuid "36cc5363-128c-4b6c-a0b8-d12cee1553ca")
 	)
-	(text "TVS är inte populärt för signalintegritet, varför?"
+	(text "TVS är inte populärt för signalintegritet, varför?\nHög kapacitans tror jag."
 		(exclude_from_sim no)
 		(at 100.33 95.885 0)
 		(effects

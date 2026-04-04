@@ -499,14 +499,14 @@
       },
       {
         "name": "50 Ohm",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 0, 194)",
         "priority": 1,
         "schematic_color": "rgb(0, 132, 132)",
         "tuning_profile": ""
       },
       {
         "name": "90 Ohm",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 255)",
         "priority": 0,
         "schematic_color": "rgb(0, 0, 194)",
         "tuning_profile": ""
@@ -523,10 +523,19 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 0, 0)",
+      "GND": "rgb(0, 132, 0)"
+    },
     "netclass_assignments": {
       "+3V3": [
         "Power"
+      ],
+      "+5V": [
+        "Power"
+      ],
+      "/Antenna_LoRa": [
+        "50 Ohm"
       ],
       "/ESP32/Antenna": [
         "50 Ohm"
@@ -554,6 +563,15 @@
       ],
       "Net-(J3-In)": [
         "50 Ohm"
+      ],
+      "Net-(J6-In)": [
+        "50 Ohm"
+      ],
+      "Net-(U1-GPIO19{slash}USB_D-)": [
+        "90 Ohm"
+      ],
+      "Net-(U1-GPIO20{slash}USB_D+)": [
+        "90 Ohm"
       ],
       "Net-(U1-RFI_N)": [
         "RF_50Z"
@@ -601,15 +619,19 @@
     "netclass_patterns": [
       {
         "netclass": "50 Ohm",
-        "pattern": "/RF_Feed"
+        "pattern": "/Antenna_WiFi"
       },
       {
-        "netclass": "Default",
-        "pattern": "/RF_Feed"
+        "netclass": "50 Ohm",
+        "pattern": "/Antenna_LoRa"
       },
       {
         "netclass": "90 Ohm",
-        "pattern": "/RF_Feed"
+        "pattern": "/USB_D+"
+      },
+      {
+        "netclass": "90 Ohm",
+        "pattern": "/USB_D-"
       }
     ]
   },
@@ -803,7 +825,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "U1-3,SW1,R1-9,L1-17,J1-6,D1,C1-48,AE1,Y1-2,FB1,#PWR1-61",
+    "used_designators": "#FLG1-2,D2-3,R10-11,#PWR42,#PWR62-65,J7",
     "variants": []
   },
   "sheets": [
