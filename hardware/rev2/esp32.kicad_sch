@@ -2613,121 +2613,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 196.85 13.97)
@@ -2864,12 +2749,6 @@
 		(uuid "f5b28966-3118-49c3-babc-2a5da28ca71c")
 	)
 	(junction
-		(at 241.3 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15649453-7692-4c88-b77d-d6c49531be83")
-	)
-	(junction
 		(at 31.75 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2880,12 +2759,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42c8f166-dfde-497f-a0c4-0c569e1510dc")
-	)
-	(junction
-		(at 241.3 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bd723d8-86c5-4313-acf6-3a7aa0050d13")
 	)
 	(junction
 		(at 44.45 73.66)
@@ -2936,12 +2809,6 @@
 		(uuid "84bcb27e-bddc-4515-b5e4-351466704258")
 	)
 	(junction
-		(at 85.09 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88c92236-096a-444d-9a6c-ec5155d0cf05")
-	)
-	(junction
 		(at 57.15 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2952,12 +2819,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa2ef13a-324d-4a89-b8c3-f497f21dbd35")
-	)
-	(junction
-		(at 85.09 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af1f5789-0b48-4d99-8e43-ed98f1c9d57b")
 	)
 	(junction
 		(at 44.45 48.26)
@@ -3095,16 +2956,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 50.8) (xy 224.79 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021d338f-d359-4f99-9129-9d2854c8faae")
-	)
-	(wire
-		(pts
 			(xy 254 44.45) (xy 245.11 44.45)
 		)
 		(stroke
@@ -3175,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 107.95) (xy 245.11 107.95)
+			(xy 251.46 57.15) (xy 245.11 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 22.86) (xy 90.17 22.86)
+			(xy 69.85 22.86) (xy 90.17 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3202,16 +3053,6 @@
 			(type default)
 		)
 		(uuid "14b467c8-c798-4c7f-885a-dddb3bf9e480")
-	)
-	(wire
-		(pts
-			(xy 254 73.66) (xy 241.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1636e679-4b74-4b35-839b-d23ef06a7768")
 	)
 	(wire
 		(pts
@@ -3255,16 +3096,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 22.86) (xy 85.09 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e9282af-473a-417d-aa7f-2284eb3e81ee")
-	)
-	(wire
-		(pts
 			(xy 49.53 139.7) (xy 67.31 139.7)
 		)
 		(stroke
@@ -3295,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 101.6) (xy 237.49 101.6)
+			(xy 226.06 50.8) (xy 237.49 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 101.6) (xy 251.46 101.6)
+			(xy 245.11 50.8) (xy 251.46 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3432,16 +3263,6 @@
 			(type default)
 		)
 		(uuid "4ee7ae11-313d-4198-a96f-a4a925fff6b9")
-	)
-	(wire
-		(pts
-			(xy 209.55 73.66) (xy 224.79 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50a95f06-63d4-4192-a841-21aea0c70574")
 	)
 	(wire
 		(pts
@@ -3585,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 48.26) (xy 87.63 48.26)
+			(xy 69.85 48.26) (xy 87.63 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3625,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 114.3) (xy 245.11 114.3)
+			(xy 254 63.5) (xy 245.11 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3765,7 +3586,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 114.3) (xy 237.49 114.3)
+			(xy 226.06 63.5) (xy 237.49 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3905,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 107.95) (xy 226.06 107.95)
+			(xy 237.49 57.15) (xy 226.06 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3955,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 31.75) (xy 228.6 31.75)
+			(xy 226.06 31.75) (xy 237.49 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4045,16 +3866,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 53.34) (xy 241.3 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb195c38-9a5f-431c-a91c-09efe4a4b2fd")
-	)
-	(wire
-		(pts
 			(xy 113.03 162.56) (xy 127 162.56)
 		)
 		(stroke
@@ -4092,16 +3903,6 @@
 			(type default)
 		)
 		(uuid "c1c3dc3f-5bb9-4fd8-b557-66419df30fa3")
-	)
-	(wire
-		(pts
-			(xy 241.3 73.66) (xy 232.41 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27e5974-f39e-4a3a-ae2c-908c82e5acbb")
 	)
 	(wire
 		(pts
@@ -4145,7 +3946,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 44.45) (xy 228.6 44.45)
+			(xy 226.06 44.45) (xy 237.49 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4162,16 +3963,6 @@
 			(type default)
 		)
 		(uuid "cf01f7f0-322a-4a61-b8e2-e152920d81a0")
-	)
-	(wire
-		(pts
-			(xy 241.3 74.93) (xy 241.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfaf5ed3-6c1c-4a2f-a47d-82a7e73babc4")
 	)
 	(wire
 		(pts
@@ -4225,7 +4016,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 38.1) (xy 228.6 38.1)
+			(xy 226.06 38.1) (xy 237.49 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4245,7 +4036,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 120.65) (xy 226.06 120.65)
+			(xy 237.49 69.85) (xy 226.06 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4265,7 +4056,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 25.4) (xy 228.6 25.4)
+			(xy 226.06 25.4) (xy 237.49 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4315,27 +4106,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 50.8) (xy 241.3 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d759d0-ca8b-4373-9309-8a4716bae802")
-	)
-	(wire
-		(pts
-			(xy 69.85 48.26) (xy 85.09 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48ce4e3-d7e8-44bc-b8f0-1d0021d17dd2")
-	)
-	(wire
-		(pts
-			(xy 254 120.65) (xy 245.11 120.65)
+			(xy 254 69.85) (xy 245.11 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4422,16 +4193,6 @@
 			(type default)
 		)
 		(uuid "fdc94a10-e599-4404-8fcb-693cc9eb3507")
-	)
-	(wire
-		(pts
-			(xy 254 50.8) (xy 241.3 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feea036d-3059-4413-9ae5-2806e992384c")
 	)
 	(image
 		(at 332.74 131.445)
@@ -8606,7 +8367,7 @@
 		(uuid "059a5455-72e6-4f2a-b258-3a5e1cbabce1")
 	)
 	(label "U1RXD{slash}SDA"
-		(at 226.06 120.65 0)
+		(at 226.06 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8614,16 +8375,6 @@
 			(justify left bottom)
 		)
 		(uuid "1c6c5704-18b8-4dc8-82f1-6d5665b904d9")
-	)
-	(label "ESP_USB_D-"
-		(at 49.53 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21cea188-591d-44af-b62c-1951f63442eb")
 	)
 	(label "U0TXD"
 		(at 127 149.86 180)
@@ -8636,7 +8387,7 @@
 		(uuid "2512ceda-ea77-420d-919b-77efacd4dc31")
 	)
 	(label "SPI_CLK"
-		(at 228.6 44.45 0)
+		(at 226.06 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8666,7 +8417,7 @@
 		(uuid "44be9ade-341f-4a7e-bf0f-1f552700e370")
 	)
 	(label "U0RXD"
-		(at 226.06 107.95 0)
+		(at 226.06 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8676,7 +8427,7 @@
 		(uuid "518c86e5-9a68-46fc-8e53-30cdc850f3c7")
 	)
 	(label "SPI_MOSI"
-		(at 228.6 31.75 0)
+		(at 226.06 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8694,16 +8445,6 @@
 			(justify right bottom)
 		)
 		(uuid "637f18c9-9914-4e2b-91ba-369f7045aa5f")
-	)
-	(label "ESP_USB_D+"
-		(at 49.53 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "650b71c2-7f24-4a73-a069-3b18e03c83d7")
 	)
 	(label "GPIO46"
 		(at 172.72 22.86 270)
@@ -8756,7 +8497,7 @@
 		(uuid "9b1c654e-f7d5-4dc9-aaa5-a1891dc2ecbf")
 	)
 	(label "U0TXD"
-		(at 226.06 101.6 0)
+		(at 226.06 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8766,7 +8507,7 @@
 		(uuid "a27ac470-94e9-483a-9f67-21d10806c7a2")
 	)
 	(label "SPI_CS"
-		(at 228.6 38.1 0)
+		(at 226.06 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8776,7 +8517,7 @@
 		(uuid "b27be20f-7ec0-494f-ad7c-8a03d22bcbe5")
 	)
 	(label "U1TXD{slash}SCL"
-		(at 226.06 114.3 0)
+		(at 226.06 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8784,16 +8525,6 @@
 			(justify left bottom)
 		)
 		(uuid "bd3b9da6-6b3f-4a4e-9e79-5cb4ebe20c17")
-	)
-	(label "ESP_USB_D-"
-		(at 209.55 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bed25c7a-f1d4-411b-aa48-71f908e2ff15")
 	)
 	(label "SPI_CS"
 		(at 49.53 127 0)
@@ -8825,18 +8556,8 @@
 		)
 		(uuid "ced5df1d-2c8f-47ab-8766-6ff6f4cdde4f")
 	)
-	(label "ESP_USB_D+"
-		(at 209.55 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d209b351-32ad-48f8-953d-ad79f2398220")
-	)
 	(label "SPI_MISO"
-		(at 228.6 25.4 0)
+		(at 226.06 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8889,7 +8610,7 @@
 	)
 	(hierarchical_label "RXD{slash}SDA"
 		(shape input)
-		(at 254 120.65 0)
+		(at 254 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8953,9 +8674,20 @@
 		)
 		(uuid "8a4c4131-1156-4263-bbbc-b7993e0a26a5")
 	)
+	(hierarchical_label "USB_D+"
+		(shape input)
+		(at 49.53 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f228d6b-33d2-49d2-a309-35fed12f04f5")
+	)
 	(hierarchical_label "TXD{slash}SCL"
 		(shape output)
-		(at 254 114.3 0)
+		(at 254 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8975,17 +8707,6 @@
 		)
 		(uuid "b6c1a400-68df-46e5-b15c-0366bfb0456a")
 	)
-	(hierarchical_label "USB_D+"
-		(shape input)
-		(at 254 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5ccdcce-7862-41f2-962f-8ab33b71ab35")
-	)
 	(hierarchical_label "CLK"
 		(shape output)
 		(at 254 44.45 0)
@@ -8997,17 +8718,6 @@
 		)
 		(uuid "d527abcf-69c8-49b2-b04b-faa290fd20ee")
 	)
-	(hierarchical_label "USB_D-"
-		(shape input)
-		(at 254 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dda96edf-ec07-44a4-bb3f-29ecfb8372b2")
-	)
 	(hierarchical_label "Reset"
 		(shape output)
 		(at 49.53 116.84 180)
@@ -9018,6 +8728,17 @@
 			(justify right)
 		)
 		(uuid "e40ad622-2f51-4d35-8262-bf791e1ce17f")
+	)
+	(hierarchical_label "USB_D-"
+		(shape input)
+		(at 49.53 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efa450a2-487d-4888-87fd-37bd135dd4f0")
 	)
 	(hierarchical_label "DIO1"
 		(shape bidirectional)
@@ -9519,7 +9240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188D70J106MA73-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 31.75 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9531,6 +9252,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 31.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188D70J106MA3D"
 			(at 31.75 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9708,87 +9440,6 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "L10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 57.15 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "16057ae0-60e4-4fb3-adf7-ad2a453f1a2c")
-		(property "Reference" "C11"
-			(at 242.57 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NC"
-			(at 242.57 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 240.3348 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 241.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a398fc9-1d67-4400-af0a-cd3078fec822")
-		)
-		(pin "2"
-			(uuid "34c948b6-502d-4266-9319-f7cde935de97")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9973,7 +9624,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 171.45 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,7 +9805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/3/GRM188C70J105KA01_01A.pdf"
 			(at 146.05 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -10166,6 +9817,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188C70J105KA1D"
 			(at 146.05 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -10292,7 +9954,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 158.75 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10556,7 +10218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/3/GRM188C70J105KA01_01A.pdf"
 			(at 120.65 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10568,6 +10230,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188C70J105KA1D"
 			(at 120.65 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10638,7 +10311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10650,6 +10323,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
 			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10755,7 +10439,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 251.46 107.95 270)
+		(at 251.46 57.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10766,7 +10450,7 @@
 		(fields_autoplaced yes)
 		(uuid "41d73d1e-ea6e-49ee-931c-e07f7cea07e2")
 		(property "Reference" "TP2"
-			(at 256.54 106.6799 90)
+			(at 256.54 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10777,7 +10461,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 256.54 109.2199 90)
+			(at 256.54 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10788,7 +10472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 113.03 0)
+			(at 251.46 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10799,7 +10483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 113.03 0)
+			(at 251.46 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10810,7 +10494,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 251.46 107.95 0)
+			(at 251.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10866,7 +10550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
 			(at 207.01 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10877,7 +10561,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/1507/1/RFPC-SMA28-F.pdf"
 			(at 207.01 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10890,6 +10574,17 @@
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 207.01 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "640-RFPCSMA28F"
+			(at 207.01 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +10711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 144.78 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11154,85 +10849,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 60.96 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f1238bf-0481-4a53-baf7-b22c66827484")
-		(property "Reference" "#PWR014"
-			(at 241.3 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2cbc3be-cf5e-4f8c-b8fc-6cd371e5b249")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 19.05 48.26 0)
 		(unit 1)
@@ -11355,7 +10971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 107.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11367,6 +10983,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
 			(at 107.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11471,87 +11098,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 241.3 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "670aaa11-f4bd-4645-a6a4-66c4ab46eed5")
-		(property "Reference" "C12"
-			(at 242.57 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NC"
-			(at 242.57 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 242.2652 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 241.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45a23867-613a-4965-96f1-43c642ed726c")
-		)
-		(pin "2"
-			(uuid "8fcfd0e3-6ee6-4e2b-a3a0-df3343669ae0")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 232.41 142.24 270)
 		(mirror x)
@@ -11633,87 +11179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 73.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c3eb258-f788-45b4-af07-78bfbc7aaeb7")
-		(property "Reference" "R3"
-			(at 232.41 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22R"
-			(at 232.41 74.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 228.6 75.438 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 228.6 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbeb3c21-8382-468c-89f2-325fddab1518")
-		)
-		(pin "2"
-			(uuid "1a651c5b-72b5-429b-a02c-46a0a3533b29")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 170.18 0)
 		(unit 1)
@@ -11786,84 +11251,6 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 85.09 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7009c520-9c8e-4b91-9b9a-41f85de83f7b")
-		(property "Reference" "#FLG03"
-			(at 85.09 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 85.09 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 85.09 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b272fba1-8eb4-46b1-9846-328c2a02f7a5")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -11949,7 +11336,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 251.46 101.6 270)
+		(at 251.46 50.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11960,7 +11347,7 @@
 		(fields_autoplaced yes)
 		(uuid "7165b2cc-666d-4af7-a203-a7c68085e948")
 		(property "Reference" "TP1"
-			(at 256.54 100.3299 90)
+			(at 256.54 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11971,7 +11358,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 256.54 102.8699 90)
+			(at 256.54 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11982,7 +11369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 106.68 0)
+			(at 251.46 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11993,7 +11380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 106.68 0)
+			(at 251.46 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +11391,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 251.46 101.6 0)
+			(at 251.46 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12027,86 +11414,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 85.09 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71b31a38-1ac2-402b-94d0-cd2c31fd3a51")
-		(property "Reference" "#FLG04"
-			(at 85.09 20.955 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 85.09 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 85.09 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2d9249a-d4ad-4dac-ab5c-ed9d283771fb")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 241.3 120.65 90)
+		(at 241.3 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12116,7 +11425,7 @@
 		(dnp no)
 		(uuid "750ce554-e903-44a3-ae7e-bbd097e1d1d8")
 		(property "Reference" "R21"
-			(at 245.11 119.38 90)
+			(at 245.11 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12127,7 +11436,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 245.11 121.92 90)
+			(at 245.11 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12138,7 +11447,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 241.3 122.428 90)
+			(at 241.3 71.628 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12149,7 +11458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 120.65 0)
+			(at 241.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12160,7 +11469,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 120.65 0)
+			(at 241.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12230,7 +11539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/3/GRM188C70J105KA01_01A.pdf"
 			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12242,6 +11551,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 31.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188C70J105KA1D"
 			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12731,7 +12051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/3/GRM188C70J105KA01_01A.pdf"
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12743,6 +12063,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 44.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188C70J105KA1D"
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13406,7 +12737,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 107.95 90)
+		(at 241.3 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13416,7 +12747,7 @@
 		(dnp no)
 		(uuid "ae1a8304-448c-4c8f-91de-dcbc33ab07f5")
 		(property "Reference" "R19"
-			(at 245.11 106.68 90)
+			(at 245.11 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13427,7 +12758,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 245.11 109.22 90)
+			(at 245.11 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13438,7 +12769,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 241.3 109.728 90)
+			(at 241.3 58.928 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13449,7 +12780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 107.95 0)
+			(at 241.3 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13460,7 +12791,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 107.95 0)
+			(at 241.3 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13530,7 +12861,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 69.85 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13542,6 +12873,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
 			(at 69.85 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13749,7 +13091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 184.15 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14126,7 +13468,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 114.3 90)
+		(at 241.3 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14136,7 +13478,7 @@
 		(dnp no)
 		(uuid "cea3a5af-8a12-4d46-8b0d-616ed256ae96")
 		(property "Reference" "R20"
-			(at 245.11 113.03 90)
+			(at 245.11 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14146,8 +13488,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "499R"
-			(at 245.11 115.57 90)
+		(property "Value" "499 R"
+			(at 245.11 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14158,7 +13500,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 241.3 116.078 90)
+			(at 241.3 65.278 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14169,7 +13511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 114.3 0)
+			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14180,7 +13522,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 114.3 0)
+			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14367,87 +13709,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 82.55 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9d73186-7bf8-40c1-875c-f28edab8bbfa")
-		(property "Reference" "#PWR015"
-			(at 241.3 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "515d2ffd-4586-4a84-9897-f0e15bf1c620")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 241.3 101.6 90)
+		(at 241.3 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14457,7 +13720,7 @@
 		(dnp no)
 		(uuid "da0b6664-8fe8-4098-aed5-ec525fcfe517")
 		(property "Reference" "R12"
-			(at 245.11 100.33 90)
+			(at 245.11 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14467,8 +13730,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "499R"
-			(at 245.11 102.87 90)
+		(property "Value" "499 R"
+			(at 245.11 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14479,7 +13742,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 241.3 103.378 90)
+			(at 241.3 52.578 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14490,7 +13753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 101.6 0)
+			(at 241.3 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14501,7 +13764,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 101.6 0)
+			(at 241.3 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14719,7 +13982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
 			(at 257.81 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14730,7 +13993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/1507/1/RFPC-SMA28-F.pdf"
 			(at 257.81 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14743,6 +14006,17 @@
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 257.81 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "640-RFPCSMA28F"
+			(at 257.81 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14812,7 +14086,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 107.95 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14824,6 +14098,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
 			(at 107.95 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15302,7 +14587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 69.85 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15314,6 +14599,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
 			(at 69.85 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15412,88 +14708,6 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 228.6 50.8 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f65b0159-d66a-4912-849b-c3721f2d815a")
-		(property "Reference" "R2"
-			(at 232.41 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22R"
-			(at 232.41 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 228.6 52.578 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 228.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "04620f11-0e62-468f-a6ea-73402d9056f7")
-		)
-		(pin "1"
-			(uuid "6e3b21d3-805a-4f21-828e-9ddc2ffeccdd")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15705,7 +14919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM188R72A103KA37-01C-EN_PDF_CERAMICCAPACITORSMD"
 			(at 44.45 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15717,6 +14931,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 44.45 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GCM188R72A103KA7D"
 			(at 44.45 80.01 0)
 			(hide yes)
 			(show_name no)

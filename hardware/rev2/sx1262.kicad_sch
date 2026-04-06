@@ -13801,7 +13801,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "-"
 			(at 120.65 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13919,7 +13919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1 uF"
 			(at 100.33 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13941,7 +13941,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 104.14 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13974,7 +13974,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
 			(at 104.14 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14022,7 +14022,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100 R"
 			(at 280.67 103.505 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14203,7 +14203,7 @@
 				)
 			)
 		)
-		(property "Value" "15u"
+		(property "Value" "15 uH"
 			(at 144.018 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14306,7 +14306,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1 uF"
 			(at 55.88 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14328,7 +14328,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14361,7 +14361,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
 			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14514,7 +14514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1 uF"
 			(at 142.24 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14536,7 +14536,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14569,7 +14569,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15485,7 +15485,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100 R"
 			(at 289.56 153.035 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16057,7 +16057,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "220 R"
 			(at 86.36 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16554,7 +16554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "115n"
+		(property "Value" "115 nH"
 			(at 192.786 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16736,7 +16736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "47 pF"
 			(at 173.99 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17386,7 +17386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "47 nF"
 			(at 185.42 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17930,7 +17930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "1 nF"
 			(at 298.45 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18192,7 +18192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "1 nF"
 			(at 288.29 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18556,7 +18556,7 @@
 				)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "10 pF"
 			(at 93.98 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18839,7 +18839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "0.47 uF"
 			(at 154.94 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)

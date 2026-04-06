@@ -1,0 +1,218 @@
+(footprint "ACAG0301-2450-T "
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Antennas Internal/Embedded Antennas Chip Surface Mount Surface Mount (Solder) ")
+	(tags "2.4GHz Antenna - 2.4GHz, 5GHz, Bluetooth, WiFi, WLAN, Zigbee ")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c1a3074b-f4a3-4dc3-b83a-99e0fe29844b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ACAG0301-2450-T "
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "176bcd21-b7bc-464e-a295-dcc555d88bcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.se/datasheet/3/184/1/ACAG0301_2450_T.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc83e0c8-c5e9-409d-9cf1-15938c7c68d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86cdeea7-3e23-4cb8-9e7f-57bca62cce5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1 -1.25)
+		(end 2.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "67fbc854-5035-450b-a5ed-c32c2fd73294")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end 2.5 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3f43b59-ffc5-4bfe-8a73-0bbac766efcc")
+	)
+	(fp_line
+		(start 2.5 -1.25)
+		(end 2.5 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "98ec63a1-2c61-4323-bd85-6a60bf683f20")
+	)
+	(fp_line
+		(start -2.9 4.9)
+		(end -2.9 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b71babaf-80ad-467a-b756-b1d7b6651541")
+	)
+	(fp_line
+		(start 4.1 -2.5)
+		(end -2.9 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "11e1db37-70ec-4428-a796-2c14d0f4dcb3")
+	)
+	(fp_rect
+		(start -4.25 -5)
+		(end 4.25 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "77ef4239-047b-4876-8ea9-1e8dc56e9d4e")
+	)
+	(fp_rect
+		(start -2.25 -1)
+		(end 2.25 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a15289b8-0c6c-42c5-a2d0-9c21a8e06ddc")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -1.5) (xy -1.1 -2.25) (xy -2.1 -2.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "52ff1b59-4123-4831-8fb4-378a646839cf")
+	)
+	(fp_text user "Suggested board edge"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "622b84cd-c7a3-459f-aa5d-ea77e4a615a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d3315b48-6113-4be7-b385-2c82d161a1ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.6 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f31bc20-83ba-42da-a3cd-a9cbe8da837f")
+	)
+	(pad "2" smd rect
+		(at -1.6 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7f4f850-f815-401e-8501-abf4a283fe11")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "10f401df-1841-45b8-9603-ae9f15163aa1")
+		(name "Antenna Keepout")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 4.1 -4.9) (xy -4.1 -4.9) (xy -4.1 4.9) (xy 4.1 4.9)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

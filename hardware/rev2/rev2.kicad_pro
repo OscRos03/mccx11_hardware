@@ -478,8 +478,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "_footprints"
+    ],
+    "pinned_symbol_libs": [
+      "_symbols"
+    ]
   },
   "meta": {
     "filename": "rev2.kicad_pro",
@@ -565,6 +569,9 @@
       "Net-(AE1-A)": [
         "50 Ohm"
       ],
+      "Net-(AE1-FEED)": [
+        "50 Ohm"
+      ],
       "Net-(C10-Pad2)": [
         "RF_50Z"
       ],
@@ -585,6 +592,12 @@
       ],
       "Net-(J6-In)": [
         "50 Ohm"
+      ],
+      "Net-(J7-D+-PadA6)": [
+        "90 Ohm"
+      ],
+      "Net-(J7-D--PadA7)": [
+        "90 Ohm"
       ],
       "Net-(U1-GPIO19{slash}USB_D-)": [
         "90 Ohm"
@@ -633,6 +646,18 @@
       ],
       "Net-(U3-RFC)": [
         "50 Ohm"
+      ],
+      "Net-(U4-DM_In)": [
+        "90 Ohm"
+      ],
+      "Net-(U4-DM_Out)": [
+        "90 Ohm"
+      ],
+      "Net-(U4-DP_In)": [
+        "90 Ohm"
+      ],
+      "Net-(U4-DP_Out)": [
+        "90 Ohm"
       ],
       "unconnected-(U1-GPIO33-Pad38)": [
         "Reserved"
@@ -789,7 +814,7 @@
           "group_by": false,
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -813,7 +838,7 @@
           "group_by": false,
           "label": "Digikey Part Number",
           "name": "Digikey Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -892,7 +917,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R22-25",
     "variants": []
   },
   "sheets": [
