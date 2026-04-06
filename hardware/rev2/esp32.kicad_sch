@@ -2786,7 +2786,7 @@
 		)
 		(uuid "1cbdeaa1-634e-4d9d-86a8-d7ccd94a6723")
 	)
-	(text "PSU Recommendations:\nVdd = 3.3V\nI_min >= 500mA\n10 uF at entrance\nESD Diode at entrance"
+	(text "PSU Recommendations:\nVdd = 3.3V\nI_max >= 500mA\n10 uF at entrance\nESD Diode at entrance"
 		(exclude_from_sim no)
 		(at 100.33 30.48 0)
 		(effects
@@ -12015,7 +12015,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "275b34fd-b4d9-4b0d-99a0-772b1248bd4a")
+			(uuid "275b34fd-b4d9-4b0d-99a0-772b1248bd4b")
 		)
 		(instances
 			(project "rev2"
