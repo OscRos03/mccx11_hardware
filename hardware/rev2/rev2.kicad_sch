@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "9067f306-e23c-4d77-8182-4fa2c4b88902")
 	(paper "A3")
+	(title_block
+		(company "MMCX11")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_numbers
@@ -2587,6 +2590,17 @@
 		)
 		(uuid "f76279d8-c7f0-47a0-9853-1439a34df88a")
 	)
+	(text "GNSS Connections"
+		(exclude_from_sim no)
+		(at 133.35 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faaf7fbd-7224-4964-b645-4a1d0791911f")
+	)
 	(junction
 		(at 332.74 168.91)
 		(diameter 0)
@@ -2953,6 +2967,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 96.52) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37512bd3-9280-489f-9169-2f7aa36c1b1e")
+	)
+	(wire
+		(pts
 			(xy 50.8 62.23) (xy 46.99 62.23)
 		)
 		(stroke
@@ -2990,6 +3014,16 @@
 			(type default)
 		)
 		(uuid "3e84d07b-6c27-43b1-a853-1e5c977376ca")
+	)
+	(wire
+		(pts
+			(xy 115.57 66.04) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3c4bc2-0868-46e9-9a58-545b4c2dde0f")
 	)
 	(wire
 		(pts
@@ -3140,6 +3174,16 @@
 			(type default)
 		)
 		(uuid "5de6bca6-8c27-48f3-b4f3-a519be55a3ed")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 129.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e45c8e7-8fce-4a55-bbcc-0108759ccdb4")
 	)
 	(wire
 		(pts
@@ -3583,16 +3627,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 25.4) (xy 63.5 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b67e6b-207f-4f23-ba73-3cc820808e7f")
-	)
-	(wire
-		(pts
 			(xy 85.09 59.69) (xy 93.98 59.69)
 		)
 		(stroke
@@ -3673,6 +3707,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 63.5) (xy 129.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5245143-a8c4-4906-84a9-8fdebe0bd1b6")
+	)
+	(wire
+		(pts
 			(xy 332.74 229.87) (xy 332.74 232.41)
 		)
 		(stroke
@@ -3690,6 +3734,16 @@
 			(type default)
 		)
 		(uuid "f834e17f-1c18-48a4-90a9-86f6382cb47b")
+	)
+	(wire
+		(pts
+			(xy 115.57 60.96) (xy 129.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e08f61-b13a-4b40-914b-e238378f2fbc")
 	)
 	(wire
 		(pts
@@ -3722,7 +3776,7 @@
 		(uuid "ff234477-00c5-420c-807f-8ee8816938d5")
 	)
 	(label "EXTINT"
-		(at 170.18 67.31 180)
+		(at 129.54 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3751,8 +3805,8 @@
 		)
 		(uuid "24cf1ae1-79f1-40f2-b7bf-d48b14dce17b")
 	)
-	(label "RXD{slash}SDA?"
-		(at 170.18 59.69 180)
+	(label "RXD{slash}SDA"
+		(at 129.54 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3782,7 +3836,7 @@
 		(uuid "6a88ec35-67fd-4d57-ac9c-bd46be5d151f")
 	)
 	(label "RESET_N"
-		(at 170.18 64.77 180)
+		(at 129.54 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3811,7 +3865,7 @@
 		)
 		(uuid "9b46a232-e6ed-4129-a911-a31c990682a4")
 	)
-	(label "RXD{slash}SDA?"
+	(label "RXD{slash}SDA"
 		(at 309.88 181.61 0)
 		(effects
 			(font
@@ -3821,7 +3875,7 @@
 		)
 		(uuid "a56e8082-5f3a-4b57-a7ee-3d5b27ba0c83")
 	)
-	(label "TXD{slash}SCL?"
+	(label "TXD{slash}SCL"
 		(at 309.88 194.31 0)
 		(effects
 			(font
@@ -3831,8 +3885,8 @@
 		)
 		(uuid "aa6c1323-b5ea-46e6-a2c7-ad2db427a41a")
 	)
-	(label "TXD{slash}SCL?"
-		(at 170.18 62.23 180)
+	(label "TXD{slash}SCL"
+		(at 129.54 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5940,85 +5994,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 33.02 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fe0cfec-f4e6-45c8-a2cb-a743bdc17dbd")
-		(property "Reference" "#PWR01"
-			(at 63.5 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ec0ccfa-7326-4cd3-8d2a-c048cc40f784")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 93.98 29.21 0)
 		(mirror y)
@@ -7959,88 +7934,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 63.5 30.48 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc034e12-b88c-49f8-af99-8f34c0e229a6")
-		(property "Reference" "J1"
-			(at 68.58 29.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMA"
-			(at 69.85 31.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 63.5 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cdd7c71c-a289-4cd9-abc0-8cb2abc59006")
-		)
-		(pin "2"
-			(uuid "864a5151-ae85-441a-8090-3d568edd4768")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 49.53 50.8 0)
 		(unit 1)
@@ -8156,7 +8049,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Antenna" input
+		(pin "Antenna" bidirectional
 			(at 115.57 57.15 0)
 			(uuid "742ccebe-2f3f-4a65-acf1-e763cce6808d")
 			(effects
@@ -8226,16 +8119,6 @@
 				(justify right)
 			)
 		)
-		(pin "SCK" output
-			(at 115.57 85.09 0)
-			(uuid "59cbfcfa-7cbd-44cd-bde2-9ae7dcbaf6a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB_D-" input
 			(at 93.98 57.15 180)
 			(uuid "912f2b6d-1a38-41d4-9110-42a38c9c0513")
@@ -8254,6 +8137,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CLK" output
+			(at 115.57 85.09 0)
+			(uuid "0ea2a937-83c3-4a8a-9b84-a0bb83ae8959")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX_EN" output
+			(at 115.57 96.52 0)
+			(uuid "48430b40-c698-4b93-abf4-407f72de2644")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXTINT" output
+			(at 115.57 68.58 0)
+			(uuid "3bc54c36-2e78-4657-8a97-32fe3b85e541")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET_N" output
+			(at 115.57 66.04 0)
+			(uuid "b38528a5-b163-4a66-a7e2-d9ca9c0f61c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD{slash}SDA" input
+			(at 115.57 60.96 0)
+			(uuid "624439a3-dcbc-47c8-91ba-d139403e6909")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD{slash}SCL" output
+			(at 115.57 63.5 0)
+			(uuid "6a808836-c347-449d-82d6-b7909ba09670")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -8348,7 +8291,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Antenna" output
+		(pin "Antenna" bidirectional
 			(at 154.94 78.74 0)
 			(uuid "d02796af-aecd-4ae5-a88e-4b7d4ff62ccf")
 			(effects

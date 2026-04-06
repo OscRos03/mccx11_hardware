@@ -244,7 +244,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|698500|1219200|4d8beacf-2341-4863-be78-efc07f60f9fe|00000000-0000-0000-0000-000000000000|||",
+        "Will be changed"
+      ],
+      [
+        "power_pin_not_driven|698500|1143000|00f6639b-283a-4485-9710-a716d3217d20|00000000-0000-0000-0000-000000000000|/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f|/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f|",
+        "Will be changed"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -500,24 +509,31 @@
       {
         "name": "50 Ohm",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 132, 132)",
         "tuning_profile": ""
       },
       {
         "name": "90 Ohm",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 194)",
         "tuning_profile": ""
       },
       {
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 0)",
         "tuning_profile": "",
         "wire_width": 10
+      },
+      {
+        "name": "Reserved",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -554,6 +570,9 @@
       ],
       "Net-(C16-Pad2)": [
         "RF_50Z"
+      ],
+      "Net-(C20-Pad1)": [
+        "Power"
       ],
       "Net-(C40-Pad2)": [
         "50 Ohm"
@@ -614,6 +633,42 @@
       ],
       "Net-(U3-RFC)": [
         "50 Ohm"
+      ],
+      "unconnected-(U1-GPIO33-Pad38)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-GPIO34-Pad39)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-GPIO35-Pad40)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-GPIO36-Pad41)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-GPIO37-Pad42)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-SPICLK-Pad33)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-SPICS0-Pad32)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-SPICS1-Pad28)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-SPID-Pad35)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-SPIHD-Pad30)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-SPIQ-Pad34)": [
+        "Reserved"
+      ],
+      "unconnected-(U1-SPIWP-Pad31)": [
+        "Reserved"
       ]
     },
     "netclass_patterns": [
@@ -632,6 +687,18 @@
       {
         "netclass": "90 Ohm",
         "pattern": "/USB_D-"
+      },
+      {
+        "netclass": "90 Ohm",
+        "pattern": "/ESP32/ESP_USB_D-"
+      },
+      {
+        "netclass": "90 Ohm",
+        "pattern": "/ESP32/ESP_USB_D+"
+      },
+      {
+        "netclass": "50 Ohm",
+        "pattern": "/ESP32/LNA_IN"
       }
     ]
   },
@@ -825,7 +892,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "#FLG1-2,D2-3,R10-11,#PWR42,#PWR62-65,J7",
+    "used_designators": "#FLG3-4,SW1-2,C49,TP1-4,R1,R12-21,J1,#PWR1,#PWR19,#PWR68,#PWR70-72",
     "variants": []
   },
   "sheets": [
