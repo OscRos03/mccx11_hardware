@@ -858,7 +858,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -917,7 +917,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "R22-25",
+    "used_designators": "Y2,FB2,R22-25",
     "variants": []
   },
   "sheets": [

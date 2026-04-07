@@ -4540,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 59.69 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4550,7 +4550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 54.61 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -5780,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 59.69 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5790,7 +5790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 54.61 73.152 90)
 			(hide yes)
 			(show_name no)
@@ -6966,7 +6966,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 105.41 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6976,7 +6976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 100.33 73.152 90)
 			(hide yes)
 			(show_name no)
@@ -7283,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 105.41 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7293,7 +7293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 100.33 74.168 90)
 			(hide yes)
 			(show_name no)

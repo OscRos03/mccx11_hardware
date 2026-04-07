@@ -8,6 +8,17 @@
 		(company "MMCX11")
 	)
 	(lib_symbols)
+	(text "MP2664 - linear charger med under voltage protection vid discharge.\nTPS631000 - buck-boost\nMAX17055 - fuel gauge"
+		(exclude_from_sim no)
+		(at 111.76 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b3ad673-1369-42dc-88bd-165d51505bbd")
+	)
 	(text "USB Provides 5V"
 		(exclude_from_sim no)
 		(at 119.38 78.74 0)

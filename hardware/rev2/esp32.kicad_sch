@@ -9608,7 +9608,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9805,7 +9805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/3/GRM188C70J105KA01_01A.pdf"
+		(property "Datasheet" ""
 			(at 146.05 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9827,7 +9827,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM188C70J105KA1D"
+		(property "Mouser Part Number" ""
 			(at 146.05 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9938,7 +9938,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10218,7 +10218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/3/GRM188C70J105KA01_01A.pdf"
+		(property "Datasheet" ""
 			(at 120.65 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10240,7 +10240,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM188C70J105KA1D"
+		(property "Mouser Part Number" ""
 			(at 120.65 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11419,7 +11419,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11446,7 +11446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.3 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -11539,7 +11539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/3/GRM188C70J105KA01_01A.pdf"
+		(property "Datasheet" ""
 			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11561,7 +11561,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM188C70J105KA1D"
+		(property "Mouser Part Number" ""
 			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12051,7 +12051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/3/GRM188C70J105KA01_01A.pdf"
+		(property "Datasheet" ""
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12073,7 +12073,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM188C70J105KA1D"
+		(property "Mouser Part Number" ""
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12211,7 +12211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.3 46.228 90)
 			(hide yes)
 			(show_name no)
@@ -12741,7 +12741,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12768,7 +12768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.3 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -13021,7 +13021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.3 27.178 90)
 			(hide yes)
 			(show_name no)
@@ -13581,7 +13581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.3 33.528 90)
 			(hide yes)
 			(show_name no)
@@ -14168,7 +14168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.3 39.878 90)
 			(hide yes)
 			(show_name no)

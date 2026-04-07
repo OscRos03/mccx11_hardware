@@ -163,7 +163,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
+		(symbol "Device:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -176,23 +176,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FB"
-				(at -3.81 0.635 90)
+				(at 1.905 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -217,7 +219,7 @@
 					)
 				)
 			)
-			(property "Description" "Ferrite bead"
+			(property "Description" "Ferrite bead, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -250,10 +252,10 @@
 					)
 				)
 			)
-			(symbol "FerriteBead_0_1"
+			(symbol "FerriteBead_Small_0_1"
 				(polyline
 					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
 					(stroke
 						(width 0)
@@ -265,7 +267,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 1.2954)
+						(xy 0 0.889) (xy 0 1.2954)
 					)
 					(stroke
 						(width 0)
@@ -277,7 +279,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
+						(xy 0 -1.27) (xy 0 -0.7874)
 					)
 					(stroke
 						(width 0)
@@ -288,10 +290,10 @@
 					)
 				)
 			)
-			(symbol "FerriteBead_1_1"
+			(symbol "FerriteBead_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
+					(at 0 2.54 270)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -308,8 +310,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
+					(at 0 -2.54 90)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -636,195 +638,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Oscillator:TCXO-14"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y1"
-				(at -6.35 1.2701 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "TCXO 32MHz"
-				(at -6.35 -1.2699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_DIP-14"
-				(at 11.43 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Temperature Compensated Crystal Clock Oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Crystal Clock Oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*DIP*14*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TCXO-14_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -1.905 -0.635) (xy -1.905 0.635) (xy -1.27 0.635) (xy -1.27 -0.635) (xy -0.635 -0.635)
-						(xy -0.635 0.635) (xy 0 0.635) (xy 0 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TCXO-14_1_1"
-				(pin no_connect line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "Vcc"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1571,6 +1384,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "_symbols:TXO-20CSMV-320"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 8.636 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TXO-20CSMV-320"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_footprints:TXO-20CSMV-320"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.se/datasheet/3/294/1/ECS_TXO_20CSMV.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TCXO Oscillators MultiVolt TCXO,32MHz,+/-2.5ppm,1.7V 3.465V,2.5 mA,-30 C 85 C, 2.00mm x 1.60mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TCXO Oscillators MultiVolt TCXO,32MHz,+/-2.5ppm,1.7V 3.465V,2.5 mA,-30 C 85 C, 2.00mm x 1.60mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TXO-20CSMV-320_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Output"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2068,10 +2039,10 @@
 		(uuid "3ef235d3-eaa0-4c78-b445-4dad6b934e6a")
 	)
 	(junction
-		(at 59.69 114.3)
+		(at 55.88 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4123fa27-6f9e-41f4-8a01-0381d79400d2")
+		(uuid "4af473b6-c2ab-45fd-a30e-403b919c2c37")
 	)
 	(junction
 		(at 210.82 137.16)
@@ -2219,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 129.54) (xy 59.69 125.73)
+			(xy 55.88 132.08) (xy 55.88 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2210,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 114.3) (xy 59.69 114.3)
+			(xy 80.01 121.92) (xy 82.55 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ec3017-2185-47b1-809f-8ea7505c7948")
+	)
+	(wire
+		(pts
+			(xy 49.53 111.76) (xy 55.88 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2459,6 +2440,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 111.76) (xy 69.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9e24ed-ebe3-4911-bfac-5893674d2e58")
+	)
+	(wire
+		(pts
 			(xy 294.64 139.7) (xy 294.64 156.21)
 		)
 		(stroke
@@ -2599,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 118.11) (xy 59.69 114.3)
+			(xy 55.88 118.11) (xy 55.88 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2616,26 +2607,6 @@
 			(type default)
 		)
 		(uuid "9cb4c9fa-af59-4030-bd8d-dc40a212cbbf")
-	)
-	(wire
-		(pts
-			(xy 59.69 114.3) (xy 69.85 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d8e42fc-d6d2-40c9-9f49-450a37189096")
-	)
-	(wire
-		(pts
-			(xy 82.55 121.92) (xy 77.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4089142-9b48-43bf-9ada-392def384c4b")
 	)
 	(wire
 		(pts
@@ -2719,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 114.3) (xy 45.72 114.3)
+			(xy 35.56 111.76) (xy 44.45 111.76)
 		)
 		(stroke
 			(width 0)
@@ -13183,7 +13154,7 @@
 		(uuid "04a9e36d-3616-4f98-acfb-c33899fb00df")
 	)
 	(label "DIO3"
-		(at 39.37 114.3 0)
+		(at 35.56 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13919,7 +13890,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "1 uF"
 			(at 100.33 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13930,7 +13901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 103.1748 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13941,7 +13912,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GRM155R61C105KA12_01A.pdf"
 			(at 104.14 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13974,7 +13945,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" " 81-GRM155R61C105KA2D "
 			(at 104.14 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14032,7 +14003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 280.67 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -14043,7 +14014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20008/dcrcw.pdf"
 			(at 280.67 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14056,6 +14027,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 280.67 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402-100"
+			(at 280.67 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14081,108 +14063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 49.53 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b9ea5f7-606c-41f5-8383-2e6879593861")
-		(property "Reference" "FB1"
-			(at 49.4792 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 49.4792 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 49.53 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 49.53 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 49.53 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a325c663-88a9-4c9a-940a-5c2a4ba1d33a")
-		)
-		(pin "1"
-			(uuid "2bdd26ff-37d7-42c3-ab70-1a00337d9e77")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 140.97 119.38 0)
 		(unit 1)
@@ -14194,23 +14074,25 @@
 		(dnp no)
 		(uuid "0dfca1da-bc28-4651-921b-5bea42f39875")
 		(property "Reference" "L12"
-			(at 144.018 118.11 0)
+			(at 142.24 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "15 uH"
-			(at 144.018 120.65 0)
+			(at 142.24 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -14224,7 +14106,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1608_en.pdf?ref_disty=mouser"
 			(at 140.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14257,7 +14139,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" " 810-MLZ1608N150LT000 "
 			(at 140.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14285,7 +14167,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 121.92 0)
+		(at 55.88 121.92 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14296,7 +14178,7 @@
 		(dnp no)
 		(uuid "0fc8490e-21b8-4331-8870-a052a5c94299")
 		(property "Reference" "C28"
-			(at 55.88 120.6499 0)
+			(at 54.61 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14307,7 +14189,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 55.88 123.1899 0)
+			(at 54.61 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14317,8 +14199,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 60.6552 118.11 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 56.8452 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14328,8 +14210,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
-			(at 59.69 121.92 0)
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GRM155R71H104KE14_01A.pdf"
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14340,7 +14222,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 59.69 121.92 0)
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14351,7 +14233,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 59.69 121.92 0)
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14361,8 +14243,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
-			(at 59.69 121.92 0)
+		(property "Mouser Part Number" " 81-GRM155R71H104KE4D "
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14525,7 +14407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 139.3952 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14536,7 +14418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GRM155R71H104KE14_01A.pdf"
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14569,7 +14451,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" " 81-GRM155R71H104KE4D "
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14675,7 +14557,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 129.54 0)
+		(at 55.88 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14686,7 +14568,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bd9c03d-b731-4d0e-9ce8-f3f3c08357ee")
 		(property "Reference" "#PWR037"
-			(at 59.69 135.89 0)
+			(at 55.88 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14697,7 +14579,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 134.62 0)
+			(at 55.88 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14707,7 +14589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 129.54 0)
+			(at 55.88 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14718,7 +14600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 129.54 0)
+			(at 55.88 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14729,7 +14611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 129.54 0)
+			(at 55.88 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15272,6 +15154,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 46.99 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cd3dd0e-44c3-4ead-a4b6-154bf101c3ff")
+		(property "Reference" "FB1"
+			(at 46.9519 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead_Small"
+			(at 46.9519 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 46.99 113.538 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/ENFA0018.pdf"
+			(at 46.99 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 46.99 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" " 81-BLM15PG100SN1D "
+			(at 46.99 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81b039e6-aa30-46a5-8dab-8a135339407e")
+		)
+		(pin "2"
+			(uuid "106ec44f-b7bb-4c03-9c52-ff26f4828045")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_symbols:PE4259")
 		(at 283.21 137.16 0)
 		(unit 1)
@@ -15495,7 +15468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 289.56 157.988 90)
 			(hide yes)
 			(show_name no)
@@ -15506,7 +15479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20008/dcrcw.pdf"
 			(at 289.56 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -15519,6 +15492,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 289.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402-100"
+			(at 289.56 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16037,7 +16021,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 121.92 90)
+		(at 93.98 121.92 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16048,7 +16033,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ab2462d-f30d-4f81-82bf-90e888532752")
 		(property "Reference" "R7"
-			(at 86.36 115.57 90)
+			(at 93.98 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16057,8 +16042,8 @@
 				)
 			)
 		)
-		(property "Value" "220 R"
-			(at 86.36 118.11 90)
+		(property "Value" "0 R"
+			(at 93.98 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16067,8 +16052,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 86.36 123.698 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 93.98 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16078,8 +16063,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.36 121.92 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16090,7 +16075,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 121.92 0)
+			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16101,7 +16086,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 86.36 121.92 90)
+			(at 93.98 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16111,8 +16096,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 86.36 121.92 90)
+		(property "Mouser Part Number" " 71-CRCW04020000Z0EDC "
+			(at 93.98 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16169,7 +16154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 297.18 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -16212,115 +16197,6 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oscillator:TCXO-14")
-		(at 69.85 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d8beacf-2341-4863-be78-efc07f60f9fe")
-		(property "Reference" "Y2"
-			(at 77.978 125.984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TCXO 32MHz"
-			(at 83.82 128.778 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Temperature Compensated Crystal Clock Oscillator"
-			(at 69.85 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "SX1262IMLTRTTR-ND"
-			(at 69.85 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 69.85 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ff913e0-756d-4ff6-9cbf-40de200e21e4")
-		)
-		(pin "2"
-			(uuid "5b0c6d89-0457-461f-b97c-aae4084e045a")
-		)
-		(pin "4"
-			(uuid "00f6639b-283a-4485-9710-a716d3217d20")
-		)
-		(pin "3"
-			(uuid "39e7cb7d-a41c-4497-906e-df6bd674a3eb")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -16451,7 +16327,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "pull-up"
+		(property "Value" "10k"
 			(at 66.04 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16462,7 +16338,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.802 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -16554,7 +16430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "115 nH"
+		(property "Value" "L"
 			(at 192.786 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16758,7 +16634,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GJM1555C1H470JB01_01A.pdf"
 			(at 170.18 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16791,7 +16667,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GJM1555C1H470JB1D"
 			(at 170.18 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16897,7 +16773,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 129.54 0)
+		(at 69.85 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16908,7 +16784,7 @@
 		(fields_autoplaced yes)
 		(uuid "682de5ea-0e68-48a2-bbc2-e6f52045b9b8")
 		(property "Reference" "#PWR039"
-			(at 69.85 135.89 0)
+			(at 69.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16919,7 +16795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 134.62 0)
+			(at 69.85 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16929,7 +16805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 129.54 0)
+			(at 69.85 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16940,7 +16816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 129.54 0)
+			(at 69.85 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16951,7 +16827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 129.54 0)
+			(at 69.85 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17408,7 +17284,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GRM155R71C473KA01_01A.pdf"
 			(at 181.61 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17441,7 +17317,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM155R71C473KA01"
 			(at 181.61 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17810,7 +17686,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -17837,7 +17713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 90.4748 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17952,7 +17828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R72A102KA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 294.64 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17964,6 +17840,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 294.64 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R72A102KA1D"
 			(at 294.64 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18011,7 +17898,7 @@
 				)
 			)
 		)
-		(property "Value" "DC Block"
+		(property "Value" "C"
 			(at 332.74 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18214,7 +18101,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R72A102KA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 284.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -18226,6 +18113,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 284.48 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R72A102KA1D"
 			(at 284.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -18351,7 +18249,7 @@
 				)
 			)
 		)
-		(property "Value" "DC Block"
+		(property "Value" "C"
 			(at 234.95 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18437,7 +18335,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -18464,7 +18362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 152.0952 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -18536,7 +18434,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 93.98 121.92 90)
+		(at 86.36 121.92 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18547,7 +18446,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce3e91c7-ee84-413e-831e-1dc42dab8872")
 		(property "Reference" "C30"
-			(at 93.98 114.3 90)
+			(at 86.36 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18557,7 +18456,7 @@
 			)
 		)
 		(property "Value" "10 pF"
-			(at 93.98 116.84 90)
+			(at 86.36 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18566,8 +18465,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 97.79 120.9548 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 82.55 120.9548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18577,8 +18476,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 93.98 121.92 0)
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GJM1555C1H100JB01_01A.pdf"
+			(at 86.36 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18589,7 +18488,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 93.98 121.92 0)
+			(at 86.36 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18600,7 +18499,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 93.98 121.92 90)
+			(at 86.36 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18610,8 +18509,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 93.98 121.92 90)
+		(property "Mouser Part Number" " 81-GJM1555C1H100JB01 "
+			(at 86.36 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18631,6 +18530,104 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_symbols:TXO-20CSMV-320")
+		(at 69.85 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d41d5539-10d0-4816-ace0-457746862e0c")
+		(property "Reference" "Y2"
+			(at 77.47 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TXO-20CSMV-320"
+			(at 80.01 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_footprints:TXO-20CSMV-320"
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/294/1/ECS_TXO_20CSMV.pdf"
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TCXO Oscillators MultiVolt TCXO,32MHz,+/-2.5ppm,1.7V 3.465V,2.5 mA,-30 C 85 C, 2.00mm x 1.60mm"
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" " 520-TXO20CSMV320EYTR "
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "4659b121-33d5-4dfe-93a8-5f6f31e17439")
+		)
+		(pin "3"
+			(uuid "4195bc08-a4bb-419a-8642-1109308ab6be")
+		)
+		(pin "4"
+			(uuid "f4e5cde5-2b5a-4b4a-ae38-957d3c669d71")
+		)
+		(pin "1"
+			(uuid "7db89cbb-bd4b-4c62-89d3-635c1084b78a")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -18850,7 +18847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 152.0952 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18861,7 +18858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71A474KE01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 151.13 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -18894,7 +18891,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" " 81-GRM155R71A474KE1D "
 			(at 151.13 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -19125,7 +19122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DC Block"
+		(property "Value" "C"
 			(at 170.18 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
