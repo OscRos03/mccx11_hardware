@@ -9273,6 +9273,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 31.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 31.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e403d390-a1a7-42b0-b762-a25461777690")
 		)
@@ -9421,6 +9443,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 63.5 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 63.5 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 63.5 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,6 +9712,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 172.72 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 172.72 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1c33871c-920a-44a8-8160-83450039dc24")
 		)
@@ -9838,6 +9904,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 146.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 146.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "337d65b0-e56e-4fbf-a1b3-0e2de6f96564")
 		)
@@ -9998,6 +10086,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 160.02 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 160.02 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f679a4af-2a7a-45c9-98f1-4db9a7f7cd42")
 		)
@@ -10071,6 +10181,28 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 185.42 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 185.42 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 185.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,6 +10383,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 120.65 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 120.65 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "36c88794-c4e5-46c1-8c32-3d136c486e29")
 		)
@@ -10334,6 +10488,28 @@
 			)
 		)
 		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
+			(at 57.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 57.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10471,7 +10647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10495,6 +10671,28 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10594,6 +10792,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 207.01 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 207.01 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4c96df3-c552-4f12-a56f-e92f1cbeab95")
 		)
@@ -10674,6 +10894,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 44.45 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 44.45 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "42cc2669-4066-437b-9fec-5c08bf9b44aa")
 		)
@@ -10745,6 +10987,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 146.05 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 146.05 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11004,6 +11268,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 107.95 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 107.95 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2113fd47-c064-439c-bae0-e2587b14eee9")
 		)
@@ -11154,6 +11440,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 232.41 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 232.41 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 232.41 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,7 +11676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11392,6 +11700,28 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11470,6 +11800,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 241.3 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11562,6 +11914,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 31.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 31.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11920,7 +12294,7 @@
 				)
 			)
 		)
-		(property "Value" "40MHz (±10 ppm, >500 mV)"
+		(property "Value" "ECS-2520SMV-400-FN-TR"
 			(at 44.45 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11930,7 +12304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
 			(at 44.45 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11941,7 +12315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/294/1/ECS_2520SMV.pdf"
 			(at 44.45 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11978,6 +12352,17 @@
 			(at 44.45 190.5 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "520-EC2520SMV400FNTR "
+			(at 44.45 175.26 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12074,6 +12459,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 44.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 44.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12244,6 +12651,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 241.3 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3efe7cbf-ffb6-46af-9c50-ca7cf27183d8")
 		)
@@ -12404,6 +12833,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 158.75 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 158.75 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e752acbf-5b9a-4ef1-b016-5d83f26da43e")
 		)
@@ -12476,6 +12927,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 57.15 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 57.15 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12801,6 +13274,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 241.3 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "433a09eb-affe-4e34-8432-a935ddd891bb")
 		)
@@ -12884,6 +13379,28 @@
 			)
 		)
 		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
+			(at 69.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 69.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 69.85 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13054,6 +13571,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 241.3 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e77eaa9e-b4cb-4c76-b87a-97310226d3b0")
 		)
@@ -13125,6 +13664,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185.42 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 185.42 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 185.42 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13374,6 +13935,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 245.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 245.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "00a0b034-6f26-4b9b-9a66-804cae923b1f")
 		)
@@ -13532,6 +14115,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 241.3 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c02a6d4-716d-42d2-96e9-709284df08de")
 		)
@@ -13605,6 +14210,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 241.3 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13774,6 +14401,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 241.3 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e67b4dbd-31cf-4170-9a16-7fa4b6c45c2d")
 		)
@@ -13933,6 +14582,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 31.75 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 31.75 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "839ba048-ef37-431a-9637-a25e57b5a48f")
 		)
@@ -14016,6 +14687,28 @@
 			)
 		)
 		(property "Mouser Part Number" "640-RFPCSMA28F"
+			(at 257.81 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 257.81 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 257.81 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -14119,6 +14812,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 107.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 107.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d7800311-37fb-4377-925d-3e0992b3a7e2")
 		)
@@ -14192,6 +14907,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 241.3 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14352,6 +15089,28 @@
 			)
 		)
 		(property "Description" "Microcontroller, Wi-Fi 802.11b/g/n, Bluetooth, 32bit"
+			(at 90.17 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 90.17 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -14620,6 +15379,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 69.85 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 69.85 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "99375a48-aa61-4ddc-9f3e-b2902f69b438")
 		)
@@ -14770,6 +15551,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 219.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 219.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 219.71 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14942,6 +15745,28 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GCM188R72A103KA7D"
+			(at 44.45 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 44.45 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 44.45 80.01 0)
 			(hide yes)
 			(show_name no)

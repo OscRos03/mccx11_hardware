@@ -13783,6 +13783,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 120.65 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 120.65 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "00439141-e2d0-4b27-a9ec-a73a955fb15d")
 		)
@@ -13956,6 +13978,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 104.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dac1bd50-c4ba-4352-8762-754f8322f907")
 		)
@@ -14037,6 +14081,28 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0402-100"
+			(at 280.67 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 280.67 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 280.67 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -14140,6 +14206,28 @@
 			)
 		)
 		(property "Mouser Part Number" " 810-MLZ1608N150LT000 "
+			(at 140.97 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 140.97 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 140.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14254,6 +14342,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "108b2890-1f18-4680-8802-6c73f4bd587e")
 		)
@@ -14358,6 +14468,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 351.79 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 351.79 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2296488-207d-441f-9771-6eaf75ad944a")
 		)
@@ -14452,6 +14584,28 @@
 			)
 		)
 		(property "Mouser Part Number" " 81-GRM155R71H104KE4D "
+			(at 138.43 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14722,6 +14876,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 166.37 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 166.37 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dc9f2995-8620-4342-b27a-452345a66e7c")
 		)
@@ -14982,6 +15158,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 166.37 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 166.37 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1e4dfea5-be0e-4c79-87b5-7ffd99fd1712")
 		)
@@ -15229,6 +15427,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 46.99 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 46.99 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81b039e6-aa30-46a5-8dab-8a135339407e")
 		)
@@ -15321,6 +15541,28 @@
 			)
 		)
 		(property "Mouser Part Number" "-"
+			(at 283.21 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 283.21 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 283.21 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15512,6 +15754,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 289.56 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 289.56 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a0cddab-25e7-4943-b1b0-53921b118d83")
 		)
@@ -15692,6 +15956,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 242.57 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 242.57 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "04e2eafa-14d1-4035-84ca-0ea6f6377233")
 		)
@@ -15786,6 +16072,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 246.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 246.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 246.38 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -15900,6 +16208,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 182.88 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 182.88 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "895f9d79-1cba-472b-9638-999f0b56b725")
 		)
@@ -15994,6 +16324,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 339.09 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 339.09 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 339.09 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16107,6 +16459,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 93.98 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 93.98 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d4686742-95c0-4c27-a9e2-ba0e74d428ee")
 		)
@@ -16178,6 +16552,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 297.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 297.18 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 297.18 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16279,6 +16675,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 345.44 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 345.44 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 345.44 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -16393,6 +16811,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 68.58 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 68.58 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5052c6bc-4e94-4bac-85e7-25c6cee773a5")
 		)
@@ -16486,6 +16926,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 191.77 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16668,6 +17130,28 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GJM1555C1H470JB1D"
+			(at 170.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 170.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 170.18 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17328,6 +17812,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 181.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 181.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac4249fa-40f5-4863-a5e2-ce68b1403cf3")
 		)
@@ -17664,6 +18170,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 207.01 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 207.01 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "40045a5e-7056-4225-a14d-7d1cc3b5e7cc")
 		)
@@ -17768,6 +18296,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 91.44 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 91.44 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fdf0079f-590b-4fdd-a6d0-f3515d0c372b")
 		)
@@ -17851,6 +18401,28 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R72A102KA1D"
+			(at 294.64 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 294.64 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 294.64 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17953,6 +18525,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 332.74 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 332.74 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 332.74 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -18124,6 +18718,28 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R72A102KA1D"
+			(at 284.48 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 284.48 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 284.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -18314,6 +18930,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 234.95 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 234.95 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "303d4a9b-417a-4737-b05e-15688c113877")
 		)
@@ -18407,6 +19045,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 151.13 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -18520,6 +19180,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 86.36 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 86.36 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ad46cfe-9872-43d6-9c5a-3647a15c82a0")
 		)
@@ -18602,6 +19284,28 @@
 			)
 		)
 		(property "Mouser Part Number" " 520-TXO20CSMV320EYTR "
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 69.85 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18710,6 +19414,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 207.01 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 207.01 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 207.01 127 90)
 			(hide yes)
 			(show_name no)
@@ -18902,6 +19628,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 151.13 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 151.13 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3ebbd2fb-5935-47fe-8665-3d098bc91509")
 		)
@@ -19084,6 +19832,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 210.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 210.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3b00b968-e3b6-489b-8ba8-4b89c88d22c3")
 		)
@@ -19178,6 +19948,28 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 166.37 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 166.37 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 166.37 157.48 0)
 			(hide yes)
 			(show_name no)
