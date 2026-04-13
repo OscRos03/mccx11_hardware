@@ -1,4 +1,4 @@
-(footprint "ACAG0301-2450-T "
+(footprint "ACAG0301-2450-T"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -9,7 +9,7 @@
 		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c1a3074b-f4a3-4dc3-b83a-99e0fe29844b")
+		(uuid "8f407944-8f84-43d2-8c81-09af62db4656")
 		(effects
 			(font
 				(size 1 1)
@@ -17,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "ACAG0301-2450-T "
+	(property "Value" "ACAG0301-2450-T"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "176bcd21-b7bc-464e-a295-dcc555d88bcd")
+		(uuid "4b820d21-b972-41d8-b756-8dc71c3eb130")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fc83e0c8-c5e9-409d-9cf1-15938c7c68d2")
+		(uuid "ac229227-1e04-4eaa-a615-6025387065e3")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "86cdeea7-3e23-4cb8-9e7f-57bca62cce5b")
+		(uuid "8d5e06d5-2caa-47d2-ad7b-65d6fa206063")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "67fbc854-5035-450b-a5ed-c32c2fd73294")
+		(uuid "08541096-8474-4e7d-89fe-795912d005a6")
 	)
 	(fp_line
 		(start 1 1.25)
@@ -75,7 +75,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f3f43b59-ffc5-4bfe-8a73-0bbac766efcc")
+		(uuid "da9b55ec-d09d-4aeb-af0c-9d54e723b80f")
 	)
 	(fp_line
 		(start 2.5 -1.25)
@@ -85,7 +85,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "98ec63a1-2c61-4323-bd85-6a60bf683f20")
+		(uuid "6159cfbc-1b91-4c4a-853d-a2990a103e37")
 	)
 	(fp_line
 		(start -2.9 4.9)
@@ -95,7 +95,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "b71babaf-80ad-467a-b756-b1d7b6651541")
+		(uuid "04ee3ab8-c01a-4003-b7d8-006dd67f38ab")
 	)
 	(fp_line
 		(start 4.1 -2.5)
@@ -105,7 +105,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "11e1db37-70ec-4428-a796-2c14d0f4dcb3")
+		(uuid "8b8fe238-8863-4211-90a7-3a024d7c35ed")
 	)
 	(fp_rect
 		(start -4.25 -5)
@@ -116,7 +116,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "77ef4239-047b-4876-8ea9-1e8dc56e9d4e")
+		(uuid "edd15858-852e-448c-84ac-eeb744d79438")
 	)
 	(fp_rect
 		(start -2.25 -1)
@@ -127,7 +127,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "a15289b8-0c6c-42c5-a2d0-9c21a8e06ddc")
+		(uuid "a7599d3c-59a3-4775-ab7f-dc0f88b6dde1")
 	)
 	(fp_poly
 		(pts
@@ -139,13 +139,13 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "52ff1b59-4123-4831-8fb4-378a646839cf")
+		(uuid "2e314823-1ac7-486d-ad04-9644fa098126")
 	)
 	(fp_text user "Suggested board edge"
 		(at 0 6.5 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
-		(uuid "622b84cd-c7a3-459f-aa5d-ea77e4a615a5")
+		(uuid "8c2f2d9c-2c2a-4df4-a351-6d8d8b5d8250")
 		(effects
 			(font
 				(size 1 1)
@@ -158,7 +158,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d3315b48-6113-4be7-b385-2c82d161a1ad")
+		(uuid "a210489f-c83a-43cf-8e0a-60726f4106e3")
 		(effects
 			(font
 				(size 1 1)
@@ -170,13 +170,13 @@
 		(at 1.6 0)
 		(size 1 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5f31bc20-83ba-42da-a3cd-a9cbe8da837f")
+		(uuid "c59fd9ee-0f59-4acf-bb6b-985f4c60f262")
 	)
 	(pad "2" smd rect
 		(at -1.6 0)
 		(size 1 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b7f4f850-f815-401e-8501-abf4a283fe11")
+		(uuid "021d1927-9181-42cc-bcd4-ae2d20e7dd73")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -185,7 +185,7 @@
 			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
 			"In29.Cu" "In30.Cu"
 		)
-		(uuid "10f401df-1841-45b8-9603-ae9f15163aa1")
+		(uuid "d19bfca8-d1f6-4fc1-b621-60eff0c57c2a")
 		(name "Antenna Keepout")
 		(hatch full 0.5)
 		(connect_pads
