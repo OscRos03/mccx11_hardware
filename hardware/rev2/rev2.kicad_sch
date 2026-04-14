@@ -2716,6 +2716,16 @@
 		)
 		(uuid "ccc60352-e5a6-4a8e-ae0c-0319b1ca3057")
 	)
+	(text "Keep in mind the power that will flow through these"
+		(exclude_from_sim no)
+		(at 325.374 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f52f9992-02a7-4b84-a222-53095477cc56")
+	)
 	(text "Antenna matching"
 		(exclude_from_sim no)
 		(at 268.605 201.93 0)
@@ -3245,6 +3255,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 123.19) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0f2cf5-491f-446f-ad8c-fcdd7f6e74dc")
+	)
+	(wire
+		(pts
 			(xy 309.88 207.01) (xy 322.58 207.01)
 		)
 		(stroke
@@ -3402,6 +3422,16 @@
 			(type default)
 		)
 		(uuid "735f13ec-5493-40aa-844b-fce96b666c56")
+	)
+	(wire
+		(pts
+			(xy 163.83 120.65) (xy 173.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75171c23-5453-4b26-b473-596d0ac94134")
 	)
 	(wire
 		(pts
@@ -4043,6 +4073,16 @@
 		)
 		(uuid "aa6c1323-b5ea-46e6-a2c7-ad2db427a41a")
 	)
+	(label "RXD{slash}SDA"
+		(at 163.83 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae064c55-0a01-449d-b5c8-45a291d22b7f")
+	)
 	(label "TXD{slash}SCL"
 		(at 173.99 63.5 180)
 		(effects
@@ -4092,6 +4132,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1f47334-cac5-4bfa-a88a-162a7ec31169")
+	)
+	(label "TXD{slash}SCL"
+		(at 163.83 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f360aa36-3f0a-4d1a-b170-aa7f2ca7d712")
 	)
 	(netclass_flag ""
 		(length 1.27)
@@ -7100,7 +7150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_footprints:Antenna_Conn"
 			(at 369.57 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -8711,7 +8761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_footprints:Antenna_Conn"
 			(at 369.57 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9147,7 +9197,7 @@
 		)
 	)
 	(sheet
-		(at 173.99 107.95)
+		(at 173.99 106.68)
 		(size 25.4 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9163,7 +9213,7 @@
 		)
 		(uuid "46484475-7656-401a-9d45-159f5e421427")
 		(property "Sheetname" "Power"
-			(at 173.99 107.2384 0)
+			(at 173.99 105.9684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9174,7 +9224,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 173.99 132.6646 0)
+			(at 173.99 131.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9185,7 +9235,7 @@
 			)
 		)
 		(pin "ALRT" output
-			(at 173.99 116.84 180)
+			(at 173.99 115.57 180)
 			(uuid "2faaa5dc-ea47-4156-a236-d4ebe9263319")
 			(effects
 				(font
@@ -9195,7 +9245,7 @@
 			)
 		)
 		(pin "INT" output
-			(at 173.99 119.38 180)
+			(at 173.99 118.11 180)
 			(uuid "8be07a40-276d-4ef8-a4a8-5ca9a0ec59c8")
 			(effects
 				(font
@@ -9205,7 +9255,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 173.99 121.92 180)
+			(at 173.99 120.65 180)
 			(uuid "8d333a7d-bd90-4670-803b-1210a5c02ff8")
 			(effects
 				(font
@@ -9215,7 +9265,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 173.99 124.46 180)
+			(at 173.99 123.19 180)
 			(uuid "4f88186b-8649-4982-a64b-aa85b704b246")
 			(effects
 				(font

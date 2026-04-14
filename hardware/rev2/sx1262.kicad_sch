@@ -13203,6 +13203,16 @@
 		)
 		(uuid "d8dd9575-ee2f-4785-9c5d-03f9cd0b7dbe")
 	)
+	(label "VR_PA"
+		(at 170.18 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffbb59e7-fc72-426f-a9a9-aa0d462b705e")
+	)
 	(hierarchical_label "Reset"
 		(shape input)
 		(at 67.31 154.94 180)
@@ -13341,7 +13351,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 181.61 111.76 0)
+		(at 238.76 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13349,9 +13359,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6689fa10-9002-46ff-be3d-bf0e2548b888")
-		(property "Net Class" "Power"
-			(at 182.3085 110.49 0)
+		(uuid "40a028ce-b508-43b5-8f10-247d777bb031")
+		(property "Net Class" "50 Ohm"
+			(at 239.4585 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13363,7 +13373,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -20.32 -24.13 0)
+			(at 69.85 -38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

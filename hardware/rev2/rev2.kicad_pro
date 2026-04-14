@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -198,6 +198,7 @@
         0.175,
         0.2,
         0.3,
+        0.515,
         0.6
       ],
       "tuning_pattern_settings": {
@@ -528,12 +529,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "name": "50 Ohm",
         "pcb_color": "rgb(194, 0, 194)",
         "priority": 2,
         "schematic_color": "rgb(0, 132, 132)",
-        "track_width": 0.584,
+        "track_width": 0.515,
         "tuning_profile": ""
       },
       {
@@ -834,6 +835,10 @@
       {
         "netclass": "90 Ohm",
         "pattern": "/D-*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/SX1262/VR_PA"
       }
     ]
   },
@@ -993,7 +998,7 @@
           "show": false
         }
       ],
-      "filter_string": "net",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1057,7 +1062,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "NT1,R27-29,#PWR83",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
