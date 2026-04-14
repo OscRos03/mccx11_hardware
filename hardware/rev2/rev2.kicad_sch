@@ -9184,6 +9184,46 @@
 				(justify left top)
 			)
 		)
+		(pin "ALRT" output
+			(at 173.99 116.84 180)
+			(uuid "2faaa5dc-ea47-4156-a236-d4ebe9263319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" output
+			(at 173.99 119.38 180)
+			(uuid "8be07a40-276d-4ef8-a4a8-5ca9a0ec59c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 173.99 121.92 180)
+			(uuid "8d333a7d-bd90-4670-803b-1210a5c02ff8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 173.99 124.46 180)
+			(uuid "4f88186b-8649-4982-a64b-aa85b704b246")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
