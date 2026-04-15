@@ -9,12 +9,6 @@
 	(constraint text_height (min 1mm))
 	(constraint text_thickness (min 0.1mm))
 )
-(rule Permitted_layers
-	(constraint assertion "A.Layer == 'F.Cu' || A.Layer == 'B.Cu'")
-)
-(rule Allowed_orientation
-	(constraint assertion "A.Orientation == 0 deg || A.Orientation == 90 deg || A.Orientation == 180 deg || A.Orientation == 270 deg")
-)
 (rule Vias_under_SMD
 	(constraint disallow via)
 	(condition "A.Pad_Type == 'SMD'")

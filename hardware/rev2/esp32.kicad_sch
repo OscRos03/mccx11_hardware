@@ -2871,10 +2871,6 @@
 		(uuid "1aaddcd3-9f52-4a6c-b5e4-649d3d48368e")
 	)
 	(no_connect
-		(at 116.84 139.7)
-		(uuid "327c28d5-a915-4e9e-9922-9693536c7bf3")
-	)
-	(no_connect
 		(at 116.84 101.6)
 		(uuid "33118c53-4474-4ff4-a960-ef7b8be8f04f")
 	)
@@ -2943,10 +2939,6 @@
 		(uuid "db3f01ce-204b-44b2-a45b-92eba6fcffb3")
 	)
 	(no_connect
-		(at 116.84 137.16)
-		(uuid "e3879780-b36c-423d-a943-56a9bb53b924")
-	)
-	(no_connect
 		(at 116.84 147.32)
 		(uuid "ec2373e8-d2b3-4240-8432-a4686971f980")
 	)
@@ -2986,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 139.7) (xy 116.84 139.7)
+			(xy 113.03 139.7) (xy 127 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3526,7 +3518,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 137.16) (xy 116.84 137.16)
+			(xy 113.03 137.16) (xy 127 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8608,6 +8600,17 @@
 		)
 		(uuid "0cd1e4af-a344-4d53-be16-d91205de7bc9")
 	)
+	(hierarchical_label "ALRT"
+		(shape input)
+		(at 127 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38854b6a-b01d-4b82-b752-eb9dc06575b3")
+	)
 	(hierarchical_label "RXD{slash}SDA"
 		(shape input)
 		(at 254 69.85 0)
@@ -8717,6 +8720,17 @@
 			(justify left)
 		)
 		(uuid "d527abcf-69c8-49b2-b04b-faa290fd20ee")
+	)
+	(hierarchical_label "INT"
+		(shape input)
+		(at 127 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dedcde47-9e21-4a40-aeb1-9db45dd7fa2f")
 	)
 	(hierarchical_label "Reset"
 		(shape output)

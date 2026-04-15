@@ -3025,6 +3025,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 118.11) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2504178a-a748-42c7-939a-0fb99295b3fa")
+	)
+	(wire
+		(pts
 			(xy 364.49 185.42) (xy 364.49 187.96)
 		)
 		(stroke
@@ -3662,6 +3672,16 @@
 			(type default)
 		)
 		(uuid "b9794815-cc4a-47b6-bbed-0bf45a03e794")
+	)
+	(wire
+		(pts
+			(xy 160.02 115.57) (xy 173.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee36411-444c-4943-b3a1-a00f3d6c72ac")
 	)
 	(wire
 		(pts
@@ -5325,7 +5345,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "uFL"
 			(at 116.205 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7742,7 +7762,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "uFL"
 			(at 290.195 215.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9191,6 +9211,26 @@
 		(pin "TXD{slash}SCL" output
 			(at 160.02 63.5 0)
 			(uuid "6a808836-c347-449d-82d6-b7909ba09670")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALRT" input
+			(at 160.02 115.57 0)
+			(uuid "ef50429f-ca95-4a31-810b-be8e82adf3fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" input
+			(at 160.02 118.11 0)
+			(uuid "4de3760c-aabd-4d55-8707-2abd7ea0b4e9")
 			(effects
 				(font
 					(size 1.27 1.27)

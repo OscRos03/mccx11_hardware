@@ -578,6 +578,680 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "MAX17055ETB+"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 20.32 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MAX17055ETB+"
+			(at 20.32 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "21-100013A_T102A2+1C_MXM"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "MAX17055ETB+"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "MAX17055ETB+"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "21-100013A_T102A2+1C_MXM 21-100013A_T102A2+1C_MXM-M 21-100013A_T102A2+1C_MXM-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MAX17055ETB+_0_1"
+			(polyline
+				(pts
+					(xy 7.62 7.62) (xy 7.62 -33.02)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -33.02) (xy 33.02 -33.02)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 7.62) (xy 7.62 7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 -33.02) (xy 33.02 7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin no_connect line
+				(at 0 -27.94 0)
+				(length 7.62)
+				(name "N.C."
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 7.62)
+				(name "AIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -17.78 0)
+				(length 7.62)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -20.32 0)
+				(length 7.62)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "CSN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "CSP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -15.24 0)
+				(length 7.62)
+				(name "REG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "ALRT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -22.86 0)
+				(length 7.62)
+				(name "THRM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "BATT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -12.7 0)
+				(length 7.62)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MP2664GG-xxxx-P"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 20.32 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MP2664GG-xxxx-P"
+			(at 20.32 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "QFN-2x2_MP2664_MNP"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2664"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "MP2664GG-xxxx-P"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "QFN-2x2_MP2664_MNP"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MP2664GG-xxxx-P_0_1"
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -15.24)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -15.24) (xy 33.02 -15.24)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 -15.24) (xy 33.02 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 7.62)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "NTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "INT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -10.16 180)
+				(length 7.62)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -7.62 180)
+				(length 7.62)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -5.08 180)
+				(length 7.62)
+				(name "BATT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "BATT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 0 180)
+				(length 7.62)
+				(name "SYS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "PE4259"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1813,6 +2487,424 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TPS63805YFFR"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS63805YFFR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "YFF0015AHAN"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps63805"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TPS63805YFFR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "YFF0015AHAN"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS63805YFFR_0_1"
+			(polyline
+				(pts
+					(xy -12.7 20.32) (xy -12.7 -20.32)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -20.32) (xy 12.7 -20.32)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 20.32) (xy -12.7 20.32)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -20.32) (xy 12.7 20.32)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -7.62 0)
+				(length 5.08)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 15.24 0)
+				(length 5.08)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -12.7 180)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -15.24 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -17.78 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 15.24 180)
+				(length 5.08)
+				(name "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 12.7 180)
+				(length 5.08)
+				(name "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 17.78 -7.62 180)
+				(length 5.08)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 7.62 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TXO-20CSMV-320"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1913,6 +3005,25 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 10.16 0 180)
 				(length 2.54)
@@ -1942,25 +3053,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -10.16 90)
-				(length 2.54)
-				(hide yes)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2410,320 +3502,5 @@
 			)
 		)
 		(embedded_fonts no)
-	)
-	(symbol "MP2664GG-xxxx-P" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-		(property "Reference" "U" (id 0) (at 20.32 10.16 0)
-		(effects (font (size 1.524 1.524)))
-		)
-		(property "Value" "MP2664GG-xxxx-P" (id 1) (at 20.32 7.62 0)
-		(effects (font (size 1.524 1.524)))
-		)
-		(property "Footprint" "QFN-2x2_MP2664_MNP" (id 2) (at 0 0 0)
-		(effects (font (size 1.27 1.27) italic) hide)
-		)
-		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2664" (id 3) (at 0 0 0)
-		(effects (font (size 1.27 1.27) italic) hide)
-		)
-		(property "ki_keywords" "MP2664GG-xxxx-P" (id 4) (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(property "ki_locked" "" (id 5) (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(property "ki_fp_filters" "QFN-2x2_MP2664_MNP" (id 6) (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(symbol "MP2664GG-xxxx-P_0_1"
-		(polyline
-			(pts
-			(xy 7.62 5.08)
-			(xy 7.62 -15.24)
-			)
-			(stroke (width 0.127) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(polyline
-			(pts
-			(xy 7.62 -15.24)
-			(xy 33.02 -15.24)
-			)
-			(stroke (width 0.127) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(polyline
-			(pts
-			(xy 33.02 -15.24)
-			(xy 33.02 5.08)
-			)
-			(stroke (width 0.127) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(polyline
-			(pts
-			(xy 33.02 5.08)
-			(xy 7.62 5.08)
-			)
-			(stroke (width 0.127) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(pin power_in line (at 0 0 0) (length 7.62)
-			(name "IN" (effects (font (size 1.27 1.27))))
-			(number "1" (effects (font (size 1.27 1.27))))
-		)
-		(pin input line (at 0 -2.54 0) (length 7.62)
-			(name "NTC" (effects (font (size 1.27 1.27))))
-			(number "2" (effects (font (size 1.27 1.27))))
-		)
-		(pin output line (at 0 -5.08 0) (length 7.62)
-			(name "INT" (effects (font (size 1.27 1.27))))
-			(number "3" (effects (font (size 1.27 1.27))))
-		)
-		(pin input line (at 0 -7.62 0) (length 7.62)
-			(name "VDD" (effects (font (size 1.27 1.27))))
-			(number "4" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 0 -10.16 0) (length 7.62)
-			(name "GND" (effects (font (size 1.27 1.27))))
-			(number "5" (effects (font (size 1.27 1.27))))
-		)
-		(pin bidirectional line (at 40.64 -10.16 180) (length 7.62)
-			(name "SCL" (effects (font (size 1.27 1.27))))
-			(number "6" (effects (font (size 1.27 1.27))))
-		)
-		(pin bidirectional line (at 40.64 -7.62 180) (length 7.62)
-			(name "SDA" (effects (font (size 1.27 1.27))))
-			(number "7" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 40.64 -5.08 180) (length 7.62)
-			(name "BATT" (effects (font (size 1.27 1.27))))
-			(number "8" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 40.64 -2.54 180) (length 7.62)
-			(name "BATT" (effects (font (size 1.27 1.27))))
-			(number "9" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 40.64 0 180) (length 7.62)
-			(name "SYS" (effects (font (size 1.27 1.27))))
-			(number "10" (effects (font (size 1.27 1.27))))
-		)
-		)
-	)
-	(symbol "TPS63805YFFR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-		(property "Reference" "U" (id 0) (at 0 2.54 0)
-		(effects (font (size 1.524 1.524)))
-		)
-		(property "Value" "TPS63805YFFR" (id 1) (at 0 0 0)
-		(effects (font (size 1.524 1.524)))
-		)
-		(property "Footprint" "YFF0015AHAN" (id 2) (at 0 0 0)
-		(effects (font (size 1.27 1.27) italic) hide)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps63805" (id 3) (at 0 0 0)
-		(effects (font (size 1.27 1.27) italic) hide)
-		)
-		(property "ki_keywords" "TPS63805YFFR" (id 4) (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(property "ki_locked" "" (id 5) (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(property "ki_fp_filters" "YFF0015AHAN" (id 6) (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(symbol "TPS63805YFFR_0_1"
-		(polyline
-			(pts
-			(xy -12.7 -20.32)
-			(xy 12.7 -20.32)
-			)
-			(stroke (width 0.2032) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(polyline
-			(pts
-			(xy 12.7 -20.32)
-			(xy 12.7 20.32)
-			)
-			(stroke (width 0.2032) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(polyline
-			(pts
-			(xy 12.7 20.32)
-			(xy -12.7 20.32)
-			)
-			(stroke (width 0.2032) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(polyline
-			(pts
-			(xy -12.7 20.32)
-			(xy -12.7 -20.32)
-			)
-			(stroke (width 0.2032) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(pin input line (at -17.78 -2.54 0) (length 5.08)
-			(name "EN" (effects (font (size 1.27 1.27))))
-			(number "A1" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at -17.78 7.62 0) (length 5.08)
-			(name "VIN" (effects (font (size 1.27 1.27))))
-			(number "A2" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at -17.78 5.08 0) (length 5.08)
-			(name "VIN" (effects (font (size 1.27 1.27))))
-			(number "A3" (effects (font (size 1.27 1.27))))
-		)
-		(pin input line (at -17.78 -7.62 0) (length 5.08)
-			(name "MODE" (effects (font (size 1.27 1.27))))
-			(number "B1" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at -17.78 15.24 0) (length 5.08)
-			(name "L1" (effects (font (size 1.27 1.27))))
-			(number "B2" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at -17.78 12.7 0) (length 5.08)
-			(name "L1" (effects (font (size 1.27 1.27))))
-			(number "B3" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 17.78 -12.7 180) (length 5.08)
-			(name "AGND" (effects (font (size 1.27 1.27))))
-			(number "C1" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 17.78 -15.24 180) (length 5.08)
-			(name "GND" (effects (font (size 1.27 1.27))))
-			(number "C2" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 17.78 -17.78 180) (length 5.08)
-			(name "GND" (effects (font (size 1.27 1.27))))
-			(number "C3" (effects (font (size 1.27 1.27))))
-		)
-		(pin input line (at 17.78 -2.54 180) (length 5.08)
-			(name "FB" (effects (font (size 1.27 1.27))))
-			(number "D1" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 17.78 15.24 180) (length 5.08)
-			(name "L2" (effects (font (size 1.27 1.27))))
-			(number "D2" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 17.78 12.7 180) (length 5.08)
-			(name "L2" (effects (font (size 1.27 1.27))))
-			(number "D3" (effects (font (size 1.27 1.27))))
-		)
-		(pin open_collector line (at 17.78 -7.62 180) (length 5.08)
-			(name "PG" (effects (font (size 1.27 1.27))))
-			(number "E1" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 17.78 7.62 180) (length 5.08)
-			(name "VOUT" (effects (font (size 1.27 1.27))))
-			(number "E2" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 17.78 5.08 180) (length 5.08)
-			(name "VOUT" (effects (font (size 1.27 1.27))))
-			(number "E3" (effects (font (size 1.27 1.27))))
-		)
-		)
-	)
-	(symbol "MAX17055ETB+" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-		(property "Reference" "U" (id 0) (at 20.32 12.7 0)
-		(effects (font (size 1.524 1.524)))
-		)
-		(property "Value" "MAX17055ETB+" (id 1) (at 20.32 10.16 0)
-		(effects (font (size 1.524 1.524)))
-		)
-		(property "Footprint" "21-100013A_T102A2+1C_MXM" (id 2) (at 0 0 0)
-		(effects (font (size 1.27 1.27) italic) hide)
-		)
-		(property "Datasheet" "MAX17055ETB+" (id 3) (at 0 0 0)
-		(effects (font (size 1.27 1.27) italic) hide)
-		)
-		(property "ki_keywords" "MAX17055ETB+" (id 4) (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(property "ki_locked" "" (id 5) (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(property "ki_fp_filters" "21-100013A_T102A2+1C_MXM 21-100013A_T102A2+1C_MXM-M 21-100013A_T102A2+1C_MXM-L" (id 6) (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(symbol "MAX17055ETB+_0_1"
-		(polyline
-			(pts
-			(xy 7.62 7.62)
-			(xy 7.62 -33.02)
-			)
-			(stroke (width 0.127) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(polyline
-			(pts
-			(xy 7.62 -33.02)
-			(xy 33.02 -33.02)
-			)
-			(stroke (width 0.127) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(polyline
-			(pts
-			(xy 33.02 -33.02)
-			(xy 33.02 7.62)
-			)
-			(stroke (width 0.127) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(polyline
-			(pts
-			(xy 33.02 7.62)
-			(xy 7.62 7.62)
-			)
-			(stroke (width 0.127) (type default) (color 0 0 0 0))
-			(fill (type none))
-		)
-		(pin no_connect line (at 0 -27.94 0) (length 7.62)
-			(name "N.C." (effects (font (size 1.27 1.27))))
-			(number "1" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 0 0) (length 7.62)
-			(name "AIN" (effects (font (size 1.27 1.27))))
-			(number "2" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 -17.78 0) (length 7.62)
-			(name "SCL" (effects (font (size 1.27 1.27))))
-			(number "3" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 -20.32 0) (length 7.62)
-			(name "SDA" (effects (font (size 1.27 1.27))))
-			(number "4" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 -7.62 0) (length 7.62)
-			(name "CSN" (effects (font (size 1.27 1.27))))
-			(number "5" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 -10.16 0) (length 7.62)
-			(name "CSP" (effects (font (size 1.27 1.27))))
-			(number "6" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 -15.24 0) (length 7.62)
-			(name "REG" (effects (font (size 1.27 1.27))))
-			(number "7" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 -2.54 0) (length 7.62)
-			(name "ALRT" (effects (font (size 1.27 1.27))))
-			(number "8" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 -22.86 0) (length 7.62)
-			(name "THRM" (effects (font (size 1.27 1.27))))
-			(number "9" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 -5.08 0) (length 7.62)
-			(name "BATT" (effects (font (size 1.27 1.27))))
-			(number "10" (effects (font (size 1.27 1.27))))
-		)
-		(pin unspecified line (at 0 -12.7 0) (length 7.62)
-			(name "EPAD" (effects (font (size 1.27 1.27))))
-			(number "11" (effects (font (size 1.27 1.27))))
-		)
-		)
 	)
 )
