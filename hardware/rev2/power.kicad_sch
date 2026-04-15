@@ -5616,14 +5616,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 240.03 69.85 0)
+		(property "Value" "+3V3"
+			(at 242.57 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

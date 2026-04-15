@@ -2706,6 +2706,16 @@
 		)
 		(uuid "b3f23841-d170-4d97-9bc9-32a065610f81")
 	)
+	(text "Interrupt pins"
+		(exclude_from_sim no)
+		(at 189.23 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8de56b0-424d-410b-a766-b4a2852f6306")
+	)
 	(text "Antenna matching"
 		(exclude_from_sim no)
 		(at 86.995 17.78 0)
@@ -3933,7 +3943,7 @@
 		)
 		(uuid "09a4a39e-2436-48dd-9508-12dc69208ed2")
 	)
-	(label "D-*"
+	(label "*D-"
 		(at 62.23 72.39 0)
 		(effects
 			(font
@@ -3963,7 +3973,7 @@
 		)
 		(uuid "3bfc9588-0662-4996-886a-ab54b01c2632")
 	)
-	(label "D+*"
+	(label "*D+"
 		(at 62.23 74.93 0)
 		(effects
 			(font
@@ -9002,7 +9012,7 @@
 	)
 	(sheet
 		(at 138.43 54.61)
-		(size 21.59 69.85)
+		(size 21.59 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9028,7 +9038,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 138.43 125.0446 0)
+			(at 138.43 131.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
