@@ -2794,13 +2794,7 @@
 		(at 257.81 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "76cbb742-d0c0-46ec-bd0f-cc43cbb88a0d")
-	)
-	(junction
-		(at 207.01 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81bdd943-bc18-4173-b21e-fd30b17029ce")
+		(uuid "7459a09c-4ffb-4f61-b2d0-5f87945cd5f2")
 	)
 	(junction
 		(at 245.11 142.24)
@@ -2893,6 +2887,10 @@
 	(no_connect
 		(at 63.5 104.14)
 		(uuid "71b9abfd-af98-40fc-bdb6-1aa11dd27b24")
+	)
+	(no_connect
+		(at 63.5 124.46)
+		(uuid "73734f2d-7683-4846-8ff1-7f56b1746fdd")
 	)
 	(no_connect
 		(at 63.5 157.48)
@@ -3048,13 +3046,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 142.24) (xy 257.81 142.24)
+			(xy 257.81 142.24) (xy 270.51 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1682fcd2-e68e-4a26-8b24-302a30d3a35b")
+		(uuid "16a6a181-d4ae-4659-bec6-a474cc9d6808")
 	)
 	(wire
 		(pts
@@ -3198,6 +3196,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 144.78) (xy 257.81 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400f0f7c-4e1f-47a5-9ec3-d2a7e5ff9512")
+	)
+	(wire
+		(pts
 			(xy 113.03 157.48) (xy 127 157.48)
 		)
 		(stroke
@@ -3218,16 +3226,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 152.4) (xy 207.01 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "476cd928-a179-4a73-b964-6bb4c791ea7c")
-	)
-	(wire
-		(pts
 			(xy 245.11 50.8) (xy 251.46 50.8)
 		)
 		(stroke
@@ -3238,16 +3236,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 152.4) (xy 257.81 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1b3d07-b8e8-4b0b-9269-b43c2349c0f6")
-	)
-	(wire
-		(pts
 			(xy 57.15 162.56) (xy 57.15 175.26)
 		)
 		(stroke
@@ -3255,6 +3243,16 @@
 			(type default)
 		)
 		(uuid "4ee7ae11-313d-4198-a96f-a4a925fff6b9")
+	)
+	(wire
+		(pts
+			(xy 63.5 124.46) (xy 67.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512a2c38-d28d-4798-b28f-75aedbaad171")
 	)
 	(wire
 		(pts
@@ -3408,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 142.24) (xy 219.71 142.24)
+			(xy 194.31 142.24) (xy 219.71 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3588,16 +3586,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 146.05) (xy 207.01 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c17a59c-84f1-4042-a009-fd4a9179cabd")
-	)
-	(wire
-		(pts
 			(xy 107.95 73.66) (xy 120.65 73.66)
 		)
 		(stroke
@@ -3628,6 +3616,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 154.94) (xy 257.81 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926bbe1f-c37f-4cb1-ae86-1b567c81090f")
+	)
+	(wire
+		(pts
 			(xy 63.5 154.94) (xy 67.31 154.94)
 		)
 		(stroke
@@ -3655,16 +3653,6 @@
 			(type default)
 		)
 		(uuid "981857a2-8ebd-4208-88fe-17baa5733881")
-	)
-	(wire
-		(pts
-			(xy 49.53 124.46) (xy 67.31 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e5ea26-8fe5-4c2a-93f0-448c393133c1")
 	)
 	(wire
 		(pts
@@ -3788,6 +3776,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 154.94) (xy 257.81 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53051de-e407-4afd-96ff-fdd21eb872c5")
+	)
+	(wire
+		(pts
 			(xy 113.03 124.46) (xy 116.84 124.46)
 		)
 		(stroke
@@ -3908,6 +3906,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 154.94) (xy 265.43 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63a019c-dfce-44fd-bfed-c5a6b9b3ac94")
+	)
+	(wire
+		(pts
 			(xy 146.05 160.02) (xy 146.05 157.48)
 		)
 		(stroke
@@ -3925,16 +3933,6 @@
 			(type default)
 		)
 		(uuid "c9046d0e-3466-472c-b631-8364aff91fbd")
-	)
-	(wire
-		(pts
-			(xy 194.31 142.24) (xy 207.01 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c92b8e3e-3600-4198-beee-7f1da61edbeb")
 	)
 	(wire
 		(pts
@@ -3965,16 +3963,6 @@
 			(type default)
 		)
 		(uuid "d0fba499-6925-402d-aa5d-a2e40bdeee00")
-	)
-	(wire
-		(pts
-			(xy 257.81 142.24) (xy 257.81 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d64ff997-a3bd-4d3b-affc-b454525067a9")
 	)
 	(wire
 		(pts
@@ -8666,17 +8654,6 @@
 		)
 		(uuid "82246f8d-7d24-4477-b157-15ace1205633")
 	)
-	(hierarchical_label "RX_EN"
-		(shape output)
-		(at 49.53 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a4c4131-1156-4263-bbbc-b7993e0a26a5")
-	)
 	(hierarchical_label "USB_D+"
 		(shape input)
 		(at 49.53 147.32 180)
@@ -8823,6 +8800,42 @@
 		)
 		(property "Component Class" ""
 			(at -114.3 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 257.81 154.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f64c790-84d1-4e33-8300-2779f60e5c84")
+		(property "Net Class" "50 Ohm"
+			(at 256.54 154.2415 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 88.9 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9671,7 +9684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23ac7cf1-50f9-4eb0-a6ab-e5c0346ed770")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 171.45 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9757,7 +9770,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10045,7 +10058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34a32ec8-2d55-4b20-9827-4b2748b9cea6")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 158.75 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10131,7 +10144,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10236,6 +10249,119 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 262.89 154.94 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3767401e-7abc-4db6-b605-caf88e933c05")
+		(property "Reference" "J6"
+			(at 260.985 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "uFL"
+			(at 265.43 158.115 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_footprints:U.FL_Molex_MCRF_73412-0110_Vertical"
+			(at 262.89 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+			(at 262.89 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 262.89 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+			(at 262.89 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 262.89 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 262.89 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c175dca3-d093-43a7-bf2d-550ae3ee608d")
+		)
+		(pin "2"
+			(uuid "af0d2c6b-9f70-4495-b0ba-4029c987a8c9")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10501,7 +10627,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
 			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10729,121 +10855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 207.01 148.59 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43684f80-cfd3-44ad-a31f-442ea9198d16")
-		(property "Reference" "J6"
-			(at 204.47 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMA"
-			(at 205.74 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 207.01 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/1507/1/RFPC-SMA28-F.pdf"
-			(at 207.01 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 207.01 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "640-RFPCSMA28F"
-			(at 207.01 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 207.01 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 207.01 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4c96df3-c552-4f12-a56f-e92f1cbeab95")
-		)
-		(pin "2"
-			(uuid "47063938-1635-43e6-bbef-672a556cd945")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 44.45 160.02 90)
 		(unit 1)
@@ -10956,7 +10967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "496a4afe-8d04-44c3-816b-8c52252adcf6")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 144.78 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11042,7 +11053,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11271,7 +11282,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
 			(at 107.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +11779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "750ce554-e903-44a3-ae7e-bbd097e1d1d8")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 245.11 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11779,7 +11790,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0 R"
 			(at 245.11 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11801,7 +11812,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 241.3 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11845,6 +11856,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
+			(at 241.3 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5bd80827-f0cc-4c5d-ab40-8f485560a68c")
 		)
@@ -11854,7 +11876,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12610,7 +12632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97874e56-2053-4444-8c60-ca71122fd4ec")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 245.11 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12621,7 +12643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0 R"
 			(at 245.11 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12643,7 +12665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 241.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12687,6 +12709,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
+			(at 241.3 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3efe7cbf-ffb6-46af-9c50-ca7cf27183d8")
 		)
@@ -12696,7 +12729,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13223,6 +13256,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad82b775-977a-4ce0-84ab-16de15e07859")
+		(property "Reference" "#PWR046"
+			(at 273.05 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.145 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a99d2b3d-2194-43c6-844b-3b37297ebf10")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 241.3 57.15 90)
 		(unit 1)
@@ -13233,7 +13344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae1a8304-448c-4c8f-91de-dcbc33ab07f5")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 245.11 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13244,7 +13355,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0 R"
 			(at 245.11 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13266,7 +13377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 241.3 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13310,6 +13421,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
+			(at 241.3 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "433a09eb-affe-4e34-8432-a935ddd891bb")
 		)
@@ -13319,7 +13441,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13392,7 +13514,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
 			(at 69.85 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13435,6 +13557,96 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 257.81 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b239ad4a-5167-4a03-a995-2df079aeff16")
+		(property "Reference" "R19"
+			(at 260.858 145.796 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 R"
+			(at 260.604 151.638 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 256.032 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 257.81 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 257.81 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW04020000Z0EDC "
+			(at 257.81 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a09a590e-4737-4dc5-b568-535e87cb7064")
+		)
+		(pin "2"
+			(uuid "599252f6-8112-4f71-9252-313c227bf46d")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13530,7 +13742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b921613d-bbb1-40d3-b5bf-739cd5f9a3db")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 245.11 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13541,7 +13753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0 R"
 			(at 245.11 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13563,7 +13775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 241.3 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13607,6 +13819,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
+			(at 241.3 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e77eaa9e-b4cb-4c76-b87a-97310226d3b0")
 		)
@@ -13616,7 +13839,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13633,7 +13856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf1512fb-c47b-4e62-9666-d30beff9a2cf")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 184.15 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13719,7 +13942,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13738,7 +13961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c015e65e-43cf-414b-9c6a-56153aa4d3b1")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 245.11 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13798,7 +14021,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -14074,7 +14297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cea3a5af-8a12-4d46-8b0d-616ed256ae96")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 245.11 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14160,7 +14383,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -14178,7 +14401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf0e9cb0-12bd-44f8-99d9-65bfba31486a")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 245.11 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14189,7 +14412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0 R"
 			(at 245.11 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14211,7 +14434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 241.3 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14255,6 +14478,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
+			(at 241.3 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "00dba5e2-f6b8-456c-889a-b59219708ad5")
 		)
@@ -14264,7 +14498,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14283,7 +14517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d349d9b9-a876-43fa-a04d-3746a8780e22")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 219.71 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -14343,7 +14577,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -14360,7 +14594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da0b6664-8fe8-4098-aed5-ec525fcfe517")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 245.11 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14446,7 +14680,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14634,121 +14868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 257.81 148.59 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dd56be18-ca61-42c2-b745-26d44f0a524f")
-		(property "Reference" "J7"
-			(at 262.89 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMA"
-			(at 264.16 149.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 257.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/1507/1/RFPC-SMA28-F.pdf"
-			(at 257.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 257.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "640-RFPCSMA28F"
-			(at 257.81 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 257.81 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 257.81 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7ec79be-71f9-4d0f-8d89-c183ed662f78")
-		)
-		(pin "2"
-			(uuid "ac720342-0058-484c-bd8d-602bbd890c71")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 54.61 0)
 		(mirror y)
@@ -14815,7 +14934,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
 			(at 107.95 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14875,7 +14994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfb76470-23a9-4ecd-aef0-425bac87b741")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 245.11 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14886,7 +15005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0 R"
 			(at 245.11 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14908,7 +15027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 241.3 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14952,6 +15071,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
+			(at 241.3 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "42520a57-a895-4545-9909-c9bc7905219c")
 		)
@@ -14961,86 +15091,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 207.01 152.4 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1bba8c7-0b20-42bc-a67d-fdb54f0ffef2")
-		(property "Reference" "#PWR044"
-			(at 207.01 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "286cba5e-f4f7-40e8-8726-a097d8731f6d")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "#PWR044")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15382,7 +15433,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
 			(at 69.85 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15607,85 +15658,6 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 152.4 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc5e83f1-abe1-4a01-b78c-5168cb7dc6b1")
-		(property "Reference" "#PWR047"
-			(at 257.81 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e467d14d-5f53-45d8-ab8b-ac57cdd66b63")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)

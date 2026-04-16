@@ -2204,16 +2204,6 @@
 		)
 		(uuid "a805ecd7-9d8f-4a68-be74-9ea74bbd37f0")
 	)
-	(text "313 Ohm @ 433MHz"
-		(exclude_from_sim no)
-		(at 188.595 104.775 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d416a610-d306-47ee-a137-6d6b33c06624")
-	)
 	(text "LNA Matching (Balun?)"
 		(exclude_from_sim no)
 		(at 181.102 182.372 0)
@@ -14208,7 +14198,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GRM155R61C105KA2D "
+		(property "Mouser Part Number" "81-GRM155R61C105KA2D "
 			(at 104.14 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14268,7 +14258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052456f1-a2aa-400b-bac3-fc90dd966fba")
-		(property "Reference" "R19"
+		(property "Reference" "R22"
 			(at 279.4 106.045 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14363,7 +14353,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "R19")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -14572,7 +14562,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GRM155R71H104KE4D "
+		(property "Mouser Part Number" "81-GRM155R71H104KE4D "
 			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14824,7 +14814,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GRM155R71H104KE4D "
+		(property "Mouser Part Number" "81-GRM155R71H104KE4D "
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14884,7 +14874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b190ef8-2bf0-4ab4-9c18-26f3c26046b7")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR064"
 			(at 283.21 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14944,7 +14934,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR065")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -14962,7 +14952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bd9c03d-b731-4d0e-9ce8-f3f3c08357ee")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 55.88 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15022,7 +15012,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -15166,7 +15156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "238e9bff-a9c8-4d1f-806a-70d845bbbdb0")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 210.82 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15226,7 +15216,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -15244,7 +15234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24c61309-2ec5-42ec-a1a1-b84b73218ee4")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 104.14 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15304,7 +15294,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15448,7 +15438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2892aebe-4d8a-460c-a45f-ce7dbe64150f")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR070"
 			(at 351.79 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15508,7 +15498,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR071")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -15526,7 +15516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a6fd93e-8d03-4311-8506-9bb30ed8ec4b")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 151.13 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15586,7 +15576,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -15657,7 +15647,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-BLM15PG100SN1D "
+		(property "Mouser Part Number" "81-BLM15PG100SN1D "
 			(at 46.99 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -15853,7 +15843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "318c788b-db0e-44a0-b72f-b153ef9f2025")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 120.65 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15913,7 +15903,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15931,7 +15921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37749349-9a07-49aa-bdc3-357651386f3a")
-		(property "Reference" "R20"
+		(property "Reference" "R23"
 			(at 289.56 150.495 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16026,7 +16016,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "R20")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -16044,7 +16034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38401095-c91d-416f-a257-f7e638814377")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 181.61 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16104,7 +16094,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -16735,7 +16725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ab2462d-f30d-4f81-82bf-90e888532752")
-		(property "Reference" "R18"
+		(property "Reference" "R21"
 			(at 93.98 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16799,7 +16789,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 71-CRCW04020000Z0EDC "
+		(property "Mouser Part Number" "71-CRCW04020000Z0EDC "
 			(at 93.98 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -16841,7 +16831,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "R18")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -16859,7 +16849,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b7295ba-00e9-4ba2-90ae-65f05aca6f9a")
-		(property "Reference" "R21"
+		(property "Reference" "R24"
 			(at 307.34 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16945,7 +16935,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "R21")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -17087,7 +17077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "561f633a-3291-4eb6-8775-c6caeddfbad9")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 66.04 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17195,7 +17185,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -17338,7 +17328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6996f3-4bb9-4a01-bce4-6b7e37392dce")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR063"
 			(at 246.38 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17398,7 +17388,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -17542,7 +17532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65f309ad-7f48-4f94-a877-af9c255e2503")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 68.58 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17602,7 +17592,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17620,7 +17610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "682de5ea-0e68-48a2-bbc2-e6f52045b9b8")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 69.85 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17680,7 +17670,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -17698,7 +17688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "778d74bd-b3a9-416e-b971-9ec33022a039")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR068"
 			(at 309.88 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -17758,7 +17748,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR069")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -17776,7 +17766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79dd52ba-d428-4267-a8e1-90be99a9ad93")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR065"
 			(at 290.83 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17836,7 +17826,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR066")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -17854,7 +17844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bc24dc8-80c6-455d-a83a-733e0d00f6d7")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 125.73 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -17914,7 +17904,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -17932,7 +17922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e468d46-9935-4d96-9c5e-e22d49502a95")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR067"
 			(at 302.26 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -17992,7 +17982,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR068")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -18010,7 +18000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa37cb0-a12a-43fd-bab0-2d9e9e70cbea")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 166.37 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -18070,7 +18060,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -18214,7 +18204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a320d87-43cf-4f3d-84ac-15042252e9b9")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR055"
 			(at 138.43 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -18274,7 +18264,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR056")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -18292,7 +18282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93bd26ee-6d7e-4ab0-80a5-0308fa35e63b")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR069"
 			(at 339.09 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18352,7 +18342,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR070")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -18370,7 +18360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9834c7fd-15ed-4133-b3d4-0ea8ae2db8f9")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 182.88 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -18430,7 +18420,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -18937,7 +18927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbe5e165-9668-4217-b08a-1d841707bb98")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18997,7 +18987,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -19130,7 +19120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c35407c6-34e8-45a4-8c3c-a1e85b242ce8")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 151.13 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -19190,7 +19180,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -19582,7 +19572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf1c2ca0-0ba7-498a-885a-f0954b949e45")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR066"
 			(at 294.64 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -19642,7 +19632,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR067")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -19714,7 +19704,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 520-TXO20CSMV320EYTR "
+		(property "Mouser Part Number" "520-TXO20CSMV320EYTR "
 			(at 69.85 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19904,7 +19894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e24ccbc5-e7ff-4a0c-a222-74e15eaa7f58")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 91.44 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -19964,7 +19954,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -20048,7 +20038,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 81-GRM155R71A474KE1D "
+		(property "Mouser Part Number" "81-GRM155R71A474KE1D "
 			(at 151.13 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -20108,7 +20098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaded941-4df7-4c8b-bd80-2bbb8bddc289")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 115.57 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20168,7 +20158,7 @@
 		(instances
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/982a2a6d-305d-4a8c-9ac0-954c9fd1755f"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)

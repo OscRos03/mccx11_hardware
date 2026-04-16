@@ -2654,16 +2654,6 @@
 		)
 		(uuid "0545e0eb-b178-428b-b9e5-ebd44a0efc06")
 	)
-	(text "Aim for ~500 Ohm Impedance (Remember parallell and series stuff)"
-		(exclude_from_sim no)
-		(at 350.52 243.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "11ad950b-2468-4808-8385-0efdc592240d")
-	)
 	(text "Ribbon cable goes here -->"
 		(exclude_from_sim no)
 		(at 386.08 171.45 0)
@@ -2673,6 +2663,17 @@
 			)
 		)
 		(uuid "1670ccdf-16cd-470c-8be9-a8c779f804b4")
+	)
+	(text "RF Series impedance >= 500 Ohm\nRF Parallel impedance Low\n\nDC Series impedance Low Ohm\nDC Parallel impedance >= 500 Ohm"
+		(exclude_from_sim no)
+		(at 361.95 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21160832-1484-49b0-bdcb-0f531f82c11c")
 	)
 	(text "USB Connection"
 		(exclude_from_sim no)
@@ -2695,6 +2696,28 @@
 			(justify left)
 		)
 		(uuid "55cb987c-bcd6-4eb2-b22b-76e400faecc5")
+	)
+	(text "6 L Parallel\n3 C Series"
+		(exclude_from_sim no)
+		(at 342.9 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5931bb25-3bb7-4801-a2f8-879856e861d6")
+	)
+	(text "f_RF = 433 MHz\nf_DC = ?? MHz (Gissa 10)"
+		(exclude_from_sim no)
+		(at 317.5 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae598b6d-9b20-469f-bc4f-672f62344107")
 	)
 	(text "Look into filter design"
 		(exclude_from_sim no)
@@ -2726,9 +2749,30 @@
 		)
 		(uuid "ccc60352-e5a6-4a8e-ae0c-0319b1ca3057")
 	)
-	(text "Keep in mind the power that will flow through these"
+	(text "Same as L14?"
 		(exclude_from_sim no)
-		(at 325.374 160.528 0)
+		(at 329.692 235.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd93ff8c-e6a9-4b2a-9ef1-f45ea7db93db")
+	)
+	(text "Z = 1/wC\nZ = wL"
+		(exclude_from_sim no)
+		(at 317.5 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eec910eb-f38d-44f8-8f8d-bf76f6a55ed3")
+	)
+	(text "Must allow >100mA"
+		(exclude_from_sim no)
+		(at 330.454 160.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3005,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 220.98) (xy 287.02 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea58d62-5a31-4d9f-872b-17eb80ad6a6a")
+	)
+	(wire
+		(pts
 			(xy 364.49 190.5) (xy 364.49 193.04)
 		)
 		(stroke
@@ -3012,16 +3066,6 @@
 			(type default)
 		)
 		(uuid "1ecfa10e-07f0-4c85-945b-26668784f2f5")
-	)
-	(wire
-		(pts
-			(xy 287.02 217.17) (xy 287.02 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fa505c8-23a0-44d6-9b21-6c3a5feb7b25")
 	)
 	(wire
 		(pts
@@ -3062,6 +3106,16 @@
 			(type default)
 		)
 		(uuid "2761d594-f6cf-4a34-baaf-825d2310c5c1")
+	)
+	(wire
+		(pts
+			(xy 287.02 227.33) (xy 287.02 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6a7583-48f8-4d5d-88d0-bf96c62d2fff")
 	)
 	(wire
 		(pts
@@ -3132,16 +3186,6 @@
 			(type default)
 		)
 		(uuid "36731a0d-661f-411f-a987-dd05ccaa0e8f")
-	)
-	(wire
-		(pts
-			(xy 160.02 96.52) (xy 173.99 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37512bd3-9280-489f-9169-2f7aa36c1b1e")
 	)
 	(wire
 		(pts
@@ -3635,6 +3679,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 34.29) (xy 123.19 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4661caf-a654-4024-af3b-ecc3989b3fea")
+	)
+	(wire
+		(pts
 			(xy 276.86 209.55) (xy 287.02 209.55)
 		)
 		(stroke
@@ -3805,6 +3859,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 34.29) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e881fe3e-35d9-421e-bffa-ee74635fc7b6")
+	)
+	(wire
+		(pts
 			(xy 129.54 59.69) (xy 138.43 59.69)
 		)
 		(stroke
@@ -3945,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 27.94) (xy 114.3 25.4)
+			(xy 114.3 25.4) (xy 114.3 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4246,6 +4310,42 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
+		(at 287.02 219.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "510c4c1c-e03b-4eb7-b785-3b667ff00472")
+		(property "Net Class" "50 Ohm"
+			(at 285.75 219.0115 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 118.11 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
 		(at 93.98 25.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4305,6 +4405,42 @@
 		)
 		(property "Component Class" ""
 			(at 22.86 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 124.46 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e00c547-2a19-4f17-bc57-c31b732b78b3")
+		(property "Net Class" "50 Ohm"
+			(at 125.1585 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -44.45 -128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4440,7 +4576,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0 R"
 			(at 59.69 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 54.61 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4495,6 +4631,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 54.61 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
 			(at 54.61 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -4647,7 +4794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DC-Block"
+		(property "Value" "100 pF"
 			(at 336.55 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +4898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DC-Block"
+		(property "Value" "100 pF"
 			(at 336.55 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4932,7 +5079,7 @@
 				)
 			)
 		)
-		(property "Value" "Choke"
+		(property "Value" "1.1 uH ?"
 			(at 326.39 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4987,6 +5134,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 326.39 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "710-744230251 ?"
 			(at 326.39 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -5325,7 +5483,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 114.3 30.48 270)
+		(at 128.27 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5335,29 +5493,29 @@
 		(dnp no)
 		(uuid "48915eee-9657-456a-994d-11b9bbd476be")
 		(property "Reference" "J2"
-			(at 116.205 29.21 90)
+			(at 131.318 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "uFL"
-			(at 116.205 31.75 90)
+			(at 131.318 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 114.3 30.48 0)
+		(property "Footprint" "_footprints:U.FL_Molex_MCRF_73412-0110_Vertical"
+			(at 128.27 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,8 +5525,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/1507/1/RFPC-SMA28-F.pdf"
-			(at 114.3 30.48 0)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+			(at 128.27 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5379,7 +5537,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 114.3 30.48 0)
+			(at 128.27 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5389,8 +5547,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "640-RFPCSMA28F"
-			(at 114.3 30.48 90)
+		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+			(at 128.27 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5401,7 +5559,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 114.3 30.48 90)
+			(at 128.27 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5412,7 +5570,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 114.3 30.48 90)
+			(at 128.27 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,7 +5618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DC-Block"
+		(property "Value" "100 pF"
 			(at 336.55 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5563,7 +5721,7 @@
 				)
 			)
 		)
-		(property "Value" "Choke"
+		(property "Value" "1.1 uH ?"
 			(at 326.39 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5618,6 +5776,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 326.39 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "710-744230251 ?"
 			(at 326.39 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -5922,7 +6091,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0 R"
 			(at 59.69 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5943,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 54.61 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5977,6 +6146,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 54.61 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
 			(at 54.61 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -6103,7 +6283,7 @@
 				)
 			)
 		)
-		(property "Value" "Choke"
+		(property "Value" "1.1 uH ?"
 			(at 326.39 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6158,6 +6338,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 326.39 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "710-744230251 ?"
 			(at 326.39 207.01 90)
 			(hide yes)
 			(show_name no)
@@ -7070,7 +7261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 287.02 217.17 0)
+		(at 287.02 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7081,7 +7272,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b231a1c-6117-4322-b114-590cf51a29ae")
 		(property "Reference" "#PWR014"
-			(at 287.02 223.52 0)
+			(at 287.02 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7092,7 +7283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 221.615 0)
+			(at 287.02 231.775 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7102,7 +7293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 217.17 0)
+			(at 287.02 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7113,7 +7304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 217.17 0)
+			(at 287.02 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7124,7 +7315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 287.02 217.17 0)
+			(at 287.02 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,8 +7455,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 33.02 0)
-		(mirror y)
+		(at 130.81 34.29 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7276,7 +7467,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fdc01e2-b6eb-49ae-8117-105ffa266346")
 		(property "Reference" "#PWR011"
-			(at 114.3 39.37 0)
+			(at 137.16 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7287,7 +7478,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 38.1 0)
+			(at 135.89 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7297,7 +7488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 33.02 0)
+			(at 130.81 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7308,7 +7499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 33.02 0)
+			(at 130.81 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7319,7 +7510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 33.02 0)
+			(at 130.81 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7442,7 +7633,7 @@
 				)
 			)
 		)
-		(property "Value" "Choke"
+		(property "Value" "1.1 uH ?"
 			(at 326.39 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7497,6 +7688,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 326.39 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "710-744230251 ?"
 			(at 326.39 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -7660,7 +7862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DC-Block"
+		(property "Value" "100 pF"
 			(at 336.55 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7743,7 +7945,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 287.02 213.36 270)
+		(at 287.02 223.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7753,7 +7955,7 @@
 		(dnp no)
 		(uuid "ad359e23-1d79-4642-a183-62b5793ce3d2")
 		(property "Reference" "J3"
-			(at 289.56 211.455 90)
+			(at 289.56 221.615 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7763,7 +7965,7 @@
 			)
 		)
 		(property "Value" "uFL"
-			(at 290.195 215.9 90)
+			(at 290.195 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7772,8 +7974,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 287.02 213.36 0)
+		(property "Footprint" "_footprints:U.FL_Molex_MCRF_73412-0110_Vertical"
+			(at 287.02 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7783,8 +7985,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/3/1507/1/RFPC-SMA28-F.pdf"
-			(at 287.02 213.36 0)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+			(at 287.02 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,7 +7997,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 287.02 213.36 0)
+			(at 287.02 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,8 +8007,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "640-RFPCSMA28F"
-			(at 287.02 213.36 90)
+		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+			(at 287.02 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,7 +8019,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 287.02 213.36 90)
+			(at 287.02 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,7 +8030,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 287.02 213.36 90)
+			(at 287.02 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7956,6 +8158,186 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 287.02 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b166548a-127f-46e5-8707-7e7ea98c4d77")
+		(property "Reference" "R6"
+			(at 290.068 211.836 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 R"
+			(at 289.814 217.678 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 285.242 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 287.02 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 287.02 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW04020000Z0EDC "
+			(at 287.02 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cf9c8ce-fd3c-4781-8828-f03dde82a7fe")
+		)
+		(pin "2"
+			(uuid "91010569-a396-415a-b7f6-cd794eb8ee07")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b2d8f7f2-dbd2-4c96-b322-2769d8f77053")
+		(property "Reference" "R5"
+			(at 116.586 31.242 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 R"
+			(at 122.428 31.496 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 119.38 36.068 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW04020000Z0EDC "
+			(at 119.38 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10b4f849-e495-4999-a594-392f9b34483b")
+		)
+		(pin "2"
+			(uuid "e4ec2338-9dca-4642-8d93-dcd69aecd9a9")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 326.39 168.91 90)
 		(unit 1)
@@ -7977,7 +8359,7 @@
 				)
 			)
 		)
-		(property "Value" "Choke"
+		(property "Value" "1.1 uH ?"
 			(at 326.39 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8032,6 +8414,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 326.39 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "710-744230251 ?"
 			(at 326.39 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -8157,7 +8550,7 @@
 				)
 			)
 		)
-		(property "Value" "Choke"
+		(property "Value" "1.1 uH ?"
 			(at 326.39 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8212,6 +8605,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 326.39 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "710-744230251 ?"
 			(at 326.39 219.71 90)
 			(hide yes)
 			(show_name no)
@@ -8418,7 +8822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DC-Block"
+		(property "Value" "100 pF"
 			(at 336.55 201.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9168,16 +9572,6 @@
 				(justify right)
 			)
 		)
-		(pin "RX_EN" output
-			(at 160.02 96.52 0)
-			(uuid "48430b40-c698-4b93-abf4-407f72de2644")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "EXTINT" output
 			(at 160.02 68.58 0)
 			(uuid "3bc54c36-2e78-4657-8a97-32fe3b85e541")
@@ -9443,16 +9837,6 @@
 		(pin "SCK" input
 			(at 173.99 85.09 180)
 			(uuid "b660beb7-a0a0-4354-b31b-662b19c26b29")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX_EN" input
-			(at 173.99 96.52 180)
-			(uuid "72b64350-b4a3-4184-a6f1-803232176e24")
 			(effects
 				(font
 					(size 1.27 1.27)
