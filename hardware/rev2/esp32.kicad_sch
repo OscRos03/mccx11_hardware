@@ -9322,6 +9322,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 31.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e403d390-a1a7-42b0-b762-a25461777690")
 		)
@@ -9491,6 +9502,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 63.5 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 63.5 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -9761,6 +9783,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 172.72 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1c33871c-920a-44a8-8160-83450039dc24")
 		)
@@ -9953,6 +9986,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "337d65b0-e56e-4fbf-a1b3-0e2de6f96564")
 		)
@@ -10135,6 +10179,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 160.02 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f679a4af-2a7a-45c9-98f1-4db9a7f7cd42")
 		)
@@ -10229,6 +10284,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 185.42 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 185.42 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -10342,6 +10408,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 262.89 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 262.89 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -10545,6 +10622,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 120.65 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "36c88794-c4e5-46c1-8c32-3d136c486e29")
 		)
@@ -10650,6 +10738,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 57.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10842,6 +10941,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 251.46 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "275b34fd-b4d9-4b0d-99a0-772b1248bd4a")
 		)
@@ -10931,6 +11041,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 44.45 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 44.45 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -11034,6 +11155,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 146.05 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 146.05 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11315,6 +11447,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 107.95 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2113fd47-c064-439c-bae0-e2587b14eee9")
 		)
@@ -11486,6 +11629,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 232.41 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 232.41 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -11756,6 +11910,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 251.46 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "275b34fd-b4d9-4b0d-99a0-772b1248bd4b")
 		)
@@ -11857,6 +12022,17 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
+			(at 241.3 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 241.3 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -11972,6 +12148,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 31.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12406,6 +12593,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 44.45 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03247c42-408e-4696-a1b1-ed8a8dcfc5cc")
 		)
@@ -12517,6 +12715,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 44.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12720,6 +12929,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 241.3 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3efe7cbf-ffb6-46af-9c50-ca7cf27183d8")
 		)
@@ -12902,6 +13122,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 158.75 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e752acbf-5b9a-4ef1-b016-5d83f26da43e")
 		)
@@ -12996,6 +13227,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 57.15 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 57.15 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13432,6 +13674,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 241.3 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "433a09eb-affe-4e34-8432-a935ddd891bb")
 		)
@@ -13547,6 +13800,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 69.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b420e45a-5c57-432a-9fca-9fa884517dfd")
 		)
@@ -13627,6 +13891,17 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW04020000Z0EDC "
+			(at 257.81 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 257.81 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -13830,6 +14105,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 241.3 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e77eaa9e-b4cb-4c76-b87a-97310226d3b0")
 		)
@@ -13923,6 +14209,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 185.42 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 185.42 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14194,6 +14491,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 245.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "00a0b034-6f26-4b9b-9a66-804cae923b1f")
 		)
@@ -14374,6 +14682,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 241.3 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c02a6d4-716d-42d2-96e9-709284df08de")
 		)
@@ -14479,6 +14798,17 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-0-E3 "
+			(at 241.3 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 241.3 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -14671,6 +15001,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 241.3 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e67b4dbd-31cf-4170-9a16-7fa4b6c45c2d")
 		)
@@ -14852,6 +15193,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 31.75 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "839ba048-ef37-431a-9637-a25e57b5a48f")
 		)
@@ -14957,6 +15309,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 107.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 107.95 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15082,6 +15445,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 241.3 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "42520a57-a895-4545-9909-c9bc7905219c")
 		)
@@ -15176,6 +15550,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 90.17 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -15466,6 +15851,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 69.85 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "99375a48-aa61-4ddc-9f3e-b2902f69b438")
 		)
@@ -15648,6 +16044,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 219.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fa5aac8a-4a6a-4051-8348-5e1a1b451af0")
 		)
@@ -15753,6 +16160,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 44.45 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 44.45 80.01 0)
 			(hide yes)
 			(show_name no)
