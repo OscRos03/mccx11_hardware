@@ -668,6 +668,204 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Shunt"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Shunt"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Shunt resistor with Kelvin connections"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res shunt resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*Shunt*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Shunt_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Shunt_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "_symbols:MAX17055ETB+"
 			(pin_names
 				(offset 0.254)
@@ -2130,6 +2328,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 138.43) (xy 102.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0deda864-0493-49b1-bdc2-c85c28380dec")
+	)
+	(wire
+		(pts
 			(xy 162.56 64.77) (xy 156.21 64.77)
 		)
 		(stroke
@@ -2167,6 +2375,16 @@
 			(type default)
 		)
 		(uuid "2217a761-b69e-4b39-9e66-5001fd407e59")
+	)
+	(wire
+		(pts
+			(xy 99.06 130.81) (xy 99.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23245b7a-c0c5-4843-86db-5e7867f1adbe")
 	)
 	(wire
 		(pts
@@ -2247,6 +2465,16 @@
 			(type default)
 		)
 		(uuid "4525d4a8-92e1-4efc-a784-d67649f4e354")
+	)
+	(wire
+		(pts
+			(xy 101.6 133.35) (xy 102.87 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4781ccec-e4a7-4e86-bcd1-ae04584ad116")
 	)
 	(wire
 		(pts
@@ -2510,16 +2738,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 129.54) (xy 99.06 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae18f8f1-52a6-4a7d-a078-5515b4062844")
-	)
-	(wire
-		(pts
 			(xy 38.1 138.43) (xy 38.1 140.97)
 		)
 		(stroke
@@ -2560,6 +2778,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 142.24) (xy 99.06 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cbe1b3-6031-4a88-93d3-00e297857df3")
+	)
+	(wire
+		(pts
 			(xy 162.56 88.9) (xy 162.56 80.01)
 		)
 		(stroke
@@ -2577,16 +2805,6 @@
 			(type default)
 		)
 		(uuid "d790ca1c-0987-4e22-b56f-c65e4ae525c0")
-	)
-	(wire
-		(pts
-			(xy 99.06 138.43) (xy 99.06 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9959fbe-e5c2-4e94-b1be-50889c75e0c5")
 	)
 	(wire
 		(pts
@@ -5268,6 +5486,16 @@
 			"IiIiIuKgFAyJiIiIiIiIiDgoBUMiIiIiIiLy/42CUTAKRigAAK+tiTnTrTgFAAAAAElFTkSuQmCC"
 		)
 	)
+	(label "CSP"
+		(at 102.87 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "022fb7be-d6ec-4599-945d-0372f0655d07")
+	)
 	(label "NTC"
 		(at 60.96 77.47 0)
 		(effects
@@ -5329,7 +5557,7 @@
 		(uuid "44f80b90-8f19-4b38-aa83-b6f2d8764880")
 	)
 	(label "CSN"
-		(at 99.06 140.97 0)
+		(at 102.87 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5428,7 +5656,7 @@
 		)
 		(uuid "d002cb0c-cffe-49e1-a900-6ffbe36823f9")
 	)
-	(label "BATT-"
+	(label "CSP"
 		(at 130.81 130.81 0)
 		(effects
 			(font
@@ -8240,8 +8468,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 99.06 134.62 0)
+		(lib_id "Device:R_Shunt")
+		(at 99.06 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8252,29 +8480,29 @@
 		(fields_autoplaced yes)
 		(uuid "f0cb07b5-847e-444e-8d26-04f32ab7a75b")
 		(property "Reference" "R28"
-			(at 101.6 133.3499 0)
+			(at 96.52 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0.01Ω"
-			(at 101.6 135.8899 0)
+			(at 96.52 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "_footprints:RES_WSK2512R0100FEA"
-			(at 97.282 134.62 90)
+			(at 97.282 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8285,7 +8513,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/30108/wsk2512.pdf"
-			(at 99.06 134.62 0)
+			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8295,8 +8523,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 99.06 134.62 0)
+		(property "Description" "Shunt resistor with Kelvin connections"
+			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8307,7 +8535,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 99.06 134.62 0)
+			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8318,7 +8546,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-WSK2512R0100FEA"
-			(at 99.06 134.62 0)
+			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,6 +8561,12 @@
 		)
 		(pin "1"
 			(uuid "f73e4392-2d60-44f5-b613-10add681b6d0")
+		)
+		(pin "3"
+			(uuid "05aa1898-215d-44c0-aea7-0b0c890ad415")
+		)
+		(pin "4"
+			(uuid "5e423829-b848-434a-8bfd-b25c9b0efbd1")
 		)
 		(instances
 			(project "rev2"
