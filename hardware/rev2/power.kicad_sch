@@ -6467,7 +6467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "511kΩ"
+		(property "Value" "511 k"
 			(at 205.74 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6559,7 +6559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47µF"
+		(property "Value" "0.47 uF"
 			(at 124.46 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6652,7 +6652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47µF"
+		(property "Value" "47 uF"
 			(at 219.71 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6756,7 +6756,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µF"
+		(property "Value" "22 uF"
 			(at 154.94 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,7 +6860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "91kΩ"
+		(property "Value" "91 k"
 			(at 205.74 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,7 +7153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100 nF"
 			(at 55.88 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7246,7 +7246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7 uF"
 			(at 119.38 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7550,7 +7550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1 uF"
 			(at 116.84 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7572,7 +7572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 113.03 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7595,6 +7595,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 113.03 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
 			(at 113.03 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7737,7 +7748,7 @@
 				)
 			)
 		)
-		(property "Value" "300kΩ"
+		(property "Value" "300 k"
 			(at 43.18 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,7 +8086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10 uF"
 			(at 132.08 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,7 +8108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188D70J106MA73-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 128.27 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8120,6 +8131,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 128.27 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188D70J106MA3D"
 			(at 128.27 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8168,7 +8190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µH"
+		(property "Value" "1 uH"
 			(at 157.48 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8665,7 +8687,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01Ω"
+		(property "Value" "0.01 R"
 			(at 96.52 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8853,7 +8875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1 uF"
 			(at 41.91 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8875,7 +8897,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C105KA12-02A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 38.1 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8898,6 +8920,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 38.1 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R61C105KA2J"
 			(at 38.1 82.55 0)
 			(hide yes)
 			(show_name no)

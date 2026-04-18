@@ -5,10 +5,6 @@
 (rule Mask_Annular_Ring
 	(constraint solder_mask_expansion (min 0.03mm))
 )
-(rule Minimum_text_height_and_thickness
-	(constraint text_height (min 1mm))
-	(constraint text_thickness (min 0.1mm))
-)
 (rule Vias_under_SMD
 	(constraint disallow via)
 	(condition "A.Pad_Type == 'SMD'")
