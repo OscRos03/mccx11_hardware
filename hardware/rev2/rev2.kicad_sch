@@ -10974,6 +10974,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "910-CQ-ESD-10"
+			(at 369.57 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "6db0ab4c-5e13-4042-b0bc-2b1c57167b10")
 		)
