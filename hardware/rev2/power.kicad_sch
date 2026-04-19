@@ -7961,7 +7961,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7988,7 +7988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Right"
 			(at 38.1 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7999,7 +7999,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/85/1/ftr_smt.pdf"
 			(at 38.1 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8012,6 +8012,17 @@
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
 			(at 49.53 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "200-FTR10302SS and 855-M50-1900005"
+			(at 38.1 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
