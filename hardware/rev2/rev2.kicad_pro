@@ -62,78 +62,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|152299955|88707500|007deba1-4388-4de2-b164-7dee2cf1091c|cc192a70-04b1-435f-a33e-f010275a9422",
-          ""
-        ],
-        [
-          "clearance|152393057|88707500|cc192a70-04b1-435f-a33e-f010275a9422|f41a32fb-1ddd-408a-a7d8-329b2b3e195e",
-          ""
-        ],
-        [
-          "clearance|174176401|67366999|d3812659-ede9-4203-9ad8-03f3a9ccf0e1|6c3c3804-05de-4114-a911-8072dcd26db9",
-          ""
-        ],
-        [
-          "clearance|174176401|67767001|6c3c3804-05de-4114-a911-8072dcd26db9|cf7b529b-58f6-4776-a6b5-eadf96ef066c",
-          ""
-        ],
-        [
-          "clearance|174176401|68167000|cf7b529b-58f6-4776-a6b5-eadf96ef066c|d8f5de5f-8722-45ed-9c63-954a988c5bbe",
-          ""
-        ],
-        [
-          "clearance|174176401|68566999|d8f5de5f-8722-45ed-9c63-954a988c5bbe|193211aa-775d-4d38-857c-39ada3ea4f81",
-          ""
-        ],
-        [
-          "clearance|174882799|67366500|d3812659-ede9-4203-9ad8-03f3a9ccf0e1|0e056cab-8c14-413c-8033-55931d1a62b9",
-          ""
-        ],
-        [
-          "clearance|174882799|67963000|cf7b529b-58f6-4776-a6b5-eadf96ef066c|0e056cab-8c14-413c-8033-55931d1a62b9",
-          ""
-        ],
-        [
-          "clearance|174882799|68362999|d8f5de5f-8722-45ed-9c63-954a988c5bbe|0e056cab-8c14-413c-8033-55931d1a62b9",
-          ""
-        ],
-        [
-          "clearance|174882799|68763001|193211aa-775d-4d38-857c-39ada3ea4f81|0e056cab-8c14-413c-8033-55931d1a62b9",
-          ""
-        ],
-        [
-          "clearance|176559201|67366500|bff8aa41-bec6-4fdd-80e5-59b0b559cb17|0e056cab-8c14-413c-8033-55931d1a62b9",
-          ""
-        ],
-        [
-          "clearance|176559201|67563001|132ede87-2ab5-4614-b180-bce0da37a39a|0e056cab-8c14-413c-8033-55931d1a62b9",
-          ""
-        ],
-        [
-          "clearance|176559201|67563001|132ede87-2ab5-4614-b180-bce0da37a39a|bff8aa41-bec6-4fdd-80e5-59b0b559cb17",
-          ""
-        ],
-        [
-          "clearance|176559201|67963000|330bdf82-9b7c-461c-86f2-7521694cbd1d|0e056cab-8c14-413c-8033-55931d1a62b9",
-          ""
-        ],
-        [
-          "clearance|176559201|67963000|330bdf82-9b7c-461c-86f2-7521694cbd1d|132ede87-2ab5-4614-b180-bce0da37a39a",
-          ""
-        ],
-        [
-          "clearance|176559201|68362999|8a5020bf-ba21-40fb-834b-65220cbba008|0e056cab-8c14-413c-8033-55931d1a62b9",
-          ""
-        ],
-        [
-          "clearance|176559201|68362999|8a5020bf-ba21-40fb-834b-65220cbba008|330bdf82-9b7c-461c-86f2-7521694cbd1d",
-          ""
-        ],
-        [
-          "clearance|176559201|68763001|08214652-2306-4ce9-a347-3e87d012f2e9|8a5020bf-ba21-40fb-834b-65220cbba008",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|151412500|73200000|6249b5ca-dfec-4fbf-9e6b-10378b67fa53|00000000-0000-0000-0000-000000000000",
           ""
         ]
@@ -1104,7 +1032,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
