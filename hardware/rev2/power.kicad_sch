@@ -6351,7 +6351,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10kΩ"
 			(at 43.18 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6372,7 +6372,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 38.1 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6395,6 +6395,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 38.1 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW060310K0JNEAC"
 			(at 38.1 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6647,7 +6658,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "11.5kΩ"
 			(at 43.18 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,7 +6679,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 38.1 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6691,6 +6702,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 38.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB1152V"
 			(at 38.1 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6917,7 +6939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/1099/1/SEI_RMCF_RMCP.pdf"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6940,6 +6962,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "708-RMCF0603FT511K"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7009,7 +7042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B474KP8NNN"
 			(at 120.65 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7032,6 +7065,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 120.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10B474KP8NNNC"
 			(at 120.65 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7310,7 +7354,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/1099/1/SEI_RMCF_RMCP.pdf"
 			(at 203.2 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7333,6 +7377,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 203.2 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "708-RMCF0603FT91K0"
 			(at 203.2 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7525,7 +7580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GCJ188R71E104KA12_02B.pdf"
 			(at 52.07 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7548,6 +7603,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 52.07 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D"
 			(at 52.07 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7618,7 +7684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188Z71A475KE15-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7641,6 +7707,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 115.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188Z71A475KE5D"
 			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8110,7 +8187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/530470310?display=pdf"
 			(at 93.98 127 0)
 			(hide yes)
 			(show_name no)
@@ -8134,6 +8211,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 93.98 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-53047-0310"
 			(at 93.98 127 0)
 			(hide yes)
 			(show_name no)
@@ -8204,7 +8292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 38.1 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8227,6 +8315,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 38.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-07300KL"
 			(at 38.1 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8429,7 +8528,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "309kΩ"
 			(at 43.18 171.196 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8450,7 +8549,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 38.1 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8473,6 +8572,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 38.1 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB3093V"
 			(at 38.1 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8884,7 +8994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10kΩ"
 			(at 123.19 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8906,7 +9016,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 120.65 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8918,6 +9028,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 120.65 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW060310K0JNEAC"
 			(at 120.65 116.84 0)
 			(hide yes)
 			(show_name no)
