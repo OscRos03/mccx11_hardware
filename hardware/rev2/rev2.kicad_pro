@@ -16,7 +16,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
+        "dimension_precision": 5,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
@@ -60,12 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|151412500|73200000|6249b5ca-dfec-4fbf-9e6b-10378b67fa53|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -203,6 +198,7 @@
         0.175,
         0.2,
         0.3,
+        0.4,
         0.515,
         0.6
       ],
@@ -643,6 +639,9 @@
       "Net-(C46-Pad2)": [
         "50 Ohm"
       ],
+      "Net-(C5-Pad1)": [
+        "50 Ohm"
+      ],
       "Net-(J2-In)": [
         "50 Ohm"
       ],
@@ -891,7 +890,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "output\\rev2.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1091,7 +1090,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R36",
     "variants": []
   },
   "sheets": [

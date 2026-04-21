@@ -3132,6 +3132,12 @@
 		(uuid "0b76796c-177f-4dd8-bf55-efd889545f52")
 	)
 	(junction
+		(at 287.02 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2398db15-4212-4110-b93e-1bfac9ceeb74")
+	)
+	(junction
 		(at 261.62 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3196,12 +3202,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87c380e8-3e64-4660-9944-e8dfc35ac646")
-	)
-	(junction
-		(at 287.02 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9153c98e-b870-4dd9-863d-2845384e887a")
 	)
 	(junction
 		(at 78.74 25.4)
@@ -3523,6 +3523,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 209.55) (xy 289.56 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373a8e14-2607-415b-9532-7c9942b39f1a")
+	)
+	(wire
+		(pts
 			(xy 50.8 62.23) (xy 46.99 62.23)
 		)
 		(stroke
@@ -3773,16 +3783,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 209.55) (xy 299.72 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62fb8b15-351a-4317-8a2c-7cea067329a9")
-	)
-	(wire
-		(pts
 			(xy 332.74 168.91) (xy 332.74 171.45)
 		)
 		(stroke
@@ -3920,6 +3920,16 @@
 			(type default)
 		)
 		(uuid "884d9420-a1cd-4108-a38d-058e2242213d")
+	)
+	(wire
+		(pts
+			(xy 297.18 209.55) (xy 299.72 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c519b75-6641-4a25-82fd-cefe3a441c1f")
 	)
 	(wire
 		(pts
@@ -4411,7 +4421,7 @@
 		)
 		(uuid "24cf1ae1-79f1-40f2-b7bf-d48b14dce17b")
 	)
-	(label "RXD{slash}SDA"
+	(label "SDA"
 		(at 173.99 60.96 180)
 		(effects
 			(font
@@ -4511,7 +4521,7 @@
 		)
 		(uuid "9b46a232-e6ed-4129-a911-a31c990682a4")
 	)
-	(label "RXD{slash}SDA"
+	(label "SDA"
 		(at 309.88 181.61 0)
 		(effects
 			(font
@@ -4521,7 +4531,7 @@
 		)
 		(uuid "a56e8082-5f3a-4b57-a7ee-3d5b27ba0c83")
 	)
-	(label "TXD{slash}SCL"
+	(label "SCL"
 		(at 309.88 194.31 0)
 		(effects
 			(font
@@ -4531,7 +4541,7 @@
 		)
 		(uuid "aa6c1323-b5ea-46e6-a2c7-ad2db427a41a")
 	)
-	(label "RXD{slash}SDA"
+	(label "SDA"
 		(at 163.83 123.19 0)
 		(effects
 			(font
@@ -4541,7 +4551,7 @@
 		)
 		(uuid "ae064c55-0a01-449d-b5c8-45a291d22b7f")
 	)
-	(label "TXD{slash}SCL"
+	(label "SCL"
 		(at 173.99 63.5 180)
 		(effects
 			(font
@@ -4591,7 +4601,7 @@
 		)
 		(uuid "e1f47334-cac5-4bfa-a88a-162a7ec31169")
 	)
-	(label "TXD{slash}SCL"
+	(label "SCL"
 		(at 163.83 120.65 0)
 		(effects
 			(font
@@ -4839,6 +4849,42 @@
 		)
 		(property "Component Class" ""
 			(at 154.305 103.505 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 298.45 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b76a02ad-eaa1-4c58-9a9a-e3a2e7d304ff")
+		(property "Net Class" "50 Ohm"
+			(at 299.1485 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 167.005 136.525 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5662,6 +5708,107 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 293.37 209.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fd8b839-215d-4392-a72e-9c4f30f53bd6")
+		(property "Reference" "R36"
+			(at 290.576 206.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 R"
+			(at 296.418 206.756 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 293.37 211.328 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 293.37 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 293.37 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW04020000Z0EDC"
+			(at 293.37 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 293.37 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e221fa91-2cf7-416e-94c8-716987402b20")
+		)
+		(pin "2"
+			(uuid "8cd0d2e4-42cc-4881-9fac-b45120e42a29")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -11496,26 +11643,6 @@
 				(justify right)
 			)
 		)
-		(pin "RXD{slash}SDA" input
-			(at 160.02 60.96 0)
-			(uuid "624439a3-dcbc-47c8-91ba-d139403e6909")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TXD{slash}SCL" output
-			(at 160.02 63.5 0)
-			(uuid "6a808836-c347-449d-82d6-b7909ba09670")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ALRT" input
 			(at 160.02 115.57 0)
 			(uuid "ef50429f-ca95-4a31-810b-be8e82adf3fd")
@@ -11529,6 +11656,26 @@
 		(pin "INT" input
 			(at 160.02 118.11 0)
 			(uuid "4de3760c-aabd-4d55-8707-2abd7ea0b4e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 160.02 60.96 0)
+			(uuid "43efd393-3605-4a49-b889-f460a0e09d32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 160.02 63.5 0)
+			(uuid "395cb0bc-bf4d-4557-a52c-32ba07da6f11")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8573,7 +8573,7 @@
 		)
 		(uuid "059a5455-72e6-4f2a-b258-3a5e1cbabce1")
 	)
-	(label "U1RXD{slash}SDA"
+	(label "SDA"
 		(at 226.06 69.85 0)
 		(effects
 			(font
@@ -8673,7 +8673,7 @@
 		)
 		(uuid "7e8f1839-303f-4d1a-bcc5-a811141c73a8")
 	)
-	(label "U1TXD{slash}SCL"
+	(label "SCL"
 		(at 49.53 139.7 0)
 		(effects
 			(font
@@ -8733,7 +8733,7 @@
 		)
 		(uuid "ba65d5a6-effa-44b3-8625-8336219c187d")
 	)
-	(label "U1TXD{slash}SCL"
+	(label "SCL"
 		(at 226.06 63.5 0)
 		(effects
 			(font
@@ -8763,7 +8763,7 @@
 		)
 		(uuid "caa843bc-a263-4277-869b-88f2d6bb5ecb")
 	)
-	(label "U1RXD{slash}SDA"
+	(label "SDA"
 		(at 49.53 142.24 0)
 		(effects
 			(font
@@ -8846,7 +8846,7 @@
 		)
 		(uuid "38854b6a-b01d-4b82-b752-eb9dc06575b3")
 	)
-	(hierarchical_label "RXD{slash}SDA"
+	(hierarchical_label "SDA"
 		(shape input)
 		(at 254 69.85 0)
 		(effects
@@ -8912,7 +8912,7 @@
 		)
 		(uuid "8f228d6b-33d2-49d2-a309-35fed12f04f5")
 	)
-	(hierarchical_label "TXD{slash}SCL"
+	(hierarchical_label "SCL"
 		(shape output)
 		(at 254 63.5 0)
 		(effects
@@ -15187,7 +15187,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "499 R"
+		(property "Value" "0 R"
 			(at 245.11 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
