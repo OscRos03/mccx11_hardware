@@ -3091,7 +3091,7 @@
 	)
 	(text "Chip matching"
 		(exclude_from_sim no)
-		(at 232.41 149.86 0)
+		(at 231.14 147.828 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3290,10 +3290,6 @@
 		(uuid "07ef5e3f-b9f9-4f4b-ad65-fe9e1c7605ef")
 	)
 	(no_connect
-		(at 116.84 121.92)
-		(uuid "15c9daa2-9ced-4173-9401-d56eaac9eff5")
-	)
-	(no_connect
 		(at 116.84 106.68)
 		(uuid "1aaddcd3-9f52-4a6c-b5e4-649d3d48368e")
 	)
@@ -3320,10 +3316,6 @@
 	(no_connect
 		(at 63.5 104.14)
 		(uuid "71b9abfd-af98-40fc-bdb6-1aa11dd27b24")
-	)
-	(no_connect
-		(at 63.5 124.46)
-		(uuid "73734f2d-7683-4846-8ff1-7f56b1746fdd")
 	)
 	(no_connect
 		(at 63.5 157.48)
@@ -3360,10 +3352,6 @@
 	(no_connect
 		(at 116.84 104.14)
 		(uuid "d5e8bf3e-f0ef-4ea4-8399-77899ff7b29e")
-	)
-	(no_connect
-		(at 116.84 119.38)
-		(uuid "db3f01ce-204b-44b2-a45b-92eba6fcffb3")
 	)
 	(no_connect
 		(at 116.84 147.32)
@@ -3495,7 +3483,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 121.92) (xy 116.84 121.92)
+			(xy 113.03 121.92) (xy 119.38 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3652,16 +3640,6 @@
 			(type default)
 		)
 		(uuid "4ee7ae11-313d-4198-a96f-a4a925fff6b9")
-	)
-	(wire
-		(pts
-			(xy 63.5 124.46) (xy 67.31 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "512a2c38-d28d-4798-b28f-75aedbaad171")
 	)
 	(wire
 		(pts
@@ -4125,6 +4103,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 124.46) (xy 67.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa17bf4-8ec3-4ff6-a26c-5dd7dc08dcc8")
+	)
+	(wire
+		(pts
 			(xy 31.75 160.02) (xy 31.75 175.26)
 		)
 		(stroke
@@ -4575,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 119.38) (xy 116.84 119.38)
+			(xy 113.03 119.38) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9723,7 +9711,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9760,7 +9748,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 257.81 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9804,6 +9792,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW04020000Z0EDC"
+			(at 257.81 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ebef00c4-d2ba-4af0-9fe7-809884423234")
 		)
@@ -9817,6 +9816,95 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06c373cd-787e-4ac5-8c8d-e5da33aa0bbb")
+		(property "Reference" "TP6"
+			(at 43.18 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 47.4979 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 49.53 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8d247ce-b024-4c6d-92ec-b74a91d2b666")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -9923,6 +10011,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 31.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 31.75 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10124,6 +10223,17 @@
 			)
 		)
 		(property "Mouser Part Number" "279-36550402S2N0T"
+			(at 63.5 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 63.5 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -10416,6 +10526,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 172.72 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1c33871c-920a-44a8-8160-83450039dc24")
 		)
@@ -10609,6 +10730,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 146.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 146.05 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -10823,6 +10955,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 160.02 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f679a4af-2a7a-45c9-98f1-4db9a7f7cd42")
 		)
@@ -10895,6 +11038,17 @@
 		)
 		(property "Description" "test point"
 			(at 49.53 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 49.53 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11006,6 +11160,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 185.42 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 185.42 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -11130,6 +11295,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 257.81 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 257.81 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -11344,6 +11520,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 120.65 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "36c88794-c4e5-46c1-8c32-3d136c486e29")
 		)
@@ -11460,6 +11647,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 57.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11663,6 +11861,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 251.46 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "275b34fd-b4d9-4b0d-99a0-772b1248bd4a")
 		)
@@ -11774,6 +11983,17 @@
 			)
 		)
 		(property "Mouser Part Number" "81-LQP03TN24NH02D"
+			(at 44.45 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 44.45 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -11899,6 +12119,17 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW060310K0JNEAC"
+			(at 146.05 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 146.05 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12191,6 +12422,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 107.95 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2113fd47-c064-439c-bae0-e2587b14eee9")
 		)
@@ -12285,6 +12527,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66871ac3-3ed5-42a9-9630-7fc7cf6fbb8b")
+		(property "Reference" "TP13"
+			(at 125.73 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 121.4121 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 119.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 119.38 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3906a093-d2eb-44ef-9500-e15fb2e8bfa8")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 232.41 142.24 270)
 		(mirror x)
@@ -12307,7 +12638,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2.4 nH"
 			(at 232.41 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12328,7 +12659,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/JELF243B_0009.pdf"
 			(at 232.41 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12373,6 +12704,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 232.41 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 232.41 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-LQG15HN2N4S02D"
 			(at 232.41 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -12654,6 +13007,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 251.46 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "275b34fd-b4d9-4b0d-99a0-772b1248bd4b")
 		)
@@ -12766,6 +13130,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 241.3 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 241.3 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -12892,6 +13267,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 31.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13415,6 +13801,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 44.45 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03247c42-408e-4696-a1b1-ed8a8dcfc5cc")
 		)
@@ -13537,6 +13934,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 44.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13751,6 +14159,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 241.3 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3efe7cbf-ffb6-46af-9c50-ca7cf27183d8")
 		)
@@ -13944,6 +14363,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 158.75 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e752acbf-5b9a-4ef1-b016-5d83f26da43e")
 		)
@@ -13982,7 +14412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "24 pF"
 			(at 60.96 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14004,7 +14434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1885C2A240JA16-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 57.15 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14049,6 +14479,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 57.15 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 57.15 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GCM1885C2A240JA6D"
 			(at 57.15 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14307,6 +14759,17 @@
 			)
 		)
 		(property "Mouser Part Number" "78-VLMTG1400-GS08"
+			(at 170.18 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 170.18 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14598,6 +15061,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 241.3 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "433a09eb-affe-4e34-8432-a935ddd891bb")
 		)
@@ -14724,6 +15198,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 69.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b420e45a-5c57-432a-9fca-9fa884517dfd")
 		)
@@ -14734,6 +15219,95 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b37522db-cf95-4d52-aeea-d5b5c23306b1")
+		(property "Reference" "TP9"
+			(at 125.73 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 121.4121 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 119.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 119.38 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad9875e1-839e-42f5-812c-b24954df9704")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -14928,6 +15502,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 241.3 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e77eaa9e-b4cb-4c76-b87a-97310226d3b0")
 		)
@@ -15043,6 +15628,17 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW060310K0JNEAC"
+			(at 185.42 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 185.42 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -15248,7 +15844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1.2 pF"
 			(at 243.84 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15270,7 +15866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1555C1H1R2CA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 245.11 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15315,6 +15911,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 245.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 245.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM1555C1H1R2CA1J"
 			(at 245.11 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15527,6 +16145,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 241.3 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c02a6d4-716d-42d2-96e9-709284df08de")
 		)
@@ -15643,6 +16272,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 241.3 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 241.3 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -15857,6 +16497,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 241.3 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e67b4dbd-31cf-4170-9a16-7fa4b6c45c2d")
 		)
@@ -16016,6 +16667,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 49.53 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e67fe37-cc0a-4e06-b10f-7b10ccef5a14")
 		)
@@ -16050,7 +16712,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "24 pF"
 			(at 27.94 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16072,7 +16734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1885C2A240JA16-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 31.75 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16117,6 +16779,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 31.75 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 31.75 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GCM1885C2A240JA6D"
 			(at 31.75 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16253,6 +16937,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 107.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d7800311-37fb-4377-925d-3e0992b3a7e2")
 		)
@@ -16379,6 +17074,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 241.3 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "42520a57-a895-4545-9909-c9bc7905219c")
 		)
@@ -16460,6 +17166,17 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603J-27-E3"
+			(at 162.56 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 162.56 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -16586,6 +17303,17 @@
 			)
 		)
 		(property "Mouser Part Number" "356-ESP32-S3FN8"
+			(at 90.17 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16887,6 +17615,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 69.85 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "99375a48-aa61-4ddc-9f3e-b2902f69b438")
 		)
@@ -17003,7 +17742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1.2 pF"
 			(at 218.44 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17025,7 +17764,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1555C1H1R2CA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 219.71 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17070,6 +17809,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 219.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 219.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM1555C1H1R2CA1J"
 			(at 219.71 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17196,6 +17957,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 44.45 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 44.45 80.01 0)
 			(hide yes)
 			(show_name no)

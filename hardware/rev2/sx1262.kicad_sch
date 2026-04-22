@@ -14202,6 +14202,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 120.65 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "00439141-e2d0-4b27-a9ec-a73a955fb15d")
 		)
@@ -14408,6 +14419,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 104.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dac1bd50-c4ba-4352-8762-754f8322f907")
 		)
@@ -14532,6 +14554,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 279.4 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "156d1bdc-b572-441b-b21a-d6f667271207")
 		)
@@ -14604,6 +14637,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 139.7 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14737,6 +14781,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 140.97 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 140.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14884,6 +14939,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "108b2890-1f18-4680-8802-6c73f4bd587e")
 		)
@@ -14944,7 +15010,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GJM1555C1H8R5WB01_01A.pdf"
 			(at 351.79 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14977,7 +15043,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GJM1555C1H8R5WB1D"
 			(at 351.79 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -15011,6 +15077,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 351.79 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 351.79 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -15148,6 +15225,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 138.43 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15374,7 +15462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GJM1555C1H4R1BB01_01A.pdf"
 			(at 166.37 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15407,7 +15495,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GJM1555C1H4R1BB1D"
 			(at 166.37 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15441,6 +15529,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 166.37 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 166.37 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15667,7 +15766,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/JELF243A_0050.pdf"
 			(at 166.37 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -15700,7 +15799,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15AN33NJ00D"
 			(at 166.37 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -15734,6 +15833,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 166.37 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 166.37 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -15894,6 +16004,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 99.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 99.06 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -16103,6 +16224,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 46.99 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81b039e6-aa30-46a5-8dab-8a135339407e")
 		)
@@ -16228,6 +16360,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 283.21 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 283.21 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16452,6 +16595,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 289.56 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a0cddab-25e7-4943-b1b0-53921b118d83")
 		)
@@ -16588,7 +16742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "81-LQW15AN30NG00D"
 			(at 242.57 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -16621,7 +16775,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15AN30NG00D"
 			(at 242.57 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -16655,6 +16809,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 242.57 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 242.57 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -16725,7 +16890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GJM1555C1H8R5WB01_01A.pdf"
 			(at 246.38 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16758,7 +16923,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GJM1555C1H8R5WB1D"
 			(at 246.38 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16792,6 +16957,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 246.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 246.38 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16840,7 +17016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.33 pF"
+		(property "Value" "1.3 pF"
 			(at 186.69 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16862,7 +17038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GJM1555C1H1R3CB01_01A.pdf"
 			(at 182.88 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -16895,7 +17071,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GJM1555C1H1R3CB1D"
 			(at 182.88 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -16929,6 +17105,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 182.88 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 182.88 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -17001,7 +17188,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/819/1/SS8050_G_RevA181526.pdf"
 			(at 293.37 116.586 0)
 			(hide yes)
 			(show_name no)
@@ -17047,6 +17234,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 288.29 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 288.29 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "750-SS8050-G"
 			(at 288.29 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -17120,7 +17329,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/GJM1555C1H8R5WB01_01A.pdf"
 			(at 339.09 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -17153,7 +17362,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GJM1555C1H8R5WB1D"
 			(at 339.09 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -17187,6 +17396,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 339.09 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 339.09 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -17333,6 +17553,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 93.98 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d4686742-95c0-4c27-a9e2-ba0e74d428ee")
 		)
@@ -17459,6 +17690,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 309.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "451f2031-4db8-4def-8d4a-4ff09fe60f51")
 		)
@@ -17517,7 +17759,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "81-LQW15AN30NG00D"
 			(at 345.44 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -17550,7 +17792,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15AN30NG00D"
 			(at 345.44 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -17584,6 +17826,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 345.44 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 345.44 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -17731,6 +17984,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 68.58 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5052c6bc-4e94-4bac-85e7-25c6cee773a5")
 		)
@@ -17790,7 +18054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/JELF243A_0050.pdf"
 			(at 191.77 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17823,7 +18087,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15AN75NG00D"
 			(at 191.77 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17857,6 +18121,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 191.77 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18072,6 +18347,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 170.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 170.18 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18309,6 +18595,17 @@
 		)
 		(property "Description" "test point"
 			(at 97.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 97.79 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18842,6 +19139,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 181.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac4249fa-40f5-4863-a5e2-ce68b1403cf3")
 		)
@@ -19113,7 +19421,7 @@
 				)
 			)
 		)
-		(property "Value" "17.5 nH"
+		(property "Value" "17 nH"
 			(at 207.01 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19134,7 +19442,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-9138_PDF_INDUCTOR"
 			(at 207.01 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -19167,7 +19475,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15AN17NG8ZD"
 			(at 207.01 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -19201,6 +19509,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 207.01 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 207.01 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -19348,6 +19667,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 91.44 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fdf0079f-590b-4fdd-a6d0-f3515d0c372b")
 		)
@@ -19474,6 +19804,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 294.64 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "079c280e-8436-4f65-a5e6-7622b4f21532")
 		)
@@ -19511,7 +19852,7 @@
 				)
 			)
 		)
-		(property "Value" "100 pF"
+		(property "Value" "3000 pF"
 			(at 332.74 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19532,7 +19873,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1557U1A302JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 332.74 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -19565,7 +19906,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM1557U1A302JA1D"
 			(at 332.74 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -19599,6 +19940,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 332.74 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 332.74 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -19813,6 +20165,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 302.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "722346a2-bb19-44fe-bed8-1c3bcff9ad98")
 		)
@@ -19928,7 +20291,7 @@
 				)
 			)
 		)
-		(property "Value" "100 pF"
+		(property "Value" "3000 pF"
 			(at 234.95 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19949,7 +20312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1557U1A302JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 234.95 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -19982,7 +20345,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM1557U1A302JA1D"
 			(at 234.95 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -20016,6 +20379,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 234.95 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 234.95 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -20162,6 +20536,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4cc01d8-4b50-4b1f-b45d-5c870e1c5cd3")
 		)
@@ -20288,6 +20673,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 86.36 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 86.36 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -20501,6 +20897,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4659b121-33d5-4dfe-93a8-5f6f31e17439")
 		)
@@ -20565,7 +20972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/GJM1555C1H3R8BB01-01A.pdf"
 			(at 207.01 127 0)
 			(hide yes)
 			(show_name no)
@@ -20598,7 +21005,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GJM1555C1H3R8BB1D"
 			(at 207.01 127 90)
 			(hide yes)
 			(show_name no)
@@ -20632,6 +21039,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 207.01 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 207.01 127 90)
 			(hide yes)
 			(show_name no)
@@ -20857,6 +21275,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 151.13 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3ebbd2fb-5935-47fe-8665-3d098bc91509")
 		)
@@ -20995,7 +21424,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT1555C1H150FA02-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 210.82 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -21028,7 +21457,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRT1555C1H150FA2D"
 			(at 210.82 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -21062,6 +21491,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 210.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 210.82 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -21132,7 +21572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H5R1FA16-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 166.37 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -21165,7 +21605,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GCM1555C1H5R1FA6D"
 			(at 166.37 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -21199,6 +21639,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 166.37 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 166.37 157.48 0)
 			(hide yes)
 			(show_name no)

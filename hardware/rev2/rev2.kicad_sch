@@ -2436,6 +2436,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "_symbols:EClamp2522P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3382,12 +3505,6 @@
 		(uuid "36871327-98fd-4cf8-a9a5-41c712af5b43")
 	)
 	(junction
-		(at 93.98 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f05cc64-1fda-4df3-ae78-6b436d599ec2")
-	)
-	(junction
 		(at 309.88 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3416,6 +3533,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e678d8a-8259-4df1-9538-83bf06bb5f56")
+	)
+	(junction
+		(at 93.98 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6650b3d0-eb60-4c67-915e-3bdb017129d1")
 	)
 	(junction
 		(at 332.74 181.61)
@@ -3718,6 +3841,16 @@
 			(type default)
 		)
 		(uuid "2bebbf2b-b4bf-4bef-9b8c-6f88191b5945")
+	)
+	(wire
+		(pts
+			(xy 93.98 25.4) (xy 116.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4a8f2e-c161-463e-a540-69d858cc0d29")
 	)
 	(wire
 		(pts
@@ -4719,16 +4852,6 @@
 		)
 		(uuid "feabcb56-461a-44f5-a0d8-968b191ca7a5")
 	)
-	(wire
-		(pts
-			(xy 93.98 25.4) (xy 116.84 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fec880e3-096b-4b05-9064-f04258992d4e")
-	)
 	(label "EXTINT"
 		(at 173.99 68.58 180)
 		(effects
@@ -5376,6 +5499,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 245.11 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0319d94c-bb78-43fb-a7a3-76eb6e2ff0c1")
+		(property "Reference" "H1"
+			(at 247.65 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 247.65 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14a7b742-9386-42e5-98b8-0b43eade374e")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 290.83 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0accc34b-693f-47e3-a9ce-2237365a5c9b")
+		(property "Reference" "#PWR0106"
+			(at 290.83 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.83 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17d65a97-1d5a-47e5-b21e-deb56cf1ea43")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 309.88 172.72 0)
 		(mirror y)
@@ -5465,6 +5745,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 309.88 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 309.88 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -5598,6 +5889,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 54.61 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "68337014-0bef-4b62-86b6-ec0c47bf4a11")
 		)
@@ -5713,6 +6015,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 261.62 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "66d80e78-709b-4025-be0a-19e8db54943f")
 		)
@@ -5751,7 +6064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 pF"
+		(property "Value" "3000 pF"
 			(at 336.55 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,7 +6086,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1557U1A302JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 332.74 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5818,6 +6131,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 332.74 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 332.74 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM1557U1A302JA1D"
 			(at 332.74 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5945,7 +6280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 pF"
+		(property "Value" "3000 pF"
 			(at 336.55 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5967,7 +6302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1557U1A302JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 332.74 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -6012,6 +6347,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 332.74 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 332.74 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM1557U1A302JA1D"
 			(at 332.74 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -6137,6 +6494,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 309.88 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1682dc42-291e-4076-92d0-8b3f6347475e")
 		)
@@ -6147,6 +6515,144 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 93.98 29.21 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27dd751a-1fc8-4274-bc80-4b001798e2a9")
+		(property "Reference" "L20"
+			(at 95.25 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "6.2 nH"
+			(at 95.25 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/2/JELF243A_0050.pdf"
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 93.98 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 93.98 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 93.98 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-LQW15AN6N2C00D"
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "126532c0-2c3f-45e2-b33b-7d303aa8ca02")
+		)
+		(pin "1"
+			(uuid "5b62e6dc-41ee-43c9-a81a-e33bbc0799b3")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "L20")
 					(unit 1)
 				)
 			)
@@ -6330,6 +6836,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 309.88 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ff598b34-ef6b-4575-89cb-b0395afd32cd")
 		)
@@ -6445,7 +6962,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1 uH ?"
+		(property "Value" "1 uH"
 			(at 326.39 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6466,7 +6983,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/JELF243A-0140.pdf"
 			(at 326.39 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -6510,7 +7027,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15CA1R0K00D"
 			(at 326.39 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -6522,6 +7039,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 326.39 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 326.39 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -6725,6 +7253,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 127 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1d9c9b2-035e-4dad-8808-275e321aaee0")
 		)
@@ -6841,6 +7380,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 78.74 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6982,7 +7532,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1.8 nH"
 			(at 86.36 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7003,7 +7553,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243B-9118_PDF_INDUCTOR"
 			(at 86.36 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7048,6 +7598,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 86.36 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 86.36 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-LQG15WH1N8C02D"
 			(at 86.36 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -7171,6 +7743,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 134.62 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e102732d-0737-44bc-b2ed-fdfe17a1154e")
 		)
@@ -7209,7 +7792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 pF"
+		(property "Value" "3000 pF"
 			(at 336.55 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7231,7 +7814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1557U1A302JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 332.74 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7286,6 +7869,28 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 332.74 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM1557U1A302JA1D"
+			(at 332.74 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed1df314-e39b-427f-8520-4dde62bf6f4c")
 		)
@@ -7323,7 +7928,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1 uH ?"
+		(property "Value" "1 uH"
 			(at 326.39 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7344,7 +7949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/JELF243A-0140.pdf"
 			(at 326.39 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -7388,7 +7993,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15CA1R0K00D"
 			(at 326.39 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -7400,6 +8005,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 326.39 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 326.39 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -7611,6 +8227,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 54.61 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "05f25687-c6ee-487c-8f37-1a218551e77f")
 		)
@@ -7632,7 +8259,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7669,7 +8296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 252.73 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -7706,6 +8333,17 @@
 			(at 251.46 229.87 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW04020000Z0EDC"
+			(at 252.73 209.55 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7788,6 +8426,17 @@
 		)
 		(property "Description" "test point"
 			(at 267.97 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 267.97 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7907,6 +8556,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 114.3 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 114.3 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -8119,6 +8779,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 54.61 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f7510102-25b1-43a6-b149-c911cb3cf737")
 		)
@@ -8313,7 +8984,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1 uH ?"
+		(property "Value" "1 uH"
 			(at 326.39 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8334,7 +9005,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/JELF243A-0140.pdf"
 			(at 326.39 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -8378,7 +9049,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15CA1R0K00D"
 			(at 326.39 207.01 90)
 			(hide yes)
 			(show_name no)
@@ -8390,6 +9061,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 326.39 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 326.39 207.01 90)
 			(hide yes)
 			(show_name no)
@@ -8672,6 +9354,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 276.86 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6d9dddee-01e8-424d-9029-74dd24a3edf6")
 		)
@@ -8786,6 +9479,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 31.75 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 31.75 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8935,6 +9639,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 245.11 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "794b1a7e-201f-41fd-8cea-a88b2371b192")
+		(property "Reference" "#PWR0104"
+			(at 245.11 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad301f69-cc64-41ff-a4f6-3a43efd416f6")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 340.0425 47.3075 0)
 		(unit 1)
@@ -9010,6 +9792,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 340.0425 47.3075 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c508bdff-7bd7-4140-b7d8-67360cd76f77")
 		)
@@ -9020,121 +9813,6 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 93.98 29.21 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "878c8fb4-46ec-4f87-95d3-7f3459badcdc")
-		(property "Reference" "C2"
-			(at 99.695 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TBD"
-			(at 100.965 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 93.0148 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 93.98 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 93.98 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 93.98 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 93.98 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c6d911ca-ddfc-46fa-857d-66ce6fc84a13")
-		)
-		(pin "1"
-			(uuid "8f437ead-07f2-4dd8-8d8f-7a268cdb0cbf")
-		)
-		(instances
-			(project "rev2"
-				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9318,6 +9996,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 309.88 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a1bd9207-c1f5-4d59-85f1-9cf0bcd18b11")
 		)
@@ -9420,6 +10109,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 340.0425 54.9275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a9e544a-9c60-4851-8eba-f92e3d6e3033")
 		)
@@ -9457,7 +10157,7 @@
 				)
 			)
 		)
-		(property "Value" "100 pF"
+		(property "Value" "3000 pF"
 			(at 284.48 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9478,7 +10178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1557U1A302JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 284.48 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -9523,6 +10223,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 284.48 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 284.48 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM1557U1A302JA1D"
 			(at 284.48 209.55 90)
 			(hide yes)
 			(show_name no)
@@ -9789,10 +10511,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9a9b7022-4593-481e-834f-8360218fb457")
 		(property "Reference" "C1"
 			(at 84.455 27.94 0)
@@ -9872,6 +10594,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 78.74 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 78.74 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10075,6 +10808,28 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 369.57 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "855-M50-1900005"
+			(at 369.57 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "e248f3c4-a4ab-4e62-9cf8-ab8c8f90d9e1")
 		)
@@ -10097,6 +10852,186 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 290.83 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e66b273-b587-4012-93a9-adad41c8256e")
+		(property "Reference" "H3"
+			(at 293.37 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 293.37 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 290.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 290.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 290.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d142b177-37ca-4d55-818b-e7d37ec772de")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 267.97 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f5b08df-6eae-4916-a5a2-c2f6dde980d3")
+		(property "Reference" "H2"
+			(at 270.51 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 270.51 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 267.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 267.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 267.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a6a482e-e2cd-4bd2-987a-d3744f0ea006")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10203,7 +11138,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1 uH ?"
+		(property "Value" "1 uH"
 			(at 326.39 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10224,7 +11159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/JELF243A-0140.pdf"
 			(at 326.39 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -10268,7 +11203,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15CA1R0K00D"
 			(at 326.39 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -10280,6 +11215,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 326.39 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 326.39 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -10382,6 +11328,17 @@
 			)
 		)
 		(property "Mouser Part Number" "78-VLMTG1400-GS08"
+			(at 322.58 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 322.58 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10518,6 +11475,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 119.38 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7774858b-800a-417b-941b-27c560cbc29a")
 		)
@@ -10556,7 +11524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 pF"
+		(property "Value" "3000 pF"
 			(at 336.55 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10578,7 +11546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1557U1A302JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 332.74 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10623,6 +11591,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 332.74 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 332.74 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM1557U1A302JA1D"
 			(at 332.74 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10756,6 +11746,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 252.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a9e7360-ae36-46e9-bf44-999143071f94")
 		)
@@ -10869,6 +11870,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 269.24 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19bee276-10a5-4168-9b0a-8429c163a8b8")
 		)
@@ -10906,7 +11918,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1 uH ?"
+		(property "Value" "1 uH"
 			(at 326.39 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10927,7 +11939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/JELF243A-0140.pdf"
 			(at 326.39 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10971,7 +11983,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15CA1R0K00D"
 			(at 326.39 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -10983,6 +11995,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 326.39 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 326.39 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -11116,6 +12139,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 153.67 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ddefd2f-cc83-4cc9-b63f-455b7920a378")
 		)
@@ -11221,6 +12255,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 309.88 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 309.88 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -11502,7 +12547,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1 uH ?"
+		(property "Value" "1 uH"
 			(at 326.39 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11523,7 +12568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/76/1/JELF243A-0140.pdf"
 			(at 326.39 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -11567,7 +12612,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-LQW15CA1R0K00D"
 			(at 326.39 219.71 90)
 			(hide yes)
 			(show_name no)
@@ -11579,6 +12624,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 326.39 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 326.39 219.71 90)
 			(hide yes)
 			(show_name no)
@@ -11941,7 +12997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 pF"
+		(property "Value" "3000 pF"
 			(at 336.55 201.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,7 +13019,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1557U1A302JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 332.74 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12008,6 +13064,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 332.74 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 332.74 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM1557U1A302JA1D"
 			(at 332.74 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12334,6 +13412,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 262.89 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "535f78f5-656c-4248-b4cf-d76a97085a5e")
 		)
@@ -12446,6 +13535,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 142.24 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3d1b123d-77b4-4ed3-b3b9-2915d85f268f")
 		)
@@ -12456,6 +13556,84 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
 					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0de0987-bcad-464a-b63e-f6cc261f5e15")
+		(property "Reference" "#PWR0105"
+			(at 267.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "522473d8-68b6-4b36-a604-87bf62086133")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -12725,6 +13903,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 54.61 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0a9edbd8-5241-459f-bfff-327d7e3c4943")
 		)
@@ -12840,7 +14029,18 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "910-CQ-ESD-10"
+		(property "Mouser Part Number" "910-CQ-ESD-14"
+			(at 369.57 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 369.57 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13101,6 +14301,17 @@
 				)
 			)
 		)
+		(property "KLC_S5.1" ""
+			(at 257.81 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5657128d-b565-461d-b031-bb451c530570")
 		)
@@ -13258,6 +14469,17 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-110-E3"
+			(at 322.58 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 322.58 46.99 90)
 			(hide yes)
 			(show_name no)

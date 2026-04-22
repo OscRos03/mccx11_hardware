@@ -146,7 +146,7 @@
         "min_track_width": 0.175,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.2,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.06,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -199,7 +199,7 @@
         0.2,
         0.3,
         0.4,
-        0.515,
+        0.542,
         0.6
       ],
       "tuning_pattern_settings": {
@@ -539,7 +539,7 @@
         "pcb_color": "rgb(194, 0, 194)",
         "priority": 2,
         "schematic_color": "rgb(0, 132, 132)",
-        "track_width": 0.515,
+        "track_width": 0.542,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.2
@@ -1126,7 +1126,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "C56-62,J2,J7,JP2-3,#PWR11,#PWR100-104,L19",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
