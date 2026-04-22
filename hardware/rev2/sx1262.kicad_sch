@@ -2165,7 +2165,7 @@
 	)
 	(rectangle
 		(start 163.83 149.225)
-		(end 193.04 184.15)
+		(end 195.58 184.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -2189,7 +2189,7 @@
 	)
 	(rectangle
 		(start 319.405 124.46)
-		(end 360.68 154.94)
+		(end 363.855 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -14922,7 +14922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "8.5 pF"
 			(at 355.6 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,7 +15352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.1 pF"
 			(at 170.18 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15645,7 +15645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "33 nH"
 			(at 167.64 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16567,7 +16567,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "30 nH"
 			(at 242.57 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16703,7 +16703,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "8.5 pF"
 			(at 250.19 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16840,7 +16840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1.33 pF"
 			(at 186.69 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17098,7 +17098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "8.5 pF"
 			(at 342.9 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17496,7 +17496,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "30 nH"
 			(at 345.44 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17768,7 +17768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "75 nH"
 			(at 192.786 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19113,7 +19113,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "17.5 nH"
 			(at 207.01 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19386,7 +19386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 nF"
+		(property "Value" "100 nF"
 			(at 298.45 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19511,7 +19511,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100 pF"
 			(at 332.74 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19725,7 +19725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 nF"
+		(property "Value" "100 nF"
 			(at 306.07 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19928,7 +19928,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100 pF"
 			(at 234.95 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20544,7 +20544,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "3.8 pF"
 			(at 207.01 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20973,7 +20973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15 pF"
 			(at 214.63 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21110,7 +21110,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "5.1 pF"
 			(at 170.18 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)

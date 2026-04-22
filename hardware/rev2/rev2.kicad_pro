@@ -621,8 +621,14 @@
       "Net-(C19-Pad1)": [
         "Power"
       ],
+      "Net-(C2-Pad1)": [
+        "50 Ohm"
+      ],
       "Net-(C20-Pad1)": [
         "Power"
+      ],
+      "Net-(C25-Pad1)": [
+        "50 Ohm"
       ],
       "Net-(C38-Pad2)": [
         "50 Ohm"
@@ -656,6 +662,15 @@
       ],
       "Net-(J7-D--PadA7)": [
         "90 Ohm"
+      ],
+      "Net-(J7-In)": [
+        "50 Ohm"
+      ],
+      "Net-(JP2-B)": [
+        "50 Ohm"
+      ],
+      "Net-(JP3-A)": [
+        "50 Ohm"
       ],
       "Net-(U1-GPIO19{slash}USB_D-)": [
         "90 Ohm"
@@ -736,6 +751,21 @@
         "50 Ohm"
       ],
       "Net-(U4-RFC)": [
+        "50 Ohm"
+      ],
+      "unconnected-(AE1-FEED-Pad1)": [
+        "50 Ohm"
+      ],
+      "unconnected-(C5-Pad1)": [
+        "50 Ohm"
+      ],
+      "unconnected-(J2-In-Pad1)": [
+        "50 Ohm"
+      ],
+      "unconnected-(J3-In-Pad1)": [
+        "50 Ohm"
+      ],
+      "unconnected-(J6-In-Pad1)": [
         "50 Ohm"
       ],
       "unconnected-(U1-GPIO33-Pad38)": [
@@ -890,7 +920,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "output\\rev2.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1024,6 +1054,12 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S5.1",
+          "name": "KLC_S5.1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1090,7 +1126,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "R36",
+    "used_designators": "C56-62,J2,J7,JP2-3,#PWR11,#PWR100-104,L19",
     "variants": []
   },
   "sheets": [
