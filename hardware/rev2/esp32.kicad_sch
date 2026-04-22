@@ -5,10 +5,10 @@
 	(uuid "14cf5a0f-d040-4f96-bb80-ec1eb7106d86")
 	(paper "A4")
 	(title_block
-		(title "ESP32")
-		(date "2026-03-31")
-		(rev "1")
-		(company "MMCX11")
+		(title "LoRa Based Cat Tracker")
+		(date "2026-04-22")
+		(rev "2.0.0")
+		(company "Group 10")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"

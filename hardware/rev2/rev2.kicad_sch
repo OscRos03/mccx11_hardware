@@ -5,7 +5,11 @@
 	(uuid "9067f306-e23c-4d77-8182-4fa2c4b88902")
 	(paper "A3")
 	(title_block
-		(company "MMCX11")
+		(title "LoRa Based Cat Tracker")
+		(date "2026-04-22")
+		(rev "2.0.0")
+		(company "Group 10")
+		(comment 1 "MMCX11")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
@@ -3282,7 +3286,7 @@
 	)
 	(rectangle
 		(start 233.045 158.75)
-		(end 402.59 258.445)
+		(end 402.59 250.825)
 		(stroke
 			(width 0)
 			(type dash)

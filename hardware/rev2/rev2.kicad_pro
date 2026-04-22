@@ -247,7 +247,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "2.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1067,7 +1067,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Digikey Part Number"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
