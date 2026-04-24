@@ -3212,6 +3212,12 @@
 		(uuid "55c39cfd-1f67-4b2a-b6cc-44674259d9af")
 	)
 	(junction
+		(at 24.13 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "567c2b69-849b-40f5-94d3-bfb43286aff9")
+	)
+	(junction
 		(at 69.85 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3276,6 +3282,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4cf5477-8eae-41c8-a0c2-5f84c177661e")
+	)
+	(junction
+		(at 24.13 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee2cdc6b-bb03-4bef-a47c-357c28cd49f1")
 	)
 	(no_connect
 		(at 63.5 109.22)
@@ -3493,13 +3505,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 139.7) (xy 67.31 139.7)
+			(xy 24.13 139.7) (xy 67.31 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f84ca97-b83d-4b27-beb5-4e1d6d5a7fc6")
+		(uuid "20145b03-cba7-4720-ad2d-174c4c47188a")
 	)
 	(wire
 		(pts
@@ -4233,7 +4245,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 142.24) (xy 67.31 142.24)
+			(xy 24.13 142.24) (xy 67.31 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9911,6 +9923,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 24.13 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a95fea2-5d26-4dab-894d-69e2a748c1e5")
+		(property "Reference" "#PWR0107"
+			(at 24.13 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 24.13 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 24.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c7881b8-d11e-4a12-b71f-99356b73cb30")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 31.75 54.61 0)
 		(mirror y)
@@ -10410,6 +10500,84 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 24.13 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21f565c6-9c4b-4367-a790-b5faaf2fef20")
+		(property "Reference" "#PWR0108"
+			(at 24.13 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 24.13 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 24.13 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d567519-93e7-4369-9ff3-8ac5f678188c")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -10983,7 +11151,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 49.53 139.7 90)
+		(at 24.13 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10993,7 +11161,7 @@
 		(dnp no)
 		(uuid "3620aded-6e7c-4f6c-8067-de124d243f23")
 		(property "Reference" "TP7"
-			(at 43.18 139.7 90)
+			(at 17.78 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11003,7 +11171,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 47.4979 137.16 0)
+			(at 22.0979 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11015,7 +11183,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 49.53 134.62 0)
+			(at 24.13 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11026,7 +11194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 134.62 0)
+			(at 24.13 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11037,7 +11205,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 49.53 139.7 0)
+			(at 24.13 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11048,7 +11216,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 49.53 139.7 90)
+			(at 24.13 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16309,6 +16477,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 24.13 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1a49d04-efc3-44be-830b-22d422562565")
+		(property "Reference" "R36"
+			(at 26.67 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7 k"
+			(at 26.67 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 25.908 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 24.13 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 24.13 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4696037e-9015-447a-b70c-5fc9f0ef4761")
+		)
+		(pin "1"
+			(uuid "4fc3a2c7-80f4-4f3a-bc81-43a2ed0726f5")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 152.4 0)
 		(mirror y)
@@ -16603,7 +16875,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 49.53 142.24 90)
+		(at 24.13 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16613,7 +16885,7 @@
 		(dnp no)
 		(uuid "db22de6b-0ba3-44ba-ac00-1faeaa6283a6")
 		(property "Reference" "TP8"
-			(at 43.18 142.24 90)
+			(at 17.78 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16623,7 +16895,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 47.4979 139.7 0)
+			(at 22.0979 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16635,7 +16907,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 49.53 137.16 0)
+			(at 24.13 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16646,7 +16918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 137.16 0)
+			(at 24.13 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16657,7 +16929,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 49.53 142.24 0)
+			(at 24.13 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16668,7 +16940,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 49.53 142.24 90)
+			(at 24.13 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17851,6 +18123,110 @@
 			(project "rev2"
 				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 24.13 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9dae786-c4d8-4e3a-94d5-c7b94130878b")
+		(property "Reference" "R37"
+			(at 26.67 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7 k"
+			(at 26.67 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 25.908 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 24.13 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 24.13 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e7a08d5-5c0f-430e-83a1-eaa97786e47d")
+		)
+		(pin "1"
+			(uuid "b78b9499-2a26-4ed2-9dea-8121e15af3c9")
+		)
+		(instances
+			(project "rev2"
+				(path "/9067f306-e23c-4d77-8182-4fa2c4b88902/205c0759-a502-4841-972e-72ca86eb4dbc"
+					(reference "R37")
 					(unit 1)
 				)
 			)
