@@ -8504,7 +8504,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONUFL001-SMD-T&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONUFL001-SMD-T"
 			(at 114.3 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -8526,7 +8526,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+		(property "Mouser Part Number" "712-CONUFL001-SMD-T "
 			(at 114.3 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -11684,7 +11684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONUFL001-SMD-T&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONUFL001-SMD-T"
 			(at 252.73 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -11706,7 +11706,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+		(property "Mouser Part Number" "712-CONUFL001-SMD-T "
 			(at 252.73 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -12077,7 +12077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONUFL001-SMD-T&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONUFL001-SMD-T"
 			(at 153.67 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12099,7 +12099,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+		(property "Mouser Part Number" "712-CONUFL001-SMD-T "
 			(at 153.67 200.66 90)
 			(hide yes)
 			(show_name no)

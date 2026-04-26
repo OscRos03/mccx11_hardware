@@ -11407,7 +11407,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONUFL001-SMD-T&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONUFL001-SMD-T"
 			(at 257.81 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11429,7 +11429,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+		(property "Mouser Part Number" "712-CONUFL001-SMD-T "
 			(at 257.81 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -16521,7 +16521,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 24.13 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -16543,7 +16543,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW06034K70JNEBC"
 			(at 24.13 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -18173,7 +18173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 24.13 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -18195,7 +18195,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW06034K70JNEBC"
 			(at 24.13 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -18277,7 +18277,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM188R72A103KA37-01C-EN_PDF_CERAMICCAPACITORSMD"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM188R71H103KA37-01C-EN_PDF_CERAMICCAPACITORSMD"
 			(at 44.45 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18299,7 +18299,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCM188R72A103KA7D"
+		(property "Mouser Part Number" "81-GCM188R71H103KA7J"
 			(at 44.45 80.01 0)
 			(hide yes)
 			(show_name no)

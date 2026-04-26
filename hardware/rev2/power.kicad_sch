@@ -8844,7 +8844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?28758"
 			(at 38.1 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8877,7 +8877,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "667-ERA-3AEB3093V"
+		(property "Mouser Part Number" "71-TNPW0603309KBEEA"
 			(at 38.1 170.18 0)
 			(hide yes)
 			(show_name no)
