@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LoRa Based Cat Tracker")
-		(date "2026-04-22")
-		(rev "2.0.0")
+		(date "2026-04-28")
+		(rev "2.0.1")
 		(company "Group 10")
 	)
 	(lib_symbols
@@ -8449,7 +8449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical"
+		(property "Footprint" "_footprints:Unfucked_Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical"
 			(at 93.98 127 0)
 			(hide yes)
 			(show_name no)
@@ -8844,7 +8844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?28758"
 			(at 38.1 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8877,7 +8877,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "667-ERA-3AEB3093V"
+		(property "Mouser Part Number" "71-TNPW0603309KBEEA"
 			(at 38.1 170.18 0)
 			(hide yes)
 			(show_name no)
