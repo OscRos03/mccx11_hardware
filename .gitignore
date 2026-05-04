@@ -23,7 +23,7 @@ fp-info-cache
 \#auto_saved_files#
 
 # History
-*.history
+*.history*
 
 # Output Files 
 output
