@@ -3215,7 +3215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 48.895 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3296,7 +3296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 48.895 95.885 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,7 +4304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 48.895 108.585 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4634,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 48.895 146.431 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4875,7 +4875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 48.895 133.985 0)
 			(show_name no)
 			(do_not_autoplace no)

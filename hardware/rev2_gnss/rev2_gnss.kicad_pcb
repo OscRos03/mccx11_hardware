@@ -515,7 +515,7 @@
 				)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "64deadbf-23f3-4e0a-8dac-0c181cb7878c")
@@ -1113,7 +1113,7 @@
 				)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "26cba019-a824-4ad6-b910-cb242a938f82")
@@ -1411,7 +1411,7 @@
 				)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "e67106d6-63e5-44da-9735-8b10efa723fb")
@@ -2374,6 +2374,12 @@
 		(path "/8f87d0c1-9827-461f-b416-cac524bc2110")
 		(sheetname "/")
 		(sheetfile "rev2_gnss.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3124,7 +3130,7 @@
 				)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "08dcbdc0-534c-4782-ae87-92b315add44e")
@@ -3273,7 +3279,7 @@
 				)
 			)
 		)
-		(property "Value" "3 nF"
+		(property "Value" "3000 pF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "5a5e205d-8440-4fc4-84ec-dd791c6ba464")
@@ -3887,6 +3893,12 @@
 		(path "/9ab49e14-f858-4b4e-b1ff-17d039f6b759")
 		(sheetname "/")
 		(sheetfile "rev2_gnss.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
