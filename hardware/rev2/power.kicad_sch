@@ -7171,7 +7171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47 uF"
+		(property "Value" "470 nF"
 			(at 124.46 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7764,7 +7764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "0.1 uF"
 			(at 55.88 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8378,7 +8378,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D"
 			(at 113.03 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9245,7 +9245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "0.1 uF"
 			(at 232.41 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)

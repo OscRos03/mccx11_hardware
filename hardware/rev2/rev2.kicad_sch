@@ -6993,7 +6993,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 107.95 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7958,7 +7958,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 107.95 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,7 +9014,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 107.95 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11168,7 +11168,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 107.95 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11947,7 +11947,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 107.95 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12576,7 +12576,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 107.95 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
