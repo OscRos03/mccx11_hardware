@@ -372,7 +372,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "035df676-79b3-4b9a-afcc-653942b82f3a")
-		(at 171.5 60.13769 90)
+		(at 171.7 59.4625 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C52"
@@ -955,7 +955,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "0.1 uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a6c38017-81e2-4c8b-a848-40c928221602")
@@ -2522,7 +2522,7 @@
 				)
 			)
 		)
-		(property "Value" "10 nF"
+		(property "Value" "0.01 uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "37937890-9fd7-4871-8c95-efd6fe6d910e")
@@ -2533,7 +2533,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM188R72A103KA37-01C-EN_PDF_CERAMICCAPACITORSMD"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM188R71H103KA37-01C-EN_PDF_CERAMICCAPACITORSMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2555,7 +2555,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCM188R72A103KA7D"
+		(property "Mouser Part Number" "81-GCM188R71H103KA7J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3523,7 +3523,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "38432af8-eccd-4b3c-b873-9e738660a75d")
@@ -5239,7 +5239,7 @@
 				)
 			)
 		)
-		(property "Value" "0.47 uF"
+		(property "Value" "470 nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "be22ca70-3d2d-490f-b097-3115a582e64a")
@@ -7221,7 +7221,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "Mounting Hole"
 			(at 0 3.15 0)
 			(layer "F.Fab")
 			(uuid "9a06be22-a07a-4c80-bcea-0d26ce66bd4a")
@@ -7554,7 +7554,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONUFL001-SMD-T&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONUFL001-SMD-T"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7580,7 +7580,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+		(property "Mouser Part Number" "712-CONUFL001-SMD-T "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8708,7 +8708,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11809,7 +11809,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "Mounting Hole"
 			(at 0 3.15 0)
 			(layer "F.Fab")
 			(uuid "2ae11c44-85d6-4bd3-a67c-9fdb55b7833b")
@@ -11931,7 +11931,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "0.1 uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3c0a0a88-62d8-4022-aa1b-ee8b6dba267a")
@@ -13043,7 +13043,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13649,7 +13649,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "Mounting Hole"
 			(at 0 3.15 0)
 			(layer "F.Fab")
 			(uuid "04025f26-6b09-4d57-8d51-5e60a2e43739")
@@ -14404,7 +14404,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONUFL001-SMD-T&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONUFL001-SMD-T"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14430,7 +14430,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+		(property "Mouser Part Number" "712-CONUFL001-SMD-T "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15751,7 +15751,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15942,7 +15942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONUFL001-SMD-T&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONUFL001-SMD-T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15968,7 +15968,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+		(property "Mouser Part Number" "712-CONUFL001-SMD-T "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17315,7 +17315,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "be25298d-c78f-482f-9a32-6616c34e323c")
@@ -18363,7 +18363,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "49084183-d2b2-49d2-a895-08a11ca785ca")
@@ -19515,7 +19515,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "1000 pF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "2cfdf544-4534-4e07-a769-a327eda012fb")
@@ -20807,7 +20807,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf1-smd-g-t-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONMHF1-SMD-G-T"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONUFL001-SMD-T&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=CONUFL001-SMD-T"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20833,7 +20833,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "712-CONMHF1-SMD-G-T "
+		(property "Mouser Part Number" "712-CONUFL001-SMD-T "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21398,7 +21398,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "8ad34c3b-fe6f-416e-acb7-d8a5d61db23d")
@@ -22196,17 +22196,16 @@
 			(layer "F.SilkS")
 			(uuid "f3fe307d-1bc9-4686-a862-09872cf3da85")
 		)
-		(fp_poly
-			(pts
-				(xy -1.325 -1.050001) (xy 1.325 -1.050001) (xy 1.325 1.050001) (xy -1.325 1.050001)
-			)
+		(fp_rect
+			(start -1.325 -1.05)
+			(end 1.325 1.05)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "7e102469-a31c-4da3-bace-5950cc4ae746")
+			(uuid "ab9f9075-cf1e-42fa-a616-f2f76dbf7f70")
 		)
 		(fp_line
 			(start 0.8 -0.8)
@@ -22283,7 +22282,7 @@
 			(at -0.76 0 90)
 			(size 0.63 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/*D+")
+			(net "/*D-")
 			(pinfunction "DM_In_2")
 			(pintype "bidirectional")
 			(uuid "aee4754b-ffe8-4df9-bf52-197f2c197698")
@@ -22292,16 +22291,16 @@
 			(at -0.76 0.5 90)
 			(size 0.63 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/*D-")
+			(net "/*D+")
 			(pinfunction "DP_In_3")
 			(pintype "bidirectional")
 			(uuid "44e00bb8-b8d1-436a-b23e-18f42e21a43e")
 		)
 		(pad "4" smd rect
-			(at 0.76 -0.5 90)
+			(at 0.76 0.5 90)
 			(size 0.63 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/USB_D-")
+			(net "/USB_D+")
 			(pinfunction "DP_Out_4")
 			(pintype "bidirectional")
 			(uuid "abe7a577-6b4f-4ee0-9b7d-3d43b75c64bc")
@@ -22310,13 +22309,13 @@
 			(at 0.76 0 90)
 			(size 0.63 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/USB_D+")
+			(net "/USB_D-")
 			(pinfunction "DM_Out_5")
 			(pintype "bidirectional")
 			(uuid "11d0ed2b-c5ba-44a2-9f9f-fd6acfaa6d92")
 		)
 		(pad "6" smd rect
-			(at 0.76 0.5 90)
+			(at 0.76 -0.5 90)
 			(size 0.63 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3V3")
@@ -24184,7 +24183,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "8b82a7fb-073d-4289-99d7-31fa29ea5048")
@@ -25808,7 +25807,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26527,7 +26526,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "1000 pF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "ddc002f6-0ffe-46ac-9ef2-6e6f7178ea0a")
@@ -26740,7 +26739,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
+		(property "Value" "1000 nH"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "683b5d58-a801-4d94-83f3-1449ba169885")
@@ -27521,7 +27520,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29071,7 +29070,7 @@
 				)
 			)
 		)
-		(property "Value" "47 nF"
+		(property "Value" "0.047 uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "5c3544be-4a16-42a9-be41-7d4ca91fc93e")
@@ -31021,7 +31020,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71E104KA2D "
+		(property "Mouser Part Number" "81-GCJ188R71E104KA2D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31635,7 +31634,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -31672,7 +31671,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW06034K70JNEBC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33108,7 +33107,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -33145,7 +33144,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW06034K70JNEBC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33919,7 +33918,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?28758"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -33957,7 +33956,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "667-ERA-3AEB3093V"
+		(property "Mouser Part Number" "71-TNPW0603309KBEEA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48106,14 +48105,6 @@
 		(uuid "8525cabb-a800-4fed-91ef-6e066f9d2bd4")
 	)
 	(segment
-		(start 153.95 78.299999)
-		(end 154.6 78.299998)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "a3f8029a-4779-4364-ba7d-89a8731717e2")
-	)
-	(segment
 		(start 151.31976 79.2)
 		(end 150.60988 78.49012)
 		(width 0.6)
@@ -48241,14 +48232,6 @@
 		(free yes)
 		(net "+3V3")
 		(uuid "4d235412-00fa-4423-a26d-1ed57c35d1b7")
-	)
-	(via
-		(at 154.6 78.299998)
-		(size 0.6)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "+3V3")
-		(uuid "50af13e4-6b35-411b-b848-e6f8c2c43082")
 	)
 	(via
 		(at 141.799999 72.4)
@@ -51677,6 +51660,22 @@
 		(layer "F.Cu")
 		(net "/USB_D+")
 		(uuid "600ef54d-ec93-45c7-8b3d-942b67f172d1")
+	)
+	(segment
+		(start 153.95 78.299999)
+		(end 154.6 78.299998)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D+")
+		(uuid "a3f8029a-4779-4364-ba7d-89a8731717e2")
+	)
+	(via
+		(at 154.6 78.299998)
+		(size 0.6)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net "/USB_D+")
+		(uuid "50af13e4-6b35-411b-b848-e6f8c2c43082")
 	)
 	(segment
 		(start 158.8 73)
