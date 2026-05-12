@@ -598,6 +598,9 @@
       "/SX1262/Antenna": [
         "50 Ohm"
       ],
+      "/SX1262/LoRa_RX": [
+        "50 Ohm"
+      ],
       "/USB_D+": [
         "90 Ohm"
       ],
@@ -898,6 +901,14 @@
       {
         "netclass": "90 Ohm",
         "pattern": "/*D+"
+      },
+      {
+        "netclass": "50 Ohm",
+        "pattern": "/SX1262/LoRa_TX"
+      },
+      {
+        "netclass": "50 Ohm",
+        "pattern": "/SX1262/LoRa_RX"
       }
     ]
   },

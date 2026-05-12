@@ -2617,6 +2617,16 @@
 		)
 		(uuid "f7959826-9ecb-40f3-8633-7aa1fa729283")
 	)
+	(label "TXD"
+		(at 76.2 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03ae24af-fb10-4684-897b-a3b417a89a12")
+	)
 	(label "RESET_N"
 		(at 96.52 91.44 180)
 		(effects
@@ -2636,6 +2646,16 @@
 			(justify right bottom)
 		)
 		(uuid "257464e0-94eb-4591-9d16-9aa5a22f375a")
+	)
+	(label "RXD"
+		(at 83.82 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d7059e9-9c4a-4287-bfb4-d67f0c57732a")
 	)
 	(label "+BACKUP"
 		(at 138.43 74.93 0)
@@ -2657,16 +2677,6 @@
 		)
 		(uuid "7cd4f2d0-3e0d-4dd7-a39b-5a91c1c82143")
 	)
-	(label "SCL"
-		(at 76.2 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90c783e1-464f-4d53-97fa-64884a9e5404")
-	)
 	(label "EXTINT"
 		(at 76.2 139.7 0)
 		(effects
@@ -2687,6 +2697,26 @@
 		)
 		(uuid "9ade70af-6625-4c07-a130-9a2a8555e204")
 	)
+	(label "TXD"
+		(at 114.3 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aabfac49-91de-4e08-b03b-e813558494d7")
+	)
+	(label "RXD"
+		(at 114.3 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c850da8d-385a-4cb2-8f1e-d2e5af4b6874")
+	)
 	(label "+BACKUP"
 		(at 196.85 53.34 0)
 		(effects
@@ -2706,16 +2736,6 @@
 			(justify right bottom)
 		)
 		(uuid "e3e04089-f17e-46be-8b9f-d682bf9bf116")
-	)
-	(label "SDA"
-		(at 83.82 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f75a0f01-1cae-4ea7-b1c0-edd541ae39a2")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2960,7 +2980,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 109.22 90)
+		(at 114.3 109.22 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2971,7 +2991,7 @@
 		(dnp no)
 		(uuid "1f88f5ca-eae4-40e0-af5d-ce285fbe2d8b")
 		(property "Reference" "TP5"
-			(at 110.998 111.76 90)
+			(at 116.84 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2981,7 +3001,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 112.2679 111.125 0)
+			(at 116.205 111.2521 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2992,7 +3012,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 114.3 114.3 0)
+			(at 119.38 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3003,7 +3023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 114.3 0)
+			(at 119.38 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3048,7 +3068,7 @@
 		(dnp no)
 		(uuid "21f6dc3e-7e97-43e5-8316-ebcededcdf3a")
 		(property "Reference" "L6"
-			(at 63.373 148.209 90)
+			(at 59.69 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3058,7 +3078,7 @@
 			)
 		)
 		(property "Value" "1 uH"
-			(at 63.373 150.241 90)
+			(at 68.58 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3117,7 +3137,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 106.68 90)
+		(at 114.3 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3128,17 +3148,18 @@
 		(fields_autoplaced yes)
 		(uuid "28b1161d-7896-4399-b433-35fbfad758f3")
 		(property "Reference" "TP4"
-			(at 110.998 104.14 90)
+			(at 116.84 103.3779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" ""
-			(at 112.2679 104.775 0)
+			(at 116.205 104.6479 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3149,7 +3170,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 114.3 101.6 0)
+			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 101.6 0)
+			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3205,7 +3226,7 @@
 		(dnp no)
 		(uuid "316b1bf9-f382-48bf-9e5a-a56bea6afa5a")
 		(property "Reference" "C7"
-			(at 49.53 119.38 0)
+			(at 57.15 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3216,7 +3237,7 @@
 			)
 		)
 		(property "Value" "3000 pF"
-			(at 48.895 121.285 0)
+			(at 57.15 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3286,7 +3307,7 @@
 		(dnp no)
 		(uuid "3d7de70e-1b75-481c-804f-af54439449c0")
 		(property "Reference" "C5"
-			(at 49.53 93.98 0)
+			(at 57.15 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3297,7 +3318,7 @@
 			)
 		)
 		(property "Value" "3000 pF"
-			(at 48.895 95.885 0)
+			(at 57.15 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4294,7 +4315,7 @@
 		(dnp no)
 		(uuid "ae4bcc52-1ab5-4208-8be7-66cba7b2b78b")
 		(property "Reference" "C6"
-			(at 49.53 106.68 0)
+			(at 57.15 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4305,7 +4326,7 @@
 			)
 		)
 		(property "Value" "3000 pF"
-			(at 48.895 108.585 0)
+			(at 57.15 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4467,7 +4488,7 @@
 		(dnp no)
 		(uuid "b6ea972f-eebc-4bfc-af26-596308489f01")
 		(property "Reference" "L1"
-			(at 63.5 84.455 90)
+			(at 59.69 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4477,7 +4498,7 @@
 			)
 		)
 		(property "Value" "1 uH"
-			(at 63.5 86.36 90)
+			(at 68.58 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4624,7 +4645,7 @@
 		(dnp no)
 		(uuid "be9f9244-8851-4e6d-837c-56b2fb02089e")
 		(property "Reference" "C9"
-			(at 49.657 144.653 0)
+			(at 57.15 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4635,7 +4656,7 @@
 			)
 		)
 		(property "Value" "3000 pF"
-			(at 48.895 146.431 0)
+			(at 57.15 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4865,7 +4886,7 @@
 		(dnp no)
 		(uuid "c6198405-45ed-4934-bd8d-7117eb1a2094")
 		(property "Reference" "C8"
-			(at 49.53 132.08 0)
+			(at 57.15 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4876,7 +4897,7 @@
 			)
 		)
 		(property "Value" "3000 pF"
-			(at 48.895 133.985 0)
+			(at 57.15 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4946,7 +4967,7 @@
 		(dnp no)
 		(uuid "ca886ebd-3327-4661-bd50-5b1f988c754b")
 		(property "Reference" "L5"
-			(at 63.373 135.509 90)
+			(at 59.69 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4956,7 +4977,7 @@
 			)
 		)
 		(property "Value" "1 uH"
-			(at 63.373 137.541 90)
+			(at 68.58 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5025,7 +5046,7 @@
 		(dnp no)
 		(uuid "cbc5e0a8-d7ca-4c56-9b13-4cf4f71f00e9")
 		(property "Reference" "L4"
-			(at 63.5 122.555 90)
+			(at 59.69 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5035,7 +5056,7 @@
 			)
 		)
 		(property "Value" "1 uH"
-			(at 63.5 124.46 90)
+			(at 68.58 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5104,7 +5125,7 @@
 		(dnp no)
 		(uuid "e7081166-0290-4daf-b879-1f93d964ac8e")
 		(property "Reference" "L2"
-			(at 63.5 97.155 90)
+			(at 59.69 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5114,7 +5135,7 @@
 			)
 		)
 		(property "Value" "1 uH"
-			(at 63.5 99.06 90)
+			(at 68.58 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5262,7 +5283,7 @@
 		(dnp no)
 		(uuid "ee519910-a659-450b-a741-7118bf59a7b0")
 		(property "Reference" "L3"
-			(at 63.373 109.855 90)
+			(at 59.69 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5272,7 +5293,7 @@
 			)
 		)
 		(property "Value" "1 uH"
-			(at 63.5 111.76 90)
+			(at 68.58 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

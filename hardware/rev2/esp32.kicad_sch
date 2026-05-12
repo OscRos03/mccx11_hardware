@@ -3236,6 +3236,12 @@
 		(uuid "70aa4c62-9078-4c52-a1f6-2f80c30e2100")
 	)
 	(junction
+		(at 251.46 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e711d8b-f403-40b0-b8bf-0d6cc441ac54")
+	)
+	(junction
 		(at 57.15 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3276,6 +3282,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d876e87d-836c-4d8b-bf4f-19eeb5a84f8a")
+	)
+	(junction
+		(at 251.46 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e25b0efe-c534-4d2f-b6a2-15fa6676abab")
 	)
 	(junction
 		(at 146.05 160.02)
@@ -3405,6 +3417,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 57.15) (xy 254 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ba7b8d-1ea2-453f-9af7-5e9876fd4799")
+	)
+	(wire
+		(pts
 			(xy 113.03 139.7) (xy 127 139.7)
 		)
 		(stroke
@@ -3442,16 +3464,6 @@
 			(type default)
 		)
 		(uuid "10d1d0d6-3856-468a-b707-92213801de26")
-	)
-	(wire
-		(pts
-			(xy 251.46 57.15) (xy 245.11 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11afb119-3887-4bf6-ad25-616f381f64d4")
 	)
 	(wire
 		(pts
@@ -4525,6 +4537,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 57.15) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49442fb-3749-4cd6-bd1f-e84b0d31c8db")
+	)
+	(wire
+		(pts
 			(xy 254 69.85) (xy 245.11 69.85)
 		)
 		(stroke
@@ -4572,6 +4594,16 @@
 			(type default)
 		)
 		(uuid "faf0d36a-f879-49f5-aae0-7af0e9d9e477")
+	)
+	(wire
+		(pts
+			(xy 251.46 50.8) (xy 254 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbabae35-0f31-4264-a88f-6470b43b875c")
 	)
 	(wire
 		(pts
@@ -9025,6 +9057,17 @@
 		)
 		(uuid "fbfe0afb-742c-4543-aae7-7afa4502defc")
 	)
+	(hierarchical_label "U0TXD"
+		(shape output)
+		(at 254 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06151d74-7441-476f-8520-bcec9bceba46")
+	)
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 254 25.4 0)
@@ -9046,6 +9089,17 @@
 			(justify right)
 		)
 		(uuid "0cd1e4af-a344-4d53-be16-d91205de7bc9")
+	)
+	(hierarchical_label "U0RXD"
+		(shape output)
+		(at 254 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13a81dcc-047d-40b0-8348-e2aed7f24374")
 	)
 	(hierarchical_label "ALRT"
 		(shape input)
@@ -11931,7 +11985,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 251.46 57.15 270)
+		(at 251.46 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11939,32 +11993,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41d73d1e-ea6e-49ee-931c-e07f7cea07e2")
 		(property "Reference" "TP2"
-			(at 256.54 55.8799 90)
+			(at 252.73 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 256.54 58.4199 90)
+			(at 254 61.7219 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 251.46 62.23 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,7 +12029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 62.23 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13077,7 +13131,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 251.46 50.8 270)
+		(at 251.46 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13085,10 +13139,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7165b2cc-666d-4af7-a203-a7c68085e948")
 		(property "Reference" "TP1"
-			(at 256.54 49.5299 90)
+			(at 252.73 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13099,7 +13152,8 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 256.54 52.0699 90)
+			(at 254 48.7679 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13110,7 +13164,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 251.46 55.88 0)
+			(at 256.54 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13121,7 +13175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 55.88 0)
+			(at 256.54 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

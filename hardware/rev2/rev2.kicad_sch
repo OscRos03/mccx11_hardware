@@ -3509,16 +3509,6 @@
 		)
 		(uuid "eec910eb-f38d-44f8-8f8d-bf76f6a55ed3")
 	)
-	(text "Antenna matching"
-		(exclude_from_sim no)
-		(at 50.165 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f76279d8-c7f0-47a0-9853-1439a34df88a")
-	)
 	(junction
 		(at 190.5 54.61)
 		(diameter 0)
@@ -3964,6 +3954,16 @@
 			(type default)
 		)
 		(uuid "34ed093d-5162-452e-b700-3fa9cb3d6fe6")
+	)
+	(wire
+		(pts
+			(xy 205.74 125.73) (xy 213.36 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36628e91-fe8d-4293-99f5-2ed5cb19b520")
 	)
 	(wire
 		(pts
@@ -4837,6 +4837,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 128.27) (xy 213.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9a808c-4335-4bd1-866c-dc712cfdff5b")
+	)
+	(wire
+		(pts
 			(xy 91.44 72.39) (xy 106.68 72.39)
 		)
 		(stroke
@@ -4924,6 +4934,16 @@
 			(type default)
 		)
 		(uuid "feabcb56-461a-44f5-a0d8-968b191ca7a5")
+	)
+	(label "U0TXD"
+		(at 74.93 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06f4ad01-410f-4af6-8896-f553e8b6e059")
 	)
 	(label "EXTINT"
 		(at 219.71 95.25 180)
@@ -5045,6 +5065,16 @@
 		)
 		(uuid "850264c1-9c64-4997-8e77-9c241d88aa79")
 	)
+	(label "U0RXD"
+		(at 74.93 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87240d48-9ee9-41b5-9213-510cb76fd678")
+	)
 	(label "USB_D+"
 		(at 175.26 86.36 0)
 		(effects
@@ -5055,25 +5085,15 @@
 		)
 		(uuid "9b46a232-e6ed-4129-a911-a31c990682a4")
 	)
-	(label "SDA"
-		(at 74.93 128.27 0)
+	(label "U0RXD"
+		(at 213.36 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "a56e8082-5f3a-4b57-a7ee-3d5b27ba0c83")
-	)
-	(label "SCL"
-		(at 74.93 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa6c1323-b5ea-46e6-a2c7-ad2db427a41a")
+		(uuid "9bf91524-c1cd-42bc-a6bf-984dc274ea8b")
 	)
 	(label "SDA"
 		(at 209.55 149.86 0)
@@ -5134,6 +5154,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1f47334-cac5-4bfa-a88a-162a7ec31169")
+	)
+	(label "U0TXD"
+		(at 213.36 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7babf2d-8b72-4704-9feb-b2bd6b979fd9")
 	)
 	(label "SCL"
 		(at 209.55 147.32 0)
@@ -5735,10 +5765,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0bf40da7-9597-4420-ba8c-4ce4f9dc0d12")
 		(property "Reference" "C58"
 			(at 90.932 117.348 0)
@@ -5751,7 +5781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100 pF"
 			(at 90.932 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6136,7 +6166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3000 pF"
+		(property "Value" "100 pF"
 			(at 115.316 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,7 +6381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3000 pF"
+		(property "Value" "100 pF"
 			(at 115.316 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6472,10 +6502,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2140a359-5414-4e23-abfb-cf283a538d7b")
 		(property "Reference" "C61"
 			(at 90.424 155.194 0)
@@ -6488,7 +6518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100 pF"
 			(at 90.17 159.766 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6814,10 +6844,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2b2a4921-0052-4932-897a-d268ad3dc76b")
 		(property "Reference" "C60"
 			(at 90.424 142.748 0)
@@ -6830,7 +6860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100 pF"
 			(at 90.424 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7862,7 +7892,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3000 pF"
+		(property "Value" "100 pF"
 			(at 115.316 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9973,10 +10003,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9183d75b-98f8-4c55-88cd-f94f8266eb35")
 		(property "Reference" "C59"
 			(at 90.678 130.048 0)
@@ -9989,7 +10019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100 pF"
 			(at 90.678 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11593,7 +11623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3000 pF"
+		(property "Value" "100 pF"
 			(at 115.316 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12241,10 +12271,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c23d0df2-1439-454d-b5e2-c0192ffc30cd")
 		(property "Reference" "C62"
 			(at 90.17 167.64 0)
@@ -12257,7 +12287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100 pF"
 			(at 90.17 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13065,7 +13095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3000 pF"
+		(property "Value" "100 pF"
 			(at 115.57 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14841,6 +14871,26 @@
 		(pin "SCL" output
 			(at 205.74 90.17 0)
 			(uuid "395cb0bc-bf4d-4557-a52c-32ba07da6f11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U0TXD" output
+			(at 205.74 125.73 0)
+			(uuid "1314b979-3b8d-4fc6-bb2a-26a07ffc3461")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U0RXD" output
+			(at 205.74 128.27 0)
+			(uuid "ce26a6a5-8785-4b75-8146-6cd758036163")
 			(effects
 				(font
 					(size 1.27 1.27)
