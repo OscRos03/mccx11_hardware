@@ -579,6 +579,7 @@
     },
     "net_colors": {
       "+3V3": "rgb(255, 0, 0)",
+      "+5V": "rgb(0, 255, 255)",
       "GND": "rgb(0, 194, 0)"
     },
     "netclass_assignments": {
@@ -1126,7 +1127,7 @@
         "uuid": "9067f306-e23c-4d77-8182-4fa2c4b88902"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U5",
     "variants": []
   },
   "sheets": [
