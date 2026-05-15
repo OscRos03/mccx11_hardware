@@ -2169,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 101.6) (xy 76.2 101.6)
+			(xy 67.31 101.6) (xy 81.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 127) (xy 76.2 127)
+			(xy 67.31 127) (xy 82.55 127)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 114.3) (xy 76.2 114.3)
+			(xy 67.31 114.3) (xy 82.55 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2589,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 139.7) (xy 76.2 139.7)
+			(xy 67.31 139.7) (xy 82.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2618,7 +2618,7 @@
 		(uuid "f7959826-9ecb-40f3-8633-7aa1fa729283")
 	)
 	(label "TXD"
-		(at 76.2 114.3 0)
+		(at 82.55 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2648,7 +2648,7 @@
 		(uuid "257464e0-94eb-4591-9d16-9aa5a22f375a")
 	)
 	(label "RXD"
-		(at 83.82 101.6 0)
+		(at 88.9 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2678,7 +2678,7 @@
 		(uuid "7cd4f2d0-3e0d-4dd7-a39b-5a91c1c82143")
 	)
 	(label "EXTINT"
-		(at 76.2 139.7 0)
+		(at 82.55 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2688,7 +2688,7 @@
 		(uuid "90fbf110-e522-41c1-ab49-61fa38ff28df")
 	)
 	(label "RESET_N"
-		(at 76.2 127 0)
+		(at 82.55 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,7 +2924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 158.75 0)
+			(at 73.66 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3077,8 +3077,8 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
-			(at 68.58 151.13 90)
+		(property "Value" "1000 nH"
+			(at 71.12 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4143,7 +4143,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 101.6 90)
+		(at 85.09 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4154,7 +4154,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ab49e14-f858-4b4e-b1ff-17d039f6b759")
 		(property "Reference" "R2"
-			(at 80.01 95.25 90)
+			(at 85.09 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4164,7 +4164,7 @@
 			)
 		)
 		(property "Value" "0 R"
-			(at 80.01 97.79 90)
+			(at 85.09 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4174,7 +4174,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 80.01 103.378 90)
+			(at 85.09 103.378 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4185,7 +4185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 101.6 0)
+			(at 85.09 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4196,7 +4196,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 80.01 101.6 0)
+			(at 85.09 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4406,8 +4406,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06"
-			(at 30.988 83.058 0)
+		(property "Value" "Antenna  RF and GNSS Data"
+			(at 43.18 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4497,8 +4497,8 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
-			(at 68.58 87.63 90)
+		(property "Value" "1000 nH"
+			(at 71.12 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4976,8 +4976,8 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
-			(at 68.58 138.43 90)
+		(property "Value" "1000 nH"
+			(at 71.12 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5055,8 +5055,8 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
-			(at 68.58 125.73 90)
+		(property "Value" "1000 nH"
+			(at 71.12 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5134,8 +5134,8 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
-			(at 68.58 100.33 90)
+		(property "Value" "1000 nH"
+			(at 71.12 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5292,8 +5292,8 @@
 				)
 			)
 		)
-		(property "Value" "1 uH"
-			(at 68.58 113.03 90)
+		(property "Value" "1000 nH"
+			(at 71.12 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

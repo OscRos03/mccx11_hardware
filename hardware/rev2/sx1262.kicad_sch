@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LoRa Based Cat Tracker")
-		(date "2026-04-28")
+		(date "2026-03-31")
 		(rev "2.0.1")
 		(company "Group 10")
 		(comment 1 "MMCX11")
@@ -2181,7 +2181,7 @@
 	)
 	(rectangle
 		(start 29.845 92.075)
-		(end 83.82 187.325)
+		(end 86.36 187.325)
 		(stroke
 			(width 0)
 			(type default)
@@ -2229,7 +2229,7 @@
 	)
 	(rectangle
 		(start 210.82 40.005)
-		(end 243.84 69.85)
+		(end 250.19 69.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -2444,6 +2444,12 @@
 		(uuid "ba6565cf-5a53-4711-be1f-9d67fe53666c")
 	)
 	(junction
+		(at 82.55 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d777984b-4184-4644-8bad-520dae86392d")
+	)
+	(junction
 		(at 55.88 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2472,12 +2478,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4f62887-3093-4499-a1bd-84114c833373")
-	)
-	(junction
-		(at 80.01 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8d55090-b13d-4ae4-ab62-da67478dbc41")
 	)
 	(junction
 		(at 170.18 83.82)
@@ -2731,7 +2731,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 139.7) (xy 80.01 114.3)
+			(xy 82.55 139.7) (xy 82.55 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2781,7 +2781,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 114.3) (xy 80.01 114.3)
+			(xy 72.39 114.3) (xy 82.55 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3101,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 139.7) (xy 63.5 139.7)
+			(xy 82.55 139.7) (xy 63.5 139.7)
 		)
 		(stroke
 			(width 0)
@@ -17757,7 +17757,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 110.49 0)
+		(at 82.55 110.49 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17768,7 +17768,7 @@
 		(dnp no)
 		(uuid "4b7295ba-00e9-4ba2-90ae-65f05aca6f9a")
 		(property "Reference" "R24"
-			(at 77.47 109.2199 0)
+			(at 80.01 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17779,7 +17779,7 @@
 			)
 		)
 		(property "Value" "10 k"
-			(at 77.47 111.7599 0)
+			(at 80.01 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17790,7 +17790,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 81.788 110.49 90)
+			(at 84.328 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17801,7 +17801,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 80.01 110.49 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17812,7 +17812,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 80.01 110.49 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17823,7 +17823,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 80.01 110.49 90)
+			(at 82.55 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17834,7 +17834,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 80.01 110.49 90)
+			(at 82.55 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17845,7 +17845,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 80.01 110.49 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17856,7 +17856,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW060310K0JNEAC"
-			(at 80.01 110.49 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17867,7 +17867,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 80.01 110.49 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18859,7 +18859,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 80.01 106.68 0)
+		(at 82.55 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18870,7 +18870,7 @@
 		(fields_autoplaced yes)
 		(uuid "778d74bd-b3a9-416e-b971-9ec33022a039")
 		(property "Reference" "#PWR068"
-			(at 80.01 110.49 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18881,7 +18881,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 80.01 101.6 0)
+			(at 82.55 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18891,7 +18891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 106.68 0)
+			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18902,7 +18902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 106.68 0)
+			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18913,7 +18913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 80.01 106.68 0)
+			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19693,10 +19693,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c2fad8e-7db5-4fc7-a839-e0e151d8772b")
 		(property "Reference" "L15"
-			(at 194.31 62.23 90)
+			(at 194.31 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19706,7 +19705,7 @@
 			)
 		)
 		(property "Value" "17 nH"
-			(at 194.31 64.77 90)
+			(at 194.31 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20378,7 +20377,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be31e1be-d0d4-4402-a2cf-8cd86b02c419")
 		(property "Reference" "C43"
 			(at 76.2 116.8399 0)
@@ -20392,7 +20390,7 @@
 			)
 		)
 		(property "Value" "1000 pF"
-			(at 76.2 119.3799 0)
+			(at 73.66 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
